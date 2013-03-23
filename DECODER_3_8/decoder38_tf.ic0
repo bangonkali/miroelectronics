@@ -1,9 +1,9 @@
 * "simulator" "HSPICE" 
 * "version" "G-2012.06-SP1 32-BIT"
 * "format" "HSP"
-* "rundate" "13:19:11 02/12/2013 "
+* "rundate" "16:58:19 02/14/2013 "
 * "netlist" "decoder38_tf.sp "
-* "runtitle" "decoder 3-8"
+* "runtitle" "3-8 decoder test bench"
 * time =    0.            
 * temperature =   25.0000        
 *** BEGIN: Saved Operating Point ***                     

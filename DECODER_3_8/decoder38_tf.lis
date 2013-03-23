@@ -10,8 +10,8 @@
   lic:  
   lic: FLEXlm: v10.9.8 
   lic: USER:   Bangonkali           HOSTNAME: Blue 
-  lic: HOSTID: "b8975a02aecc 005056c00001 005056c00008 08002700905e" PID:      6
- 660 
+  lic: HOSTID: "b8975a02aecc 005056c00001 005056c00008 08002700905e" PID:      2
+ 96 
   lic: Using FLEXlm license file: 
   lic: 27000@Blue 
   lic: Checkout 1 hspice 
@@ -22,7 +22,7 @@
  Init: read install configuration file: c:\synopsys\Hspice_G-2012.06-SP1\meta.cfg
 1****** HSPICE -- G-2012.06-SP1 32-BIT (Aug 27 2012) win32 ******               
  ******  
- decoder 3-8
+ 3-8 decoder test bench
 
   ******  circuit name directory
  circuit number to circuit name directory
@@ -320,7 +320,7 @@
 
 1****** HSPICE -- G-2012.06-SP1 32-BIT (Aug 27 2012) win32 ******               
  ******  
- decoder 3-8
+ 3-8 decoder test bench
 
   ******  operating point information tnom=  25.000 temp=  25.000 *****
  ***** operating point status is all       simulation time is     0.     
@@ -740,7 +740,7 @@
           ***** job concluded
 1****** HSPICE -- G-2012.06-SP1 32-BIT (Aug 27 2012) win32 ******               
  ******  
- decoder 3-8
+ 3-8 decoder test bench
 
   ******  job statistics summary tnom=  25.000 temp=  25.000 *****
 
@@ -766,20 +766,20 @@
   ******  Runtime Statistics (seconds)  ******
 
   analysis           time    # points   tot. iter  conv.iter
-  op point           0.11           1          26
-  transient          1.42    34000001        2703         964 rev=       180
-  readin             0.14
-  errchk             0.06
-  setup              0.02
+  op point           0.19           1          26
+  transient          2.73    34000001        2703         964 rev=       180
+  readin             0.42
+  errchk             0.26
+  setup              0.09
   output             0.00
 
 
-           peak memory used         57.43 megabytes
-           total cpu time            1.75 seconds
-           total elapsed time        9.43 seconds
-           job started at     13:19:11 02/12/2013
-           job ended   at     13:19:20 02/12/2013
+           peak memory used         57.20 megabytes
+           total cpu time            3.75 seconds
+           total elapsed time       12.40 seconds
+           job started at     16:58:19 02/14/2013
+           job ended   at     16:58:31 02/14/2013
 
 
   lic: Release hspice token(s) 
- lic: total license checkout elapse time:        7.66(s)
+ lic: total license checkout elapse time:        8.52(s)

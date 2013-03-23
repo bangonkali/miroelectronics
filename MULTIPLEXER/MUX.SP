@@ -1,4 +1,4 @@
-*** define subcircuits (modules) ***** 
+****** SUBCIRCUIT DEFINITION: 4-1 MULTIPLEXER
 
 .include NOT.SP
 .include NOR4.SP

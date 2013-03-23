@@ -1,9 +1,9 @@
 * "simulator" "HSPICE" 
 * "version" "G-2012.06-SP1 32-BIT"
 * "format" "HSP"
-* "rundate" "14:30:07 02/12/2013 "
+* "rundate" "16:49:21 02/14/2013 "
 * "netlist" "mux_tf.sp "
-* "runtitle" "encoder 8-3"
+* "runtitle" "4 to 1 multiplexer"
 * time =    0.            
 * temperature =   25.0000        
 *** BEGIN: Saved Operating Point ***                     

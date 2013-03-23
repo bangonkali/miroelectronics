@@ -1,11 +1,14 @@
 Mdi:ArrangeIcons
-wm geometry . 900x765+0+85
-Mdi:ArrangeIcons
+Mdi:Iconify
+Graph:Select Graph0
+Graph:Select Graph0
+Mdi:Deiconify
+Mdi:FullSize
 Mdi:ArrangeIcons
 Mdi:ArrangeIcons
 ScopeSigMgr:loadpffile {{C:/Users/Bangonkali/Desktop/EE 272/DECODER_3_8/decoder38_tf.tr0}} 1 openonly
 # PF:1
-pf:read PF:1 v(in_a0)
+pf:read PF:1 v(in_a2)
 # WF:1:1
 Graph addsignal WF:1:1 -region new -yview real(y) -xview real(x) -tracehi 2
 # Signal0
@@ -13,437 +16,422 @@ pf:read PF:1 v(in_a1)
 # WF:1:2
 Graph addsignal WF:1:2 -region new -yview real(y) -xview real(x) -tracehi 2
 # Signal1
-pf:read PF:1 v(in_a2)
+pf:read PF:1 v(in_a0)
 # WF:1:3
 Graph addsignal WF:1:3 -region new -yview real(y) -xview real(x) -tracehi 2
 # Signal2
-pf:read PF:1 v(out_z0)
+pf:read PF:1 v(out_z7)
 # WF:1:4
 Graph addsignal WF:1:4 -region new -yview real(y) -xview real(x) -tracehi 2
 # Signal3
-pf:read PF:1 v(out_z1)
+pf:read PF:1 v(out_z6)
 # WF:1:5
 Graph addsignal WF:1:5 -region new -yview real(y) -xview real(x) -tracehi 2
 # Signal4
-pf:read PF:1 v(out_z2)
+pf:read PF:1 v(out_z5)
 # WF:1:6
 Graph addsignal WF:1:6 -region new -yview real(y) -xview real(x) -tracehi 2
 # Signal5
-pf:read PF:1 v(out_z3)
+pf:read PF:1 v(out_z4)
 # WF:1:7
 Graph addsignal WF:1:7 -region new -yview real(y) -xview real(x) -tracehi 2
 # Signal6
-pf:read PF:1 v(out_z4)
+pf:read PF:1 v(out_z3)
 # WF:1:8
 Graph addsignal WF:1:8 -region new -yview real(y) -xview real(x) -tracehi 2
 # Signal7
-pf:read PF:1 v(out_z5)
+pf:read PF:1 v(out_z2)
 # WF:1:9
 Graph addsignal WF:1:9 -region new -yview real(y) -xview real(x) -tracehi 2
 # Signal8
-pf:read PF:1 v(out_z6)
+pf:read PF:1 v(out_z1)
 # WF:1:10
 Graph addsignal WF:1:10 -region new -yview real(y) -xview real(x) -tracehi 2
 # Signal9
-pf:read PF:1 v(out_z7)
+pf:read PF:1 v(out_z0)
 # WF:1:11
 Graph addsignal WF:1:11 -region new -yview real(y) -xview real(x) -tracehi 2
 # Signal10
-Mdi:FullSize
-wm geometry .sigmgr 367x200+589+187
-wm geometry .sigmgr 367x200+590+188
-wm geometry .sigmgr 367x200+594+189
-wm geometry .sigmgr 367x200+598+190
-wm geometry .sigmgr 367x200+607+193
-wm geometry .sigmgr 367x200+618+194
-wm geometry .sigmgr 367x200+627+196
-wm geometry .sigmgr 367x200+642+197
-wm geometry .sigmgr 367x200+660+199
-wm geometry .sigmgr 367x200+681+204
-wm geometry .sigmgr 367x200+704+205
-wm geometry .sigmgr 367x200+726+210
-wm geometry .sigmgr 367x200+750+213
-wm geometry .sigmgr 367x200+779+217
-wm geometry .sigmgr 367x200+803+220
-wm geometry .sigmgr 367x200+821+222
-wm geometry .sigmgr 367x200+842+226
-wm geometry .sigmgr 367x200+860+227
-wm geometry .sigmgr 367x200+876+231
-wm geometry .sigmgr 367x200+895+234
-wm geometry .sigmgr 367x200+912+235
-wm geometry .sigmgr 367x200+928+237
-wm geometry .sigmgr 367x200+947+241
-wm geometry .sigmgr 367x200+963+244
-wm geometry .sigmgr 367x200+975+245
-wm geometry .sigmgr 367x200+985+246
-wm geometry .sigmgr 367x200+994+247
-wm geometry .sigmgr 367x200+1002+249
-wm geometry .sigmgr 367x200+1005+249
-wm geometry .sigmgr 367x200+1009+249
-wm geometry .sigmgr 367x200+1013+249
-wm geometry .sigmgr 367x200+1016+249
-wm geometry .sigmgr 367x200+1018+249
-wm geometry .sigmgr 367x200+1022+249
-wm geometry .sigmgr 367x200+1025+249
-wm geometry .sigmgr 367x200+1029+249
-wm geometry .sigmgr 367x200+1034+249
-wm geometry .sigmgr 367x200+1039+249
-wm geometry .sigmgr 367x200+1046+248
-wm geometry .sigmgr 367x200+1052+248
-wm geometry .sigmgr 367x200+1058+246
-wm geometry .sigmgr 367x200+1062+245
-wm geometry .sigmgr 367x200+1068+244
-wm geometry .sigmgr 367x200+1072+243
-wm geometry .sigmgr 367x200+1076+243
-wm geometry .sigmgr 367x200+1078+243
-wm geometry .sigmgr 367x200+1079+241
-wm geometry .sigmgr 367x200+1080+241
-wm geometry .sigmgr 367x200+1082+241
-wm geometry .sigmgr 367x200+1083+241
-wm geometry .sigmgr 367x200+1085+241
-wm geometry .sigmgr 367x200+1088+241
-wm geometry .sigmgr 367x200+1091+241
-wm geometry .sigmgr 367x200+1094+241
-wm geometry .sigmgr 367x200+1098+242
-wm geometry .sigmgr 367x200+1100+243
-wm geometry .sigmgr 367x200+1103+244
-wm geometry .sigmgr 367x200+1105+244
-wm geometry .sigmgr 367x200+1105+245
-wm geometry .sigmgr 367x200+1106+245
-wm geometry .sigmgr 367x200+1107+245
-wm geometry .sigmgr 367x200+1108+245
-wm geometry .sigmgr 367x200+1108+246
-wm geometry .sigmgr 367x200+1109+246
-wm geometry .sigmgr 367x200+1110+247
-wm geometry .sigmgr 367x200+1111+247
-wm geometry .sigmgr 367x200+1112+248
-wm geometry .sigmgr 367x200+1113+248
-wm geometry .sigmgr 367x200+1114+248
-wm geometry .sigmgr 367x200+1115+248
-wm geometry .sigmgr 367x200+1116+249
-wm geometry .sigmgr 367x200+1117+249
-wm geometry .sigmgr 367x200+1120+249
-wm geometry .sigmgr 367x200+1128+249
-wm geometry .sigmgr 367x200+1150+253
-wm geometry .sigmgr 367x200+1170+254
-wm geometry .sigmgr 367x200+1198+254
-wm geometry .sigmgr 367x200+1233+260
-wm geometry .sigmgr 367x200+1253+260
-wm geometry .sigmgr 367x200+1278+261
-wm geometry .sigmgr 367x200+1296+262
-wm geometry .sigmgr 367x200+1314+264
-wm geometry .sigmgr 367x200+1325+264
-wm geometry .sigmgr 367x200+1333+264
-wm geometry .sigmgr 367x200+1337+264
-wm geometry .sigmgr 367x200+1338+264
-wm geometry .sigmgr 367x200+1340+264
-wm geometry .sigmgr 367x200+1341+264
-wm geometry .sigmgr 367x200+1348+264
-wm geometry .sigmgr 367x200+1352+264
-wm geometry .sigmgr 367x200+1356+264
-wm geometry .sigmgr 367x200+1358+264
-wm geometry .sigmgr 367x200+1362+265
-wm geometry .sigmgr 367x200+1363+265
-wm geometry .sigmgr 367x200+1364+265
-wm geometry .sigmgr 367x200+1366+266
-wm geometry .sigmgr 367x200+1367+266
-wm geometry .sigmgr 367x200+1368+266
-wm geometry .sigmgr 367x200+1369+266
-wm geometry .sigmgr 367x200+1371+266
-wm geometry .sigmgr 367x200+1371+267
-wm geometry .sigmgr 367x200+1373+267
-wm geometry .sigmgr 367x200+1374+267
-wm geometry .sigmgr 367x200+1376+267
-wm geometry .sigmgr 367x200+1378+269
-wm geometry .sigmgr 367x200+1380+269
-wm geometry .sigmgr 367x200+1383+270
-wm geometry .sigmgr 367x200+1386+271
-wm geometry .sigmgr 367x200+1390+271
-wm geometry .sigmgr 367x200+1394+271
-wm geometry .sigmgr 367x200+1397+273
-wm geometry .sigmgr 367x200+1400+273
-wm geometry .sigmgr 367x200+1402+273
-wm geometry .sigmgr 367x200+1404+274
-Mdi:ArrangeIcons
+ScopeSigMgr:Unload 0 {{(1) decoder38_tf.tr0}}
+wm geometry .sigmgr 367x200+595+184
+wm geometry .sigmgr 367x200+605+184
+wm geometry .sigmgr 367x200+615+184
+wm geometry .sigmgr 367x200+629+184
+wm geometry .sigmgr 367x200+650+184
+wm geometry .sigmgr 367x200+686+184
+wm geometry .sigmgr 367x200+733+184
+wm geometry .sigmgr 367x200+775+184
+wm geometry .sigmgr 367x200+822+184
+wm geometry .sigmgr 367x200+867+185
+wm geometry .sigmgr 367x200+912+188
+wm geometry .sigmgr 367x200+951+190
+wm geometry .sigmgr 367x200+987+197
+wm geometry .sigmgr 367x200+1019+202
+wm geometry .sigmgr 367x200+1047+204
+wm geometry .sigmgr 367x200+1060+205
+wm geometry .sigmgr 367x200+1072+205
+wm geometry .sigmgr 367x200+1081+205
+wm geometry .sigmgr 367x200+1086+205
+wm geometry .sigmgr 367x200+1088+205
 Graph:Select Graph0
+Graph:SetCMap 2
+Graph:DSel
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+.frame1.mdi.mdi1.work.graph0 save -file {C:/Users/Bangonkali/Desktop/EE 272/DECODER_3_8/output_a.png} -format png  -x 0 -y 0 -w 888 -h 1112 -colormode color
 Graph:DSel
 Graph itemselect Signal0 add
 # Signal0
-Graph itemselect Signal0 add
-# Signal0
-Graph sigconfig Signal0 -region d
+Mdi:ArrangeIcons
+WfA2D:A2D Graph0 Signal0 { .9}
+Mdi:ArrangeIcons
 Graph:DSel
 Graph itemselect Signal1 add
 # Signal1
-Graph sigconfig Signal1 -region d
+WfA2D:A2D Graph0 Signal1 { .9}
+Mdi:ArrangeIcons
 Graph:DSel
 Graph itemselect Signal2 add
 # Signal2
-Graph sigconfig Signal2 -region d
-Graph:DSel
-Graph itemselect Signal10 add
-# Signal10
-GrXY:CreateBus
+WfA2D:A2D Graph0 Signal2 { .9}
 Mdi:ArrangeIcons
-Graph:DSel
-Graph:DSel
-Graph:DSel
-Graph:DSel
-Graph itemselect Signal11 add
-# Signal11
-Graph delsignal selected
-Graph:DSel
-Graph:SetCMap 2
-Graph:DSel
-Graph axisconfig {AxisY(7,0) AxisX(0)} -range {{-0.5861086786342 1.9706124740133} {16.9561n 13.7659n}}
-Mdi:ArrangeIcons
-Mdi:ArrangeIcons
-Graph:DSel
-Graph itemselect Signal10 add
-# Signal10
-GrMeas:Falltime Graph0 Signal10 {0.1 0.5 0.9} default default xyrangeAll
-# M:0
-Graph:DSel
-Graph itemselect AxisX(0) add
-# AxisX(0)
-Graph:DSel
-Graph axisconfig AxisX(0) -slider yes
-Graph axisconfig AxisX(0) -slider no
-Graph axisconfig AxisX(0) -slider yes
-Mdi:ArrangeIcons
-Graph:DSel
-Graph:Select Graph0
-Graph axisconfig {AxisY(6,0) AxisX(0)} -range {{-0.71588850973825 2.237565192164} {14.749255631n 14.284090624n}}
-Graph axisconfig {AxisX(0) AxisY(0,0) AxisY(1,0) AxisY(2,0) AxisY(3,0) AxisY(4,0) AxisY(5,0) AxisY(6,0) AxisY(7,0)} -range {all all all all all all all all all} -zoomed {0 0 0 0 0 0 0 0 0}
-Graph:DSel
-Graph itemselect Signal9 add
-# Signal9
-Graph:DSel
-Graph axisconfig {AxisY(6,0) AxisX(0)} -range {{-0.62772571266654 2.0171581994847} {16.461n 13.9859n}}
-GrMeas:Falltime Graph0 Signal9 {0.1 0.5 0.9} default default xyrangeAll
-# M:1
-Graph:DSel
-Graph axisconfig {AxisX(0) AxisY(0,0) AxisY(1,0) AxisY(2,0) AxisY(3,0) AxisY(4,0) AxisY(5,0) AxisY(6,0) AxisY(7,0)} -range {all all all all all all all all all} -zoomed {0 0 0 0 0 0 0 0 0}
-Graph:DSel
-Graph axisconfig {AxisY(5,0) AxisX(0)} -range {{-0.4489352189612 2.0196230990466} {13.2709n 11.4008n}}
-Graph:DSel
-Graph itemselect Signal8 add
-# Signal8
-GrMeas:Falltime Graph0 Signal8 {0.1 0.5 0.9} default default xyrangeAll
-# M:2
-Graph:DSel
-Graph axisconfig {AxisX(0) AxisY(0,0) AxisY(1,0) AxisY(2,0) AxisY(3,0) AxisY(4,0) AxisY(5,0) AxisY(6,0) AxisY(7,0)} -range {all all all all all all all all all} -zoomed {0 0 0 0 0 0 0 0 0}
-Graph:DSel
-Graph axisconfig {AxisY(4,0) AxisX(0)} -range {{-0.44647035534721 2.0220879989331} {11.2908n 10.0807n}}
-Graph:DSel
-Graph itemselect Signal7 add
-# Signal7
-GrMeas:Falltime Graph0 Signal7 {0.1 0.5 0.9} default default xyrangeAll
-# M:3
-Graph:DSel
-Graph axisconfig {AxisX(0) AxisY(0,0) AxisY(1,0) AxisY(2,0) AxisY(3,0) AxisY(4,0) AxisY(5,0) AxisY(6,0) AxisY(7,0)} -range {all all all all all all all all all} -zoomed {0 0 0 0 0 0 0 0 0}
-Graph:DSel
-Graph axisconfig {AxisY(3,0) AxisX(0)} -range {{-0.62033105806215 2.0245528540891} {9.80572n 5.1855n}}
-GrMeas:Falltime Graph0 Signal7 {0.1 0.5 0.9} default default xyrangeAll
-# M:4
-Graph:DSel
-Graph axisconfig {AxisX(0) AxisY(0,0) AxisY(1,0) AxisY(2,0) AxisY(3,0) AxisY(4,0) AxisY(5,0) AxisY(6,0) AxisY(7,0)} -range {all all all all all all all all all} -zoomed {0 0 0 0 0 0 0 0 0}
-Graph:DSel
-Graph axisconfig {AxisY(3,0) AxisX(0)} -range {{-0.70849385513386 2.0245528540891} {8.81568n 7.49561n}}
-Graph:DSel
-Graph itemselect Signal6 add
-# Signal6
-GrMeas:Falltime Graph0 Signal6 {0.1 0.5 0.9} default default xyrangeAll
-# M:5
-Graph:DSel
-Graph axisconfig {AxisX(0) AxisY(0,0) AxisY(1,0) AxisY(2,0) AxisY(3,0) AxisY(4,0) AxisY(5,0) AxisY(6,0) AxisY(7,0)} -range {all all all all all all all all all} -zoomed {0 0 0 0 0 0 0 0 0}
-Graph:DSel
-Graph axisconfig {AxisY(2,0) AxisX(0)} -range {{-0.52970336142852 2.5119131375454} {7.1656n 4.96549n}}
-Graph:DSel
-Graph itemselect Signal5 add
-# Signal5
-GrMeas:Falltime Graph0 Signal5 {0.1 0.5 0.9} default default xyrangeAll
-# M:6
-Graph:DSel
-Graph itemselect Signal4 add
-# Signal4
-GrMeas:Falltime Graph0 Signal4 {0.1 0.5 0.9} default default xyrangeAll
-# M:7
-Graph:DSel
-Graph axisconfig {AxisX(0) AxisY(0,0) AxisY(1,0) AxisY(2,0) AxisY(3,0) AxisY(4,0) AxisY(5,0) AxisY(6,0) AxisY(7,0)} -range {all all all all all all all all all} -zoomed {0 0 0 0 0 0 0 0 0}
-Graph:DSel
-Graph axisconfig {AxisY(0,0) AxisX(0)} -range {{-0.52477360638606 2.1201103057652} {3.31542n 1.66534n}}
 Graph:DSel
 Graph itemselect Signal3 add
 # Signal3
-Graph:DSel
-GrMeas:Falltime Graph0 Signal3 {0.1 0.5 0.9} default default xyrangeAll
-# M:8
-Graph:DSel
-Graph axisconfig {AxisX(0) AxisY(0,0) AxisY(1,0) AxisY(2,0) AxisY(3,0) AxisY(4,0) AxisY(5,0) AxisY(6,0) AxisY(7,0)} -range {all all all all all all all all all} -zoomed {0 0 0 0 0 0 0 0 0}
-Graph:DSel
-Graph axisconfig {AxisY(0,0) AxisX(0)} -range {{-0.74518059906533 1.8997033130859} {17.2311n 15.581n}}
-GrMeas:Risetime Graph0 Signal3 {0.1 0.5 0.9} default default xyrangeAll
-# M:9
-Graph:DSel
-Graph axisconfig {AxisX(0) AxisY(0,0) AxisY(1,0) AxisY(2,0) AxisY(3,0) AxisY(4,0) AxisY(5,0) AxisY(6,0) AxisY(7,0)} -range {all all all all all all all all all} -zoomed {0 0 0 0 0 0 0 0 0}
-Graph:DSel
-Graph axisconfig {AxisY(1,0) AxisX(0)} -range {{-0.70356409573564 1.8972384560954} {18.7161n 17.5611n}}
+WfA2D:A2D Graph0 Signal3 { .9}
+Mdi:ArrangeIcons
 Graph:DSel
 Graph itemselect Signal4 add
 # Signal4
-GrMeas:Risetime Graph0 Signal4 {0.1 0.5 0.9} default default xyrangeVisible
-# M:10
-Graph:DSel
-Graph axisconfig {AxisX(0) AxisY(0,0) AxisY(1,0) AxisY(2,0) AxisY(3,0) AxisY(4,0) AxisY(5,0) AxisY(6,0) AxisY(7,0)} -range {all all all all all all all all all} -zoomed {0 0 0 0 0 0 0 0 0}
-Graph:DSel
-Graph axisconfig {AxisY(2,0) AxisX(0)} -range {{-0.39745916582096 1.8506921595076} {21.0263n 19.7062n}}
+WfA2D:A2D Graph0 Signal4 { .9}
+Mdi:ArrangeIcons
 Graph:DSel
 Graph itemselect Signal5 add
 # Signal5
-GrMeas:Risetime Graph0 Signal5 {0.1 0.5 0.9} default default xyrangeVisible
-# M:11
-Graph:DSel
-Graph axisconfig {AxisX(0) AxisY(0,0) AxisY(1,0) AxisY(2,0) AxisY(3,0) AxisY(4,0) AxisY(5,0) AxisY(6,0) AxisY(7,0)} -range {all all all all all all all all all} -zoomed {0 0 0 0 0 0 0 0 0}
-Graph:DSel
-Graph axisconfig {AxisY(3,0) AxisX(0)} -range {{-0.70849385513386 1.9804714555532} {22.5663n 20.6962n}}
+WfA2D:A2D Graph0 Signal5 { .9}
+Mdi:ArrangeIcons
 Graph:DSel
 Graph itemselect Signal6 add
 # Signal6
-GrMeas:Risetime Graph0 Signal6 {0.1 0.5 0.9} default default xyrangeVisible
-# M:12
-Graph:DSel
-Graph axisconfig {AxisX(0) AxisY(0,0) AxisY(1,0) AxisY(2,0) AxisY(3,0) AxisY(4,0) AxisY(5,0) AxisY(6,0) AxisY(7,0)} -range {all all all all all all all all all} -zoomed {0 0 0 0 0 0 0 0 0}
-Graph:DSel
-Graph axisconfig {AxisY(4,0) AxisX(0)} -range {{-0.49055175453079 1.933925200566} {25.4815n 23.0064n}}
+WfA2D:A2D Graph0 Signal6 { .9}
+Mdi:ArrangeIcons
 Graph:DSel
 Graph itemselect Signal7 add
 # Signal7
-GrMeas:Risetime Graph0 Signal7 {0.1 0.5 0.9} default default xyrangeVisible
-# M:13
-Graph:DSel
-Graph axisconfig {AxisX(0) AxisY(0,0) AxisY(1,0) AxisY(2,0) AxisY(3,0) AxisY(4,0) AxisY(5,0) AxisY(6,0) AxisY(7,0)} -range {all all all all all all all all all} -zoomed {0 0 0 0 0 0 0 0 0}
-Graph:DSel
-Graph axisconfig {AxisY(5,0) AxisX(0)} -range {{-0.75750500871218 1.9314603019749} {26.7465n 25.8115n}}
-Graph:DSel
-Graph axisconfig {AxisX(0) AxisY(0,0) AxisY(1,0) AxisY(2,0) AxisY(3,0) AxisY(4,0) AxisY(5,0) AxisY(6,0) AxisY(7,0)} -range {all all all all all all all all all} -zoomed {0 0 0 0 0 0 0 0 0}
-Graph:DSel
-Graph axisconfig {AxisY(5,0) AxisX(0)} -range {{-0.18444682774608 2.3281928887976} {27.0765n 25.5915n}}
+WfA2D:A2D Graph0 Signal7 { .9}
+Mdi:ArrangeIcons
 Graph:DSel
 Graph itemselect Signal8 add
 # Signal8
-Graph axisconfig {AxisX(0) AxisY(0,0) AxisY(1,0) AxisY(2,0) AxisY(3,0) AxisY(4,0) AxisY(5,0) AxisY(6,0) AxisY(7,0)} -range {all all all all all all all all all} -zoomed {0 0 0 0 0 0 0 0 0}
-Graph:DSel
-Graph axisconfig {AxisY(5,0) AxisX(0)} -range {{-0.14036542921022 1.8432975049032} {28.1766n 25.2065n}}
-GrMeas:Risetime Graph0 Signal8 {0.1 0.5 0.9} default default xyrangeVisible
-# M:14
-Graph:DSel
-Graph axisconfig {AxisX(0) AxisY(0,0) AxisY(1,0) AxisY(2,0) AxisY(3,0) AxisY(4,0) AxisY(5,0) AxisY(6,0) AxisY(7,0)} -range {all all all all all all all all all} -zoomed {0 0 0 0 0 0 0 0 0}
-Graph:DSel
-Graph axisconfig {AxisY(6,0) AxisX(0)} -range {{-0.45140011852313 2.0171581994847} {29.1116n 27.0765n}}
+WfA2D:A2D Graph0 Signal8 { .9}
+Mdi:ArrangeIcons
 Graph:DSel
 Graph itemselect Signal9 add
 # Signal9
-GrMeas:Risetime Graph0 Signal9 {0.1 0.5 0.9} default default xyrangeVisible
-# M:15
-Graph:DSel
-Graph axisconfig {AxisX(0) AxisY(0,0) AxisY(1,0) AxisY(2,0) AxisY(3,0) AxisY(4,0) AxisY(5,0) AxisY(6,0) AxisY(7,0)} -range {all all all all all all all all all} -zoomed {0 0 0 0 0 0 0 0 0}
-Graph:DSel
-Graph axisconfig {AxisY(7,0) AxisX(0)} -range {{-0.71835340516172 2.1469375417708} {31.3668n 29.0016n}}
+WfA2D:A2D Graph0 Signal9 { .9}
+Mdi:ArrangeIcons
 Graph:DSel
 Graph itemselect Signal10 add
 # Signal10
-GrMeas:Risetime Graph0 Signal10 {0.1 0.5 0.9} default default xyrangeVisible
-# M:16
+WfA2D:A2D Graph0 Signal10 { .9}
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+.frame1.mdi.mdi1.work.graph0 save -file {C:/Users/Bangonkali/Desktop/EE 272/DECODER_3_8/out_b.png} -format png  -x 0 -y 0 -w 888 -h 1445 -colormode color
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
 Graph:DSel
-Graph axisconfig {AxisX(0) AxisY(0,0) AxisY(1,0) AxisY(2,0) AxisY(3,0) AxisY(4,0) AxisY(5,0) AxisY(6,0) AxisY(7,0)} -range {all all all all all all all all all} -zoomed {0 0 0 0 0 0 0 0 0}
-Graph:DSel
-GrMeas:Select Graph0 M:8 6
-GrMeas:MoveText Graph0 M:8 6 3.0 27.0
-Graph:DSel
-Graph:DSel
-GrMeas:Select Graph0 M:9 9
-GrMeas:MoveText Graph0 M:9 9 24.0 22.0
-Graph:DSel
-Graph itemselect AxisX(0) add
-# AxisX(0)
-Graph:DSel
-GrMeas:Select Graph0 M:10 4
-GrMeas:MoveText Graph0 M:10 4 -17.0 25.0
-Graph:DSel
-GrMeas:Select Graph0 M:7 6
-GrMeas:MoveText Graph0 M:7 6 -26.0 26.0
-Graph:DSel
-GrMeas:Select Graph0 M:6 6
-GrMeas:MoveText Graph0 M:6 6 14.0 26.0
-Graph:DSel
-GrMeas:Select Graph0 M:5 6
-GrMeas:MoveText Graph0 M:5 6 -7.0 26.0
-Graph:DSel
-GrMeas:Select Graph0 M:4 6
-GrMeas:MoveText Graph0 M:4 6 32.0 22.0
-Graph:DSel
-GrMeas:Select Graph0 M:2 6
-GrMeas:MoveText Graph0 M:2 6 4.0 26.0
-Graph:DSel
-Graph:DSel
-GrMeas:Select Graph0 M:14 4
-GrMeas:MoveText Graph0 M:14 4 20.0 24.0
-Graph:DSel
-GrMeas:Select Graph0 M:13 4
-GrMeas:MoveText Graph0 M:13 4 -31.0 23.0
-Graph:DSel
-GrMeas:Select Graph0 M:12 4
-GrMeas:MoveText Graph0 M:12 4 -2.0 26.0
-Graph:DSel
-GrMeas:Select Graph0 M:11 4
-GrMeas:MoveText Graph0 M:11 4 37.0 26.0
-Graph:DSel
-GrMeas:Select Graph0 M:9 9
-GrMeas:MoveText Graph0 M:9 9 24.0 26.0
-Graph:DSel
-Graph:DSel
-GrMeas:Select Graph0 M:4 6
-GrMeas:MoveText Graph0 M:4 6 47.0 45.0
+Graph itemselect Signal2 add
+# Signal2
 Graph delsignal selected
 Graph:DSel
-GrMeas:Select Graph0 M:3 6
-GrMeas:MoveText Graph0 M:3 6 33.0 26.0
+Graph itemselect Signal1 add
+# Signal1
+Graph delsignal selected
 Graph:DSel
+Graph itemselect Signal0 add
+# Signal0
+Graph delsignal selected
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+.frame1.mdi.mdi1.work.graph0 save -file {C:/Users/Bangonkali/Desktop/EE 272/DECODER_3_8/out_b.png} -format png  -x 0 -y 0 -w 888 -h 1166 -colormode color
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+ScopeSigMgr:loadpffile {{C:/Users/Bangonkali/Desktop/EE 272/ENCODER_8_3/encoder38_tf.tr0}} 1 openonly
+# PF:13
+ScopeSigMgr:Unload 0 {{(1) decoder38_tf.tr0}}
+wm geometry .sigmgr._PF:13 200x331+994+567
+wm geometry .sigmgr._PF:13 200x331+996+564
+wm geometry .sigmgr._PF:13 200x331+997+560
+wm geometry .sigmgr._PF:13 200x331+997+553
+wm geometry .sigmgr._PF:13 200x331+998+543
+wm geometry .sigmgr._PF:13 200x331+998+534
+wm geometry .sigmgr._PF:13 200x331+998+524
+wm geometry .sigmgr._PF:13 200x331+998+516
+wm geometry .sigmgr._PF:13 200x331+998+510
+wm geometry .sigmgr._PF:13 200x331+998+503
+wm geometry .sigmgr._PF:13 200x331+998+498
+wm geometry .sigmgr._PF:13 200x331+998+494
+wm geometry .sigmgr._PF:13 200x331+998+491
+wm geometry .sigmgr._PF:13 200x331+998+489
+wm geometry .sigmgr._PF:13 200x331+997+488
+wm geometry .sigmgr._PF:13 200x331+996+486
+wm geometry .sigmgr._PF:13 200x331+996+485
+wm geometry .sigmgr._PF:13 200x331+995+485
+wm geometry .sigmgr._PF:13 200x331+994+484
+wm geometry .sigmgr._PF:13 200x331+993+483
+GrXY:NewGraph
+# Graph1
+pf:read PF:13 v(in_a7)
+# WF:13:1
+Graph addsignal WF:13:1 -region new -yview real(y) -xview real(x) -tracehi 2
+# Signal0
+pf:read PF:13 v(in_a6)
+# WF:13:2
+Graph addsignal WF:13:2 -region new -yview real(y) -xview real(x) -tracehi 2
+# Signal1
+pf:read PF:13 v(in_a5)
+# WF:13:3
+Graph addsignal WF:13:3 -region new -yview real(y) -xview real(x) -tracehi 2
+# Signal2
+pf:read PF:13 v(in_a4)
+# WF:13:4
+Graph addsignal WF:13:4 -region new -yview real(y) -xview real(x) -tracehi 2
+# Signal3
+pf:read PF:13 v(in_a3)
+# WF:13:5
+Graph addsignal WF:13:5 -region new -yview real(y) -xview real(x) -tracehi 2
+# Signal4
+pf:read PF:13 v(in_a2)
+# WF:13:6
+Graph addsignal WF:13:6 -region new -yview real(y) -xview real(x) -tracehi 2
+# Signal5
+pf:read PF:13 v(in_a1)
+# WF:13:7
+Graph addsignal WF:13:7 -region new -yview real(y) -xview real(x) -tracehi 2
+# Signal6
+pf:read PF:13 v(in_a0)
+# WF:13:8
+Graph addsignal WF:13:8 -region new -yview real(y) -xview real(x) -tracehi 2
+# Signal7
+pf:read PF:13 v(out_z2)
+# WF:13:9
+Graph addsignal WF:13:9 -region new -yview real(y) -xview real(x) -tracehi 2
+# Signal8
+pf:read PF:13 v(out_z1)
+# WF:13:10
+Graph addsignal WF:13:10 -region new -yview real(y) -xview real(x) -tracehi 2
+# Signal9
+pf:read PF:13 v(out_z0)
+# WF:13:11
+Graph addsignal WF:13:11 -region new -yview real(y) -xview real(x) -tracehi 2
+# Signal10
+Mdi:FullSize
+Graph:Select Graph1
+Graph:SetCMap 2
 Graph:DSel
-GrMeas:Select Graph0 M:15 4
-GrMeas:MoveText Graph0 M:15 4 -20.0 25.0
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+.frame1.mdi.mdi2.work.graph1 save -file {C:/Users/Bangonkali/Desktop/EE 272/ENCODER_8_3/ENCODERA.png} -format png  -x 0 -y 0 -w 888 -h 1112 -colormode color
+Mdi:ArrangeIcons
 Graph:DSel
-GrMeas:Select Graph0 M:1 6
-GrMeas:MoveText Graph0 M:1 6 53.0 25.0
+Graph itemselect Signal8 add
+# Signal8
+GrMeas:Falltime Graph1 Signal8 {0.1 0.5 0.9} default default xyrangeAll
+# M:0
 Graph:DSel
-GrMeas:Select Graph0 M:0 7
-GrMeas:MoveText Graph0 M:0 7 23.0 26.0
+Graph itemselect Signal9 add
+# Signal9
+GrMeas:Falltime Graph1 Signal9 {0.1 0.5 0.9} default default xyrangeAll
+# M:1
 Graph:DSel
-GrMeas:Select Graph0 M:16 4
-GrMeas:MoveText Graph0 M:16 4 36.0 25.0
+Graph itemselect Signal10 add
+# Signal10
+GrMeas:Falltime Graph1 Signal10 {0.1 0.5 0.9} default default xyrangeAll
+# M:2
+GrMeas:Risetime Graph1 Signal10 {0.1 0.5 0.9} default default xyrangeAll
+# M:3
+GrMeas:Risetime Graph1 Signal9 {0.1 0.5 0.9} default default xyrangeAll
+# M:4
+GrMeas:Risetime Graph1 Signal8 {0.1 0.5 0.9} default default xyrangeAll
+# M:5
 Graph:DSel
-GrMeas:Select Graph0 M:15 4
-GrMeas:MoveText Graph0 M:15 4 -17.0 25.0
+GrMeas:Select Graph1 M:5 4
+GrMeas:MoveText Graph1 M:5 4 32.0 47.0
 Graph:DSel
+GrMeas:Select Graph1 M:0 4
+GrMeas:MoveText Graph1 M:0 4 13.0 46.0
 Graph:DSel
-Graph axisconfig {AxisX(0) AxisY(0,0) AxisY(1,0) AxisY(2,0) AxisY(3,0) AxisY(4,0) AxisY(5,0) AxisY(6,0) AxisY(7,0)} -range {all all all all all all all all all} -zoomed {0 0 0 0 0 0 0 0 0}
+GrMeas:Select Graph1 M:1 6
+GrMeas:MoveText Graph1 M:1 6 29.0 46.0
+Graph:DSel
+GrMeas:Select Graph1 M:4 6
+GrMeas:MoveText Graph1 M:4 6 28.0 47.0
+Graph:DSel
+GrMeas:Select Graph1 M:2 6
+GrMeas:MoveText Graph1 M:2 6 29.0 47.0
+Graph:DSel
+GrMeas:Select Graph1 M:3 6
+GrMeas:MoveText Graph1 M:3 6 7.0 45.0
+Graph:DSel
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+.frame1.mdi.mdi2.work.graph1 save -file {C:/Users/Bangonkali/Desktop/EE 272/ENCODER_8_3/ENCODERB.png} -format png  -x 0 -y 0 -w 888 -h 1112 -colormode color
+Graph:DSel
+Graph itemselect Signal10 add
+# Signal10
+WfA2D:A2D Graph1 Signal10 { .9}
+Mdi:ArrangeIcons
+Graph:DSel
+Graph itemselect Signal9 add
+# Signal9
+WfA2D:A2D Graph1 Signal9 { .9}
+Mdi:ArrangeIcons
+Graph:DSel
+Graph itemselect Signal8 add
+# Signal8
+WfA2D:A2D Graph1 Signal8 { .9}
+Mdi:ArrangeIcons
+Graph:DSel
+Graph itemselect Signal0 add
+# Signal0
+WfA2D:A2D Graph1 Signal0 { .9}
+Mdi:ArrangeIcons
+Graph:DSel
+Graph itemselect Signal1 add
+# Signal1
+WfA2D:A2D Graph1 Signal1 { .9}
+Mdi:ArrangeIcons
+Graph:DSel
+Graph itemselect Signal2 add
+# Signal2
+WfA2D:A2D Graph1 Signal2 { .9}
+Mdi:ArrangeIcons
+Graph:DSel
+Graph itemselect Signal3 add
+# Signal3
+WfA2D:A2D Graph1 Signal3 { .9}
+Mdi:ArrangeIcons
+Graph:DSel
+Graph itemselect Signal4 add
+# Signal4
+WfA2D:A2D Graph1 Signal4 { .9}
+Mdi:ArrangeIcons
+Graph:DSel
+Graph itemselect Signal5 add
+# Signal5
+WfA2D:A2D Graph1 Signal5 { .9}
+Mdi:ArrangeIcons
+Graph:DSel
+Graph itemselect Signal6 add
+# Signal6
+WfA2D:A2D Graph1 Signal6 { .9}
+Mdi:ArrangeIcons
+Graph:DSel
+Graph itemselect Signal7 add
+# Signal7
+WfA2D:A2D Graph1 Signal7 { .9}
+Mdi:ArrangeIcons
+Graph itemselect Signal7 rem
+Graph itemselect Signal7 add
+# Signal7
+Graph itemselect Signal6 add
+# Signal6
+Graph itemselect Signal7 rem
+# Signal6
+Graph itemselect Signal6 rem
+Graph itemselect Signal7 add
+# Signal7
+Graph itemselect Signal6 add
+# Signal6
+Graph itemselect Signal5 add
+# Signal5
+Graph itemselect Signal7 rem
+# Signal5
+Graph itemselect Signal6 rem
+# Signal5
+Graph itemselect Signal5 rem
+Graph itemselect Signal7 add
+# Signal7
+Graph itemselect Signal6 add
+# Signal6
+Graph itemselect Signal5 add
+# Signal5
+Graph itemselect Signal4 add
+# Signal4
+Graph itemselect AxisX(0) add
+# AxisX(0)
+Graph delsignal selected
+Graph:DSel
+Graph itemselect Signal0 add
+# Signal0
 Graph:DSel
 Graph itemselect AxisX(0) add
 # AxisX(0)
 Graph:DSel
+Graph itemselect Signal0 add
+# Signal0
+Graph delsignal selected
+Graph:DSel
+Graph itemselect Signal2 add
+# Signal2
+Graph delsignal selected
+Graph:DSel
+Graph itemselect Signal3 add
+# Signal3
+Graph delsignal selected
+Graph:DSel
+Graph itemselect Signal1 add
+# Signal1
+Graph delsignal selected
 Mdi:ArrangeIcons
 Mdi:ArrangeIcons
-Graph:SaveGraph Graph0 {C:/Users/Bangonkali/Desktop/EE 272/DECODER_3_8/analysis} 1
 Mdi:ArrangeIcons
 Mdi:ArrangeIcons
-Graph:SaveGraph Graph0 {C:/Users/Bangonkali/Desktop/EE 272/DECODER_3_8/analysis_2} 0
+Mdi:ArrangeIcons
+.frame1.mdi.mdi2.work.graph1 save -file {C:/Users/Bangonkali/Desktop/EE 272/ENCODER_8_3/ECODERC.png} -format png  -x 0 -y 0 -w 888 -h 701 -colormode color
+Mdi:ArrangeIcons
+Graph:DSel
+Graph:DSel
+Graph:DSel
+Graph:DSel
+Graph itemselect Signal21 add
+# Signal21
+Graph itemselect Signal21 rem
+Graph itemselect Signal21 add
+# Signal21
+Graph itemselect Signal20 add
+# Signal20
+Graph itemselect Signal19 add
+# Signal19
+Graph itemselect Signal18 add
+# Signal18
+Graph itemselect Signal17 add
+# Signal17
+Graph itemselect Signal16 add
+# Signal16
+Graph itemselect Signal15 add
+# Signal15
+Graph itemselect Signal14 add
+# Signal14
+Graph itemselect Signal13 add
+# Signal13
+Graph itemselect Signal12 add
+# Signal12
+Graph itemselect Signal11 add
+# Signal11
+Graph delsignal selected
 Mdi:ArrangeIcons
 Mdi:ArrangeIcons
-Graph:SaveGraph Graph0 {C:/Users/Bangonkali/Desktop/EE 272/DECODER_3_8/analysis_2} 0 1
+.frame1.mdi.mdi2.work.graph1 save -file {C:/Users/Bangonkali/Desktop/EE 272/ENCODER_8_3/CLOSEUP.png} -format png  -x 0 -y 0 -w 888 -h 642 -colormode color
 Mdi:ArrangeIcons
 Mdi:ArrangeIcons
-.frame1.mdi.mdi1.work.graph0 save -file {C:/Users/Bangonkali/Desktop/EE 272/DECODER_3_8/analysis.png} -format png  -x 0 -y 0 -w 888 -h 1020 -colormode color
 Mdi:ArrangeIcons
+wm geometry .sigmgr._PF:13 200x331+1135+497
+wm geometry .sigmgr 367x200+1243+211
+Mdi:ArrangeIcons
+wm geometry . 900x765+0+87
 Mdi:ArrangeIcons
 Mdi:ArrangeIcons

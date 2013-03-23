@@ -1,0 +1,18 @@
+* "simulator" "HSPICE" 
+* "version" "G-2012.06-SP1 32-BIT"
+* "format" "HSP"
+* "rundate" "16:37:22 02/14/2013 "
+* "netlist" "nand3_tf.sp "
+* "runtitle" "3 input nand test bench"
+* time =    0.            
+* temperature =   25.0000        
+*** BEGIN: Saved Operating Point ***                     
+.option 
++ gmindc=   1.0000p       
+.nodeset
++ a =   1.8000        
++ b =   1.8000        
++ c =   1.8000        
++ ndd =   1.8000        
++ out =  93.6604n       
+***   END: Saved Operating Point ***                     

@@ -1,0 +1,11 @@
+****** SUBCIRCUIT PINS
+****** dd  - drain/vdd   - in/out
+****** ss  - source/vss  - in/out
+****** in  - input       - input
+****** out - output      - output
+
+****** SUBCIRCUIT DEFINITION: INVERTER
+    .subckt inverter dd ss in out
+        MN1 out in ss ss nch l='1*LMIN' w='2*LMIN'
+        MP2 out in dd dd pch l='1*LMIN' w='3*LMIN'
+    .ends

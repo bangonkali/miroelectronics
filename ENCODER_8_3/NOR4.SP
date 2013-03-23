@@ -1,4 +1,4 @@
-*** define subcircuits (modules) ***** 
+****** SUBCIRCUIT DEFINITION: 4 INPUT NOR
 .subckt nor4 dd ss a b c d out
     MPA ab  a   dd   dd  pch l='1*LMIN' w='6*LMIN'
     MPB bc  b   ab   dd  pch l='1*LMIN' w='6*LMIN'

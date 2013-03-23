@@ -1,0 +1,113 @@
+ ****** HSPICE -- G-2012.06-SP1 32-BIT (Aug 27 2012) win32 ******               
+  Copyright (C) 2012 Synopsys, Inc. All Rights Reserved.                        
+  Unpublished-rights reserved under US copyright laws.
+  This program is protected by law and is subject to the
+  terms and conditions of the license agreement from Synopsys.
+  Use of this program is your acceptance to be bound by the
+  license agreement. HSPICE is the trademark of Synopsys, Inc.
+  Input File: nor3_tf.sp                                                        
+  Command line options: -mt 2 -i nor3_tf.sp -o nor3_tf.lis
+  lic:  
+  lic: FLEXlm: v10.9.8 
+  lic: USER:   Bangonkali           HOSTNAME: Blue 
+  lic: HOSTID: "b8975a02aecc 005056c00001 005056c00008 08002700905e" PID:      1
+ 824 
+  lic: Using FLEXlm license file: 
+  lic: 27000@Blue 
+  lic: Checkout 1 hspice 
+  lic: License/Maintenance for hspice will expire on 31-dec-2019/2019.12 
+  lic: NODE LOCKED license on hostid "b8975a02aecc 005056c00001 005056c00008 080
+ 02700905e" 
+  lic:   
+ Init: read install configuration file: c:\synopsys\Hspice_G-2012.06-SP1\meta.cfg
+1****** HSPICE -- G-2012.06-SP1 32-BIT (Aug 27 2012) win32 ******               
+ ******  
+ 3 input nor test bench
+
+  ******  circuit name directory
+ circuit number to circuit name directory
+   number circuitname                     definition         multiplier
+        0 main circuit
+  **info** (nor3_tf.sp:17) DC voltage reset to initial transient source value              in source        0:va                  new dc=  0.1800D+01
+ 
+
+  
+      
+ **info** set option symb=1 internally to help for convergence.
+ *****************************************************************
+ ******  option summary
+ ******
+ runlvl  = 3         bypass  = 2         
+  Opening plot unit= 79
+ file=nor3_tf.pa0
+
+1****** HSPICE -- G-2012.06-SP1 32-BIT (Aug 27 2012) win32 ******               
+ ******  
+ 3 input nor test bench
+
+  ******  operating point information tnom=  25.000 temp=  25.000 *****
+ ***** operating point status is all       simulation time is     0.     
+    node    =voltage      node    =voltage      node    =voltage
+
+ +0:a       =   1.8000  0:b       =   1.8000  0:c       =   1.8000 
+ +0:ndd     =   1.8000  0:out     =   1.3778n
+
+
+ **** voltage sources
+
+ subckt                                              
+ element  0:va       0:vb       0:vc       0:vdd     
+  volts      1.8000     1.8000     1.8000     1.8000 
+  current    0.         0.         0.        -3.2312p
+  power      0.         0.         0.         5.8162p
+
+     total voltage source power dissipation=    5.8162p       watts
+
+
+
+          ***** job concluded
+1****** HSPICE -- G-2012.06-SP1 32-BIT (Aug 27 2012) win32 ******               
+ ******  
+ 3 input nor test bench
+
+  ******  job statistics summary tnom=  25.000 temp=  25.000 *****
+
+  ******  HSPICE Threads Information  ******
+
+  Command Line Threads Count :     2
+  Available CPU Count        :     2
+  Actual Threads Count       :     1
+
+
+  ******  Circuit Statistics  ******
+  # nodes       =      20 # elements   =      11
+  # resistors   =       0 # capacitors =       1 # inductors   =       0
+  # mutual_inds =       0 # vccs       =       0 # vcvs        =       0
+  # cccs        =       0 # ccvs       =       0 # volt_srcs   =       4
+  # curr_srcs   =       0 # diodes     =       0 # bjts        =       0
+  # jfets       =       0 # mosfets    =       6 # U elements  =       0
+  # T elements  =       0 # W elements =       0 # B elements  =       0
+  # S elements  =       0 # P elements =       0 # va device   =       0
+  # vector_srcs =       0 # N elements =       0
+
+
+  ******  Runtime Statistics (seconds)  ******
+
+  analysis           time    # points   tot. iter  conv.iter
+  op point           0.01           1          10
+  transient          0.66    32000001        1274         499 rev=       105
+  readin             0.14
+  errchk             0.02
+  setup              0.02
+  output             0.00
+
+
+           peak memory used         55.97 megabytes
+           total cpu time            0.91 seconds
+           total elapsed time        8.89 seconds
+           job started at     15:52:02 02/14/2013
+           job ended   at     15:52:11 02/14/2013
+
+
+  lic: Release hspice token(s) 
+ lic: total license checkout elapse time:        7.97(s)

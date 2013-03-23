@@ -1,0 +1,56 @@
+***** HSPICE -- G-2012.06-SP1 32-BIT (Aug 27 2012) win32 ******
+ Input File: inverter_tb.sp
+ lic:
+ lic: FLEXlm: v10.9.8
+ lic: USER:   Bangonkali           HOSTNAME: Blue
+ lic: HOSTID: "b8975a02aecc 005056c00001 005056c00008 08002700905e" PID:      6716
+ lic: Using FLEXlm license file:
+ lic: 27000@Blue
+ lic: Checkout 1 hspice
+ lic: License/Maintenance for hspice will expire on 31-dec-2019/2019.12
+ lic: NODE LOCKED license on hostid "b8975a02aecc 005056c00001 005056c00008 08002700905e"
+ lic:
+ init: begin read circuit files,  cpu clock=  8.19E+00
+       option search = c:\synopsys\Hspice_G-2012.06-SP1\PARTS\behave\
+       option search = c:\synopsys\Hspice_G-2012.06-SP1\PARTS\behave\
+       option search = c:\synopsys\Hspice_G-2012.06-SP1\PARTS\AD\
+       option search = c:\synopsys\Hspice_G-2012.06-SP1\PARTS\XILINX\
+       option search = c:\synopsys\Hspice_G-2012.06-SP1\PARTS\TLINE\
+       option search = c:\synopsys\Hspice_G-2012.06-SP1\PARTS\TI\
+       option search = c:\synopsys\Hspice_G-2012.06-SP1\PARTS\SIGNET\
+       option search = c:\synopsys\Hspice_G-2012.06-SP1\PARTS\PCI\
+       option search = c:\synopsys\Hspice_G-2012.06-SP1\PARTS\LIN_TECH\
+       option search = c:\synopsys\Hspice_G-2012.06-SP1\PARTS\FET\
+       option search = c:\synopsys\Hspice_G-2012.06-SP1\PARTS\DIO\
+       option search = c:\synopsys\Hspice_G-2012.06-SP1\PARTS\COMLINE\
+       option search = c:\synopsys\Hspice_G-2012.06-SP1\PARTS\BURR_BRN\
+       option search = c:\synopsys\Hspice_G-2012.06-SP1\PARTS\BJT\
+       option search = c:\synopsys\Hspice_G-2012.06-SP1\PARTS\behave\
+       option search = c:\synopsys\Hspice_G-2012.06-SP1\PARTS\AD\
+       option post =     2.00
+       option runlvl
+       option post
+ init: end read circuit files,  cpu clock=  8.25E+00 peak memory=        54 mb
+ init: begin check errors,  cpu clock=  8.25E+00
+ init: end check errors,  cpu clock=  8.27E+00 peak memory=        54 mb
+ init: begin setup matrix, pivot=     0 cpu clock=  8.27E+00
+       establish matrix -- done,  cpu clock=  8.28E+00 peak memory=        54 mb
+       re-order matrix -- done,  cpu clock=  8.28E+00 peak memory=        54 mb
+ init: end setup matrix,  cpu clock=  8.29E+00 peak memory=        54 mb
+ dcop: begin dcop,  cpu clock=  8.29E+00
+ dcop: end dcop,  cpu clock=  8.31E+00 peak memory=        54 mb                tot_iter=       4
+ output: inverter_tb.tr0
+ sweep: tran tran0    begin, stop_t=  8.00E-09 #sweeps=**** cpu clock=  8.32E+00
+ tran: time= 1.0407E-09 tot_iter=     112 conv_iter=      42 cpu clock= 8.33E+00
+ tran: time= 1.8407E-09 tot_iter=     116 conv_iter=      44 cpu clock= 8.35E+00
+ tran: time= 2.4368E-09 tot_iter=     138 conv_iter=      51 cpu clock= 8.37E+00
+ tran: time= 3.2467E-09 tot_iter=     208 conv_iter=      76 cpu clock= 8.38E+00
+ tran: time= 4.0000E-09 tot_iter=     212 conv_iter=      78 cpu clock= 8.40E+00
+ tran: time= 4.8922E-09 tot_iter=     301 conv_iter=     112 cpu clock= 8.42E+00
+ tran: time= 5.6922E-09 tot_iter=     305 conv_iter=     114 cpu clock= 8.44E+00
+ tran: time= 6.4009E-09 tot_iter=     348 conv_iter=     128 cpu clock= 8.46E+00
+ tran: time= 7.3593E-09 tot_iter=     394 conv_iter=     147 cpu clock= 8.47E+00
+ tran: time= 8.0000E-09 tot_iter=     398 conv_iter=     149 cpu clock= 8.49E+00
+ sweep: tran tran0    end,  cpu clock=  8.50E+00 peak memory=        54 mb
+>info:         ***** hspice job concluded
+ lic: Release hspice token(s)

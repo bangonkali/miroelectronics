@@ -1,5 +1,4 @@
-* 3 Input NAND
-
+****** SUBCIRCUIT DEFINITION: 2 INPUT NAND
 .subckt nand3 dd ss a b c out
     MN1 out a   ab   ss  nch l='1*LMIN' w='2*LMIN'
     MN2 ab  b   bc   ss  nch l='1*LMIN' w='2*LMIN'

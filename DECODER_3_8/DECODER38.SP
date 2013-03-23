@@ -1,4 +1,4 @@
-********* define main circuit ****************** 
+****** SUBCIRCUIT DEFINITION: 3-8 DECODER
 
 .include NAND3.SP
 .include NOT.SP

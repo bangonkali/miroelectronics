@@ -1,4 +1,4 @@
-proc Graph:LoadGraph0 {filename {graph {}}} {
+proc Graph:LoadGraph1 {filename {graph {}}} {
 
     global tk_status
     global GrXY Graph sigs
@@ -12,7 +12,7 @@ proc Graph:LoadGraph0 {filename {graph {}}} {
     if {$graph=={}} {
         # Load needed plotfiles if absent
 
-        set pfwf [Graph:GetSigs3 $graphpath {{{{{C:/Users/Bangonkali/Desktop/EE 272/NOR3/no3_tf.tr0} v(c)}} depend0000000 {wf:a2d depend0000000  .9} 0} {{{{C:/Users/Bangonkali/Desktop/EE 272/NOR3/no3_tf.tr0} v(b)}} depend0000001 {wf:a2d depend0000001  .9} 0} {{{{C:/Users/Bangonkali/Desktop/EE 272/NOR3/no3_tf.tr0} v(a)}} depend0000002 {wf:a2d depend0000002  .9} 0} {{{{C:/Users/Bangonkali/Desktop/EE 272/NOR3/no3_tf.tr0} v(out)}} depend0000003 {wf:a2d depend0000003  .9} 0} {{{{C:/Users/Bangonkali/Desktop/EE 272/NOR3/no3_tf.tr0} v(out)}} {} {} 0} {{{{C:/Users/Bangonkali/Desktop/EE 272/NOR3/no3_tf.tr0} v(a)}} {} {} 0} {{{{C:/Users/Bangonkali/Desktop/EE 272/NOR3/no3_tf.tr0} v(b)}} {} {} 0} {{{{C:/Users/Bangonkali/Desktop/EE 272/NOR3/no3_tf.tr0} v(c)}} {} {} 0}}]
+        set pfwf [Graph:GetSigs3 $graphpath {{{{../nor3_tf.tr0 v(a)}} depend0000003 {wf:a2d depend0000003  .9} 0} {{{../nor3_tf.tr0 v(b)}} depend0000004 {wf:a2d depend0000004  .9} 0} {{{../nor3_tf.tr0 v(c)}} depend0000005 {wf:a2d depend0000005  .9} 0} {{{../nor3_tf.tr0 v(out)}} depend0000006 {wf:a2d depend0000006  .9} 0} {{{../nor3_tf.tr0 v(out)}} {} {} 0} {{{../nor3_tf.tr0 v(c)}} {} {} 0} {{{../nor3_tf.tr0 v(b)}} {} {} 0} {{{../nor3_tf.tr0 v(a)}} {} {} 0}}]
 
         set pf [lindex $pfwf 0 ]
 
@@ -27,7 +27,7 @@ proc Graph:LoadGraph0 {filename {graph {}}} {
     } else {
         # Load needed plotfiles if absent
 
-        set pfwf [Graph:GetSigs3 $graphpath {{{{{C:/Users/Bangonkali/Desktop/EE 272/NOR3/no3_tf.tr0} v(c)}} depend0000000 {wf:a2d depend0000000  .9} 0} {{{{C:/Users/Bangonkali/Desktop/EE 272/NOR3/no3_tf.tr0} v(b)}} depend0000001 {wf:a2d depend0000001  .9} 0} {{{{C:/Users/Bangonkali/Desktop/EE 272/NOR3/no3_tf.tr0} v(a)}} depend0000002 {wf:a2d depend0000002  .9} 0} {{{{C:/Users/Bangonkali/Desktop/EE 272/NOR3/no3_tf.tr0} v(out)}} depend0000003 {wf:a2d depend0000003  .9} 0} {{{{C:/Users/Bangonkali/Desktop/EE 272/NOR3/no3_tf.tr0} v(out)}} {} {} 0} {{{{C:/Users/Bangonkali/Desktop/EE 272/NOR3/no3_tf.tr0} v(a)}} {} {} 0} {{{{C:/Users/Bangonkali/Desktop/EE 272/NOR3/no3_tf.tr0} v(b)}} {} {} 0} {{{{C:/Users/Bangonkali/Desktop/EE 272/NOR3/no3_tf.tr0} v(c)}} {} {} 0}} 0]
+        set pfwf [Graph:GetSigs3 $graphpath {{{{../nor3_tf.tr0 v(a)}} depend0000003 {wf:a2d depend0000003  .9} 0} {{{../nor3_tf.tr0 v(b)}} depend0000004 {wf:a2d depend0000004  .9} 0} {{{../nor3_tf.tr0 v(c)}} depend0000005 {wf:a2d depend0000005  .9} 0} {{{../nor3_tf.tr0 v(out)}} depend0000006 {wf:a2d depend0000006  .9} 0} {{{../nor3_tf.tr0 v(out)}} {} {} 0} {{{../nor3_tf.tr0 v(c)}} {} {} 0} {{{../nor3_tf.tr0 v(b)}} {} {} 0} {{{../nor3_tf.tr0 v(a)}} {} {} 0}} 0]
 
         set pf [lindex $pfwf 0 ]
 
@@ -50,11 +50,11 @@ proc Graph:LoadGraph0 {filename {graph {}}} {
     set Graph($graph,cmap) 2
 
     # Configure Graph Title
-    $graph itemconfig GraphTitle -text {Graph0}
+    $graph itemconfig GraphTitle -text {3 INPUT NOR GATE SIMULATION}
 
     # Restore Mem Label variables
     # Add the signals to the graph with appropriate attributes
-    set configs {-region {d d d d 3 2 1 0} -yview {real(y) real(y) real(y) real(y) real(y) real(y) real(y) real(y)} -xview {real(x) real(x) real(x) real(x) real(x) real(x) real(x) real(x)} -rainbow {0 0 0 0 0 0 0 0} -rbcolors {{} {} {} {} {} {} {} {}} -fill {#0000ff #0000ff #0000ff #0000ff #ff00ff #0000ff #00a000 #fa7d21} -linestyle {- - - - - - - -} -width {1 1 1 1 1 1 1 1} -symbol {{} {} {} {} {} {} {} {}} -symwidth {10 10 10 10 10 10 10 10} -bar {{} {} {} {} {} {} {} {}} -barwidth {0 0 0 0 0 0 0 0} -baseline {0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0} -stipple {{} {} {} {} {} {} {} {}} -label {a2d(v(c)) a2d(v(b)) a2d(v(a)) a2d(v(out)) v(out) v(a) v(b) v(c)} -xaxis {0 0 0 0 0 0 0 0} -yaxis {d d d d 0 0 0 0} -tracehi {1 1 1 1 2 2 2 2} -bus {{} {} {} {} {} {} {} {}} -segdisp {y y y y y y y y} -monotonicdisp {0 0 0 0 0 0 0 0} -index {8 9 10 11 7 4 5 6}}
+    set configs {-region {d d d d 3 2 1 0} -yview {real(y) real(y) real(y) real(y) real(y) real(y) real(y) real(y)} -xview {real(x) real(x) real(x) real(x) real(x) real(x) real(x) real(x)} -rainbow {0 0 0 0 0 0 0 0} -rbcolors {{} {} {} {} {} {} {} {}} -fill {#0000ff #0000ff #0000ff #0000ff #ff00ff #fa7d21 #00a000 #0000ff} -linestyle {- - - - - - - -} -width {1 1 1 1 1 1 1 1} -symbol {{} {} {} {} {} {} {} {}} -symwidth {10 10 10 10 10 10 10 10} -bar {{} {} {} {} {} {} {} {}} -barwidth {0 0 0 0 0 0 0 0} -baseline {0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0} -stipple {{} {} {} {} {} {} {} {}} -label {a2d(v(a)) a2d(v(b)) a2d(v(c)) a2d(v(out)) v(out) v(c) v(b) v(a)} -xaxis {0 0 0 0 0 0 0 0} -yaxis {d d d d 0 0 0 0} -tracehi {1 1 1 1 2 2 2 2} -bus {{} {} {} {} {} {} {} {}} -segdisp {y y y y y y y y} -monotonicdisp {0 0 0 0 0 0 0 0} -index {4 5 6 7 3 2 1 0}}
 
     if {$missingWfIdx != ""} {
         set configs [Graph:ResetSigConfigs1 $configs $missingWfIdx]
@@ -90,11 +90,15 @@ proc Graph:LoadGraph0 {filename {graph {}}} {
     set ax(6,yaxis,saved) AxisY(1,0)
     set ax(7,xaxis,saved) AxisX(0)
     set ax(7,yaxis,saved) AxisY(0,0)
+    set ax(AxisY(0,0),configs,saved) {-scale {linear} -gridvis {yes} -linticks {} -logticks {} -subticks {0} -label {(V)} -digiview {} -lock {no} -slider {no} -range {0.0 1.7999999523163} -unitscale {auto}}
     set ax(AxisX(0),configs,saved) {-scale {linear} -gridvis {yes} -linticks {} -logticks {1 1} -subticks {0} -label {t(s)} -digiview {} -lock {no} -slider {no} -range {0.0 31.999999094978n} -unitscale {auto}}
-    set ax(AxisY(0,0),configs,saved) {-scale {linear} -gridvis {yes} -linticks {0.45} -logticks {} -subticks {0} -label {(V)} -digiview {} -lock {no} -slider {no} -range {0.0 1.7999999523163} -unitscale {auto}}
-    set ax(AxisY(1,0),configs,saved) {-scale {linear} -gridvis {yes} -linticks {0.45} -logticks {} -subticks {0} -label {(V)} -digiview {} -lock {no} -slider {no} -range {0.0 1.7999999523163} -unitscale {auto}}
-    set ax(AxisY(2,0),configs,saved) {-scale {linear} -gridvis {yes} -linticks {.45} -logticks {} -subticks {0} -label {(V)} -digiview {} -lock {no} -slider {no} -range {0.0 1.7999999523163} -unitscale {auto}}
-    set ax(AxisY(3,0),configs,saved) {-scale {linear} -gridvis {yes} -linticks {.45} -logticks {} -subticks {0} -label {(V)} -digiview {} -lock {no} -slider {no} -range {-0.013039291836321 1.8142552375793} -unitscale {auto}}
+    set ax(AxisY(1,0),configs,saved) {-scale {linear} -gridvis {yes} -linticks {} -logticks {} -subticks {0} -label {(V)} -digiview {} -lock {no} -slider {no} -range {0.0 1.7999999523163} -unitscale {auto}}
+    set ax(AxisY(2,0),configs,saved) {-scale {linear} -gridvis {yes} -linticks {} -logticks {} -subticks {0} -label {(V)} -digiview {} -lock {no} -slider {no} -range {0.0 1.7999999523163} -unitscale {auto}}
+    set ax(AxisY(0,0),configs,saved) {-scale {linear} -gridvis {yes} -linticks {} -logticks {} -subticks {0} -label {(V)} -digiview {} -lock {no} -slider {no} -range {0.0 1.7999999523163} -unitscale {auto}}
+    set ax(AxisX(0),configs,saved) {-scale {linear} -gridvis {yes} -linticks {} -logticks {1 1} -subticks {0} -label {t(s)} -digiview {} -lock {no} -slider {no} -range {0.0 31.999999094978n} -unitscale {auto}}
+    set ax(AxisY(1,0),configs,saved) {-scale {linear} -gridvis {yes} -linticks {} -logticks {} -subticks {0} -label {(V)} -digiview {} -lock {no} -slider {no} -range {0.0 1.7999999523163} -unitscale {auto}}
+    set ax(AxisY(2,0),configs,saved) {-scale {linear} -gridvis {yes} -linticks {} -logticks {} -subticks {0} -label {(V)} -digiview {} -lock {no} -slider {no} -range {0.0 1.7999999523163} -unitscale {auto}}
+    set ax(AxisY(3,0),configs,saved) {-scale {linear} -gridvis {yes} -linticks {} -logticks {} -subticks {0} -label {(V)} -digiview {} -lock {no} -slider {no} -range {-0.013039291836321 1.8142552375793} -unitscale {auto}}
 
     set ax(list) ""
     set items [$canvas find all]
@@ -131,14 +135,14 @@ proc Graph:LoadGraph0 {filename {graph {}}} {
 
 
     # Restore Measurements
-    set sigs(Signal8,idx,saved) 0
-    set sigs(Signal9,idx,saved) 1
-    set sigs(Signal10,idx,saved) 2
-    set sigs(Signal11,idx,saved) 3
-    set sigs(Signal7,idx,saved) 4
-    set sigs(Signal4,idx,saved) 5
-    set sigs(Signal5,idx,saved) 6
-    set sigs(Signal6,idx,saved) 7
+    set sigs(Signal4,idx,saved) 0
+    set sigs(Signal5,idx,saved) 1
+    set sigs(Signal6,idx,saved) 2
+    set sigs(Signal7,idx,saved) 3
+    set sigs(Signal3,idx,saved) 4
+    set sigs(Signal2,idx,saved) 5
+    set sigs(Signal1,idx,saved) 6
+    set sigs(Signal0,idx,saved) 7
 
     # Restore Markers
 
@@ -152,8 +156,8 @@ proc Graph:LoadGraph0 {filename {graph {}}} {
 }
 
 # Call the new procedure
-if [catch {AimBusy "Graph:LoadGraph0 $Graph(filename) $graph" . watch} msg] {
+if [catch {AimBusy "Graph:LoadGraph1 $Graph(filename) $graph" . watch} msg] {
     AimMessage $msg error "Cant Read Graph" modal
 }
 # Delete the new procedure
-rename Graph:LoadGraph0 {}
+rename Graph:LoadGraph1 {}

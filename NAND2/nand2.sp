@@ -1,0 +1,8 @@
+****** SUBCIRCUIT DEFINITION: 2 INPUT NAND
+.subckt nand dd ss a b out
+    MN1 ab  b   ss   ss  nch l='1*LMIN' w='2*LMIN'
+    MN2 out a   ab   ss  nch l='1*LMIN' w='2*LMIN'
+    
+    MP3 out a   dd   dd  pch l='1*LMIN' w='6*LMIN'
+    MP4 out b   dd   dd  pch l='1*LMIN' w='6*LMIN'
+.ends

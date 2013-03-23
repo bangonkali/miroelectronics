@@ -1,0 +1,56 @@
+***** HSPICE -- G-2012.06-SP1 32-BIT (Aug 27 2012) win32 ******
+ Input File: nand2_tb.sp
+ lic:
+ lic: FLEXlm: v10.9.8
+ lic: USER:   Bangonkali           HOSTNAME: Blue
+ lic: HOSTID: "b8975a02aecc 005056c00001 005056c00008 08002700905e" PID:      6008
+ lic: Using FLEXlm license file:
+ lic: 27000@Blue
+ lic: Checkout 1 hspice
+ lic: License/Maintenance for hspice will expire on 31-dec-2019/2019.12
+ lic: NODE LOCKED license on hostid "b8975a02aecc 005056c00001 005056c00008 08002700905e"
+ lic:
+ init: begin read circuit files,  cpu clock=  1.21E+01
+       option search = c:\synopsys\Hspice_G-2012.06-SP1\PARTS\behave\
+       option search = c:\synopsys\Hspice_G-2012.06-SP1\PARTS\behave\
+       option search = c:\synopsys\Hspice_G-2012.06-SP1\PARTS\AD\
+       option search = c:\synopsys\Hspice_G-2012.06-SP1\PARTS\XILINX\
+       option search = c:\synopsys\Hspice_G-2012.06-SP1\PARTS\TLINE\
+       option search = c:\synopsys\Hspice_G-2012.06-SP1\PARTS\TI\
+       option search = c:\synopsys\Hspice_G-2012.06-SP1\PARTS\SIGNET\
+       option search = c:\synopsys\Hspice_G-2012.06-SP1\PARTS\PCI\
+       option search = c:\synopsys\Hspice_G-2012.06-SP1\PARTS\LIN_TECH\
+       option search = c:\synopsys\Hspice_G-2012.06-SP1\PARTS\FET\
+       option search = c:\synopsys\Hspice_G-2012.06-SP1\PARTS\DIO\
+       option search = c:\synopsys\Hspice_G-2012.06-SP1\PARTS\COMLINE\
+       option search = c:\synopsys\Hspice_G-2012.06-SP1\PARTS\BURR_BRN\
+       option search = c:\synopsys\Hspice_G-2012.06-SP1\PARTS\BJT\
+       option search = c:\synopsys\Hspice_G-2012.06-SP1\PARTS\behave\
+       option search = c:\synopsys\Hspice_G-2012.06-SP1\PARTS\AD\
+       option post =     2.00
+       option runlvl
+       option post
+ init: end read circuit files,  cpu clock=  1.22E+01 peak memory=        53 mb
+ init: begin check errors,  cpu clock=  1.22E+01
+ init: end check errors,  cpu clock=  1.22E+01 peak memory=        53 mb
+ init: begin setup matrix, pivot=     0 cpu clock=  1.22E+01
+       establish matrix -- done,  cpu clock=  1.22E+01 peak memory=        53 mb
+       re-order matrix -- done,  cpu clock=  1.22E+01 peak memory=        53 mb
+ init: end setup matrix,  cpu clock=  1.22E+01 peak memory=        53 mb
+ dcop: begin dcop,  cpu clock=  1.22E+01
+ dcop: end dcop,  cpu clock=  1.22E+01 peak memory=        53 mb                tot_iter=       4
+ output: nand2_tb.tr0
+ sweep: tran tran0    begin, stop_t=  1.60E-08 #sweeps=**** cpu clock=  1.22E+01
+ tran: time= 1.8624E-09 tot_iter=      73 conv_iter=      27 cpu clock= 1.23E+01
+ tran: time= 3.4790E-09 tot_iter=     115 conv_iter=      47 cpu clock= 1.23E+01
+ tran: time= 4.9420E-09 tot_iter=     221 conv_iter=      88 cpu clock= 1.23E+01
+ tran: time= 6.4203E-09 tot_iter=     247 conv_iter=      98 cpu clock= 1.24E+01
+ tran: time= 8.0000E-09 tot_iter=     315 conv_iter=     125 cpu clock= 1.24E+01
+ tran: time= 9.6980E-09 tot_iter=     388 conv_iter=     152 cpu clock= 1.24E+01
+ tran: time= 1.1201E-08 tot_iter=     426 conv_iter=     170 cpu clock= 1.25E+01
+ tran: time= 1.2913E-08 tot_iter=     542 conv_iter=     215 cpu clock= 1.25E+01
+ tran: time= 1.4421E-08 tot_iter=     569 conv_iter=     225 cpu clock= 1.25E+01
+ tran: time= 1.6000E-08 tot_iter=     629 conv_iter=     250 cpu clock= 1.25E+01
+ sweep: tran tran0    end,  cpu clock=  1.26E+01 peak memory=        53 mb
+>info:         ***** hspice job concluded
+ lic: Release hspice token(s)
