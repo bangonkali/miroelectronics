@@ -1,0 +1,174 @@
+ ****** HSPICE -- G-2012.06-SP1 64-BIT (Aug 27 2012) win64 ******               
+  Copyright (C) 2012 Synopsys, Inc. All Rights Reserved.                        
+  Unpublished-rights reserved under US copyright laws.
+  This program is protected by law and is subject to the
+  terms and conditions of the license agreement from Synopsys.
+  Use of this program is your acceptance to be bound by the
+  license agreement. HSPICE is the trademark of Synopsys, Inc.
+  Input File: dand_keeper_tf.sp                                                 
+  Command line options: -mt 4 -i dand_keeper_tf.sp -o dand_keeper_tf.lis
+  lic:  
+  lic: FLEXlm: v10.9.8 
+  lic: USER:   Bangonkali           HOSTNAME: Mars 
+  lic: HOSTID: "162f68e80067 742f68e6ba72 742f68e80067 5404a6a87145 005056c00001
+  005056c00008 0800270
+  lic: Using FLEXlm license file: 
+  lic: 27000@Mars 
+  lic: Checkout 1 hspice 
+  lic: License/Maintenance for hspice will expire on 31-dec-2019/2019.12 
+  lic: NODE LOCKED license on hostid "162f68e80067 742f68e6ba72 742f68e80067 540
+ 4a6a87145 005056c0000
+  lic:   
+ Init: read install configuration file: C:\synopsys\Hspice_G-2012.06-SP1\meta.cfg
+1****** HSPICE -- G-2012.06-SP1 64-BIT (Aug 27 2012) win64 ******               
+ ******  
+ 2 input dynamic and
+
+  ******  circuit name directory
+ circuit number to circuit name directory
+   number circuitname                     definition         multiplier
+        0 main circuit
+        1 x_domino_and.                   domino_and         1.00 
+  **info** (dand_keeper_tf.sp:16) DC voltage reset to initial transient source value              in source        0:vclk                new dc=  0.1800D+01
+ 
+
+  
+      
+ **info** set option symb=1 internally to help for convergence.
+ *****************************************************************
+ ******  option summary
+ ******
+ runlvl  = 3         bypass  = 2         
+  Opening plot unit= 79
+ file=dand_keeper_tf.pa0
+
+1****** HSPICE -- G-2012.06-SP1 64-BIT (Aug 27 2012) win64 ******               
+ ******  
+ 2 input dynamic and
+
+  ******  operating point information tnom=  25.000 temp=  25.000 *****
+ ***** operating point status is all       simulation time is     0.     
+    node    =voltage      node    =voltage      node    =voltage
+
+ +0:clk     =   1.8000  0:in_a    =   1.8000  0:in_b    =   1.8000 
+ +0:ndd     =   1.8000  0:out     =   1.8000  1:ab      =  38.7400n
+ +1:b_clk   =  19.3700n 1:w       =  58.1100n
+
+
+ **** voltage sources
+
+ subckt                                              
+ element  0:vclk     0:vdd      0:vin_a    0:vin_b   
+  volts      1.8000     1.8000     1.8000     1.8000 
+  current    0.       -22.0778p    0.         0.     
+  power      0.        39.7400p    0.         0.     
+
+     total voltage source power dissipation=   39.7400p       watts
+
+
+
+
+ **** mosfets
+
+
+ subckt   x_domino_a x_domino_a x_domino_a x_domino_a x_domino_a x_domino_a
+ element  1:mp1      1:mn1      1:mn2      1:mn3      1:mp2      1:mn4     
+ model    0:pch.2    0:nch.6    0:nch.6    0:nch.6    0:pch.2    0:nch.6   
+ region       Cutoff     Linear     Linear     Linear     Linear     Cutoff
+  id        -1.9145p   13.6509p   13.6509p   13.6509p   -8.4271p    4.8216p
+  ibs      5.389e-28 -1.825e-23 -9.128e-24 -2.430e-27  1.223e-27 -1.179e-27
+  ibd       86.7585a -2.737e-23 -1.825e-23 -9.123e-24  2.129e-23   -5.0721f
+  vgs        0.         1.8000     1.8000     1.8000    -1.8000    58.1100n
+  vds       -1.8000    19.3700n   19.3700n   19.3700n  -19.5619n    1.8000 
+  vbs        0.       -38.7400n  -19.3700n    0.         0.         0.     
+  vth     -449.7616m  464.9546m  464.9546m  464.9546m -450.1667m  464.5495m
+  vdsat    -39.9917m    1.1593     1.1593     1.1593    -1.0610    48.3984m
+  vod      449.7616m    1.3350     1.3350     1.3350    -1.3498  -464.5495m
+  beta     451.7866u  551.2612u  551.2612u  551.2612u  329.2214u  777.9519u
+  gam eff  485.2396m  511.0918m  511.0918m  511.0918m  485.2396m  511.0918m
+  gm        61.2526p    5.0302p    5.0302p    5.0302p    4.1390p  152.2939p
+  gds      106.4228f  705.1186u  705.1186u  705.1186u  430.8399u  283.3699f
+  gmb       21.9182p    3.5986p    3.5986p    3.5986p    2.8486p   48.7339p
+  cdtot     11.4500f   55.4933f   55.4933f   55.4933f  200.3654f    3.6027f
+  cgtot     48.9623f   57.4481f   57.4481f   57.4481f  171.8264f   16.4034f
+  cstot     15.8168f   56.6592f   56.6592f   56.6592f  185.1739f    4.8573f
+  cbtot     62.0711f   21.1303f   21.1303f   21.1303f   69.0354f   19.5941f
+  cgs        3.5406f   29.9273f   29.9273f   29.9273f   93.1819f    1.3177f
+  cgd        3.5391f   28.6783f   28.6783f   28.6783f   85.4944f    1.3172f
+
+
+
+ subckt   x_domino_a
+ element  1:mnk     
+ model    0:pch.12  
+ region       Cutoff
+  id        -4.5361p
+  ibs      1.204e-27
+  ibd      142.0490a
+  vgs      -19.5619n
+  vds       -1.8000 
+  vbs        0.     
+  vth     -503.4316m
+  vdsat    -40.7720m
+  vod      503.4316m
+  beta     537.9989u
+  gam eff  649.3861m
+  gm       126.1802p
+  gds        3.6227p
+  gmb       46.5941p
+  cdtot      1.2600f
+  cgtot      1.1323f
+  cstot      1.7558f
+  cbtot      2.7442f
+  cgs      350.9745a
+  cgd      350.9600a
+
+
+
+
+          ***** job concluded
+1****** HSPICE -- G-2012.06-SP1 64-BIT (Aug 27 2012) win64 ******               
+ ******  
+ 2 input dynamic and
+
+  ******  job statistics summary tnom=  25.000 temp=  25.000 *****
+
+  ******  HSPICE Threads Information  ******
+
+  Command Line Threads Count :     4
+  Available CPU Count        :     4
+  Actual Threads Count       :     1
+
+
+  ******  Circuit Statistics  ******
+  # nodes       =      23 # elements   =      12
+  # resistors   =       0 # capacitors =       1 # inductors   =       0
+  # mutual_inds =       0 # vccs       =       0 # vcvs        =       0
+  # cccs        =       0 # ccvs       =       0 # volt_srcs   =       4
+  # curr_srcs   =       0 # diodes     =       0 # bjts        =       0
+  # jfets       =       0 # mosfets    =       7 # U elements  =       0
+  # T elements  =       0 # W elements =       0 # B elements  =       0
+  # S elements  =       0 # P elements =       0 # va device   =       0
+  # vector_srcs =       0 # N elements =       0
+
+
+  ******  Runtime Statistics (seconds)  ******
+
+  analysis           time    # points   tot. iter  conv.iter
+  op point           0.01           1           4
+  transient          2.43   128000001        7267        2909 rev=       537
+  readin             0.17
+  errchk             0.02
+  setup              0.02
+  output             0.00
+
+
+           peak memory used         66.31 megabytes
+           total cpu time            2.68 seconds
+           total elapsed time       12.43 seconds
+           job started at     15:15:34 02/16/2013
+           job ended   at     15:15:46 02/16/2013
+
+
+  lic: Release hspice token(s) 
+ lic: total license checkout elapse time:        9.71(s)

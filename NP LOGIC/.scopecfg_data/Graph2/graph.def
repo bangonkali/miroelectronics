@@ -1,0 +1,50 @@
+proc Graph:LoadGraph2 {filename {graph {}}} {
+
+    global tk_status
+    global GrXY Graph sigs
+    set Graph(result) Passed
+
+    # Display feedback to user
+    set tk_status {Open Graph: Creating Graph}
+    # update idletasks
+
+    set graphpath [string trimright $filename graph.def]
+    if {$graph=={}} {
+        # Create the new graph
+        set graph [GrXY:NewGraphConfig  {-type xy -font {-family {OF Helvetica} -size 10} -fg {white} -bg {black} -actfg {red} 	        -graphbg {black} -legend right -legendaxisdisplay 1 -grid no 		-sighi legend -maxforfb 10000 		-minwidth 2 -minheight 2 -gridtype - -gridlinestyle {-  } 		-gridlinewidth 1 -gridlinecolor white -subgridlinestyle {-  }                 -subgridlinewidth 1 -subgridlinecolor white -griddashlength 1                 -siglinewidth 1 -rainbow 0 -ptreduct 10000 -sigcolors {green magenta cyan yellow #FF8000 #89ffbb #edbfff #0080FF #ffd016 #ff74bd} -prezoom {0.000000e+000 0.000000e+000 1.000000e+000 0.000000e+000} -signames {leaf}} {1234} {505}]
+    } else {
+        # Reconfigure graph
+        Graph:Select $graph
+        Graph itemselect all add
+        Graph delsignal selected
+        Graph:ClearItems
+        $graph config -type xy -font {-family {OF Helvetica} -size 10} -fg {white} -bg {black} -actfg {red} 	        -graphbg {black} -legend right -legendaxisdisplay 1 -grid no 		-sighi legend -maxforfb 10000 		-minwidth 2 -minheight 2 -gridtype - -gridlinestyle {-  } 		-gridlinewidth 1 -gridlinecolor white -subgridlinestyle {-  }                 -subgridlinewidth 1 -subgridlinecolor white -griddashlength 1                 -siglinewidth 1 -rainbow 0 -ptreduct 10000 -sigcolors {green magenta cyan yellow #FF8000 #89ffbb #edbfff #0080FF #ffd016 #ff74bd} -prezoom {0.000000e+000 0.000000e+000 1.000000e+000 0.000000e+000} -signames {leaf}
+    }
+    global $graph
+    set canvas [set $graph]
+    # Set graph colormap
+    set Graph($graph,cmap) 1
+
+    # Configure Graph Title
+    $graph itemconfig GraphTitle -text {Graph2}
+
+
+    # Restore Measurements
+
+    # Restore Markers
+
+
+    # Restore Mem Label positions
+    $graph raise MemLbl
+
+    # Clear feedback
+    set tk_status {}
+    #update idletasks
+}
+
+# Call the new procedure
+if [catch {AimBusy "Graph:LoadGraph2 $Graph(filename) $graph" . watch} msg] {
+    AimMessage $msg error "Cant Read Graph" modal
+}
+# Delete the new procedure
+rename Graph:LoadGraph2 {}

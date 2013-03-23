@@ -1,0 +1,332 @@
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+ScopeSigMgr:loadpffile {{C:/Users/Bangonkali/Desktop/EE 272/ENCODER_8_3/encoder38_tf.tr0}} 1 openonly
+# PF:1
+pf:read PF:1 i(va0)
+# WF:1:1
+Graph addsignal WF:1:1 -region new -yview real(y) -xview real(x) -tracehi 2
+# Signal0
+pf:read PF:1 i(va1)
+# WF:1:2
+Graph addsignal WF:1:2 -region new -yview real(y) -xview real(x) -tracehi 2
+# Signal1
+Graph:Select Graph0
+Graph:DSel
+Graph itemselect Signal0 add
+# Signal0
+Graph delsignal selected
+Graph:DSel
+Graph itemselect Signal1 add
+# Signal1
+Graph delsignal selected
+Graph:DSel
+pf:read PF:1 v(in_a0)
+# WF:1:3
+Graph addsignal WF:1:3 -region new -yview real(y) -xview real(x) -tracehi 2
+# Signal0
+pf:read PF:1 v(in_a1)
+# WF:1:4
+Graph addsignal WF:1:4 -region new -yview real(y) -xview real(x) -tracehi 2
+# Signal1
+pf:read PF:1 v(in_a2)
+# WF:1:5
+Graph addsignal WF:1:5 -region new -yview real(y) -xview real(x) -tracehi 2
+# Signal2
+pf:read PF:1 v(in_a4)
+# WF:1:6
+Graph addsignal WF:1:6 -region new -yview real(y) -xview real(x) -tracehi 2
+# Signal3
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+ScopeSigMgr:Reload 0 {{(1) encoder38_tf.tr0}}
+Mdi:ArrangeIcons
+pf:read PF:2 v(in_a5)
+# WF:2:5
+Graph addsignal WF:2:5 -region new -yview real(y) -xview real(x) -tracehi 2
+# Signal8
+pf:read PF:2 v(in_a6)
+# WF:2:6
+Graph addsignal WF:2:6 -region new -yview real(y) -xview real(x) -tracehi 2
+# Signal9
+pf:read PF:2 v(in_a7)
+# WF:2:7
+Graph addsignal WF:2:7 -region new -yview real(y) -xview real(x) -tracehi 2
+# Signal10
+Mdi:FullSize
+wm geometry .sigmgr 367x200+588+185
+wm geometry .sigmgr 367x200+591+185
+wm geometry .sigmgr 367x200+595+185
+wm geometry .sigmgr 367x200+600+185
+wm geometry .sigmgr 367x200+610+189
+wm geometry .sigmgr 367x200+621+195
+wm geometry .sigmgr 367x200+632+199
+wm geometry .sigmgr 367x200+645+206
+wm geometry .sigmgr 367x200+664+215
+wm geometry .sigmgr 367x200+683+229
+wm geometry .sigmgr 367x200+705+241
+wm geometry .sigmgr 367x200+724+251
+wm geometry .sigmgr 367x200+741+266
+wm geometry .sigmgr 367x200+753+273
+wm geometry .sigmgr 367x200+764+280
+wm geometry .sigmgr 367x200+771+284
+wm geometry .sigmgr 367x200+778+288
+wm geometry .sigmgr 367x200+783+291
+wm geometry .sigmgr 367x200+786+292
+wm geometry .sigmgr 367x200+788+293
+wm geometry .sigmgr 367x200+792+295
+wm geometry .sigmgr 367x200+793+295
+wm geometry .sigmgr 367x200+795+295
+wm geometry .sigmgr 367x200+796+295
+wm geometry .sigmgr 367x200+799+294
+wm geometry .sigmgr 367x200+800+294
+wm geometry .sigmgr 367x200+804+291
+wm geometry .sigmgr 367x200+806+290
+wm geometry .sigmgr 367x200+808+288
+wm geometry .sigmgr 367x200+810+287
+wm geometry .sigmgr 367x200+811+286
+wm geometry .sigmgr 367x200+812+285
+wm geometry .sigmgr 367x200+813+284
+wm geometry .sigmgr 367x200+809+284
+wm geometry .sigmgr 367x200+808+285
+wm geometry .sigmgr 367x200+807+285
+wm geometry .sigmgr 367x200+806+285
+wm geometry .sigmgr 367x200+804+285
+wm geometry .sigmgr 367x200+803+285
+wm geometry .sigmgr 367x200+802+285
+wm geometry .sigmgr 367x200+800+285
+wm geometry .sigmgr 367x200+797+285
+wm geometry .sigmgr 367x200+795+285
+wm geometry .sigmgr 367x200+793+285
+wm geometry .sigmgr 367x200+791+285
+wm geometry .sigmgr 367x200+789+285
+wm geometry .sigmgr 367x200+787+285
+wm geometry .sigmgr 367x200+785+285
+wm geometry .sigmgr 367x200+783+285
+wm geometry .sigmgr 367x200+786+286
+wm geometry .sigmgr 367x200+793+289
+wm geometry .sigmgr 367x200+795+289
+wm geometry .sigmgr 367x200+799+289
+wm geometry .sigmgr 367x200+802+289
+wm geometry .sigmgr 367x200+808+289
+wm geometry .sigmgr 367x200+814+289
+wm geometry .sigmgr 367x200+822+289
+wm geometry .sigmgr 367x200+829+289
+wm geometry .sigmgr 367x200+836+289
+wm geometry .sigmgr 367x200+842+288
+wm geometry .sigmgr 367x200+848+287
+wm geometry .sigmgr 367x200+853+287
+wm geometry .sigmgr 367x200+856+286
+wm geometry .sigmgr 367x200+859+285
+wm geometry .sigmgr 367x200+861+284
+wm geometry .sigmgr 367x200+864+283
+wm geometry .sigmgr 367x200+867+283
+wm geometry .sigmgr 367x200+871+281
+wm geometry .sigmgr 367x200+877+278
+wm geometry .sigmgr 367x200+883+276
+wm geometry .sigmgr 367x200+887+275
+wm geometry .sigmgr 367x200+893+273
+wm geometry .sigmgr 367x200+898+271
+wm geometry .sigmgr 367x200+901+270
+wm geometry .sigmgr 367x200+904+269
+wm geometry .sigmgr 367x200+905+269
+wm geometry .sigmgr 367x200+906+267
+wm geometry .sigmgr 367x200+907+267
+wm geometry .sigmgr 367x200+908+266
+wm geometry .sigmgr 367x200+907+266
+wm geometry .sigmgr 367x200+905+266
+wm geometry .sigmgr 367x200+903+267
+wm geometry .sigmgr 367x200+902+267
+wm geometry .sigmgr 367x200+900+268
+wm geometry .sigmgr 367x200+898+268
+wm geometry .sigmgr 367x200+896+268
+wm geometry .sigmgr 367x200+894+268
+wm geometry .sigmgr 367x200+893+269
+wm geometry .sigmgr 367x200+891+269
+wm geometry .sigmgr 367x200+890+269
+wm geometry .sigmgr 367x200+888+269
+wm geometry .sigmgr 367x200+887+269
+wm geometry .sigmgr 367x200+885+269
+wm geometry .sigmgr 367x200+883+269
+wm geometry .sigmgr 367x200+880+269
+wm geometry .sigmgr 367x200+876+269
+wm geometry .sigmgr 367x200+870+269
+wm geometry .sigmgr 367x200+866+269
+wm geometry .sigmgr 367x200+862+269
+wm geometry .sigmgr 367x200+858+269
+wm geometry .sigmgr 367x200+855+269
+wm geometry .sigmgr 367x200+852+269
+wm geometry .sigmgr 367x200+849+269
+wm geometry .sigmgr 367x200+846+269
+wm geometry .sigmgr 367x200+843+269
+wm geometry .sigmgr 367x200+840+269
+wm geometry .sigmgr 367x200+839+269
+wm geometry .sigmgr 367x200+837+269
+wm geometry .sigmgr 367x200+835+269
+wm geometry .sigmgr 367x200+833+269
+wm geometry .sigmgr 367x200+832+269
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Graph:DSel
+Graph:Select Graph0
+ScopeSigMgr:Reload 0 {{(1) encoder38_tf.tr0}}
+pf:read PF:3 v(out_z0)
+# WF:3:8
+Graph addsignal WF:3:8 -region new -yview real(y) -xview real(x) -tracehi 2
+# Signal18
+pf:read PF:3 v(out_z1)
+# WF:3:9
+Graph addsignal WF:3:9 -region new -yview real(y) -xview real(x) -tracehi 2
+# Signal19
+pf:read PF:3 v(out_z2)
+# WF:3:10
+Graph addsignal WF:3:10 -region new -yview real(y) -xview real(x) -tracehi 2
+# Signal20
+wm geometry .sigmgr 367x200+837+268
+wm geometry .sigmgr 367x200+840+267
+wm geometry .sigmgr 367x200+847+267
+wm geometry .sigmgr 367x200+854+265
+wm geometry .sigmgr 367x200+863+265
+wm geometry .sigmgr 367x200+874+265
+wm geometry .sigmgr 367x200+885+265
+wm geometry .sigmgr 367x200+897+265
+wm geometry .sigmgr 367x200+914+265
+wm geometry .sigmgr 367x200+934+264
+wm geometry .sigmgr 367x200+957+262
+wm geometry .sigmgr 367x200+977+262
+wm geometry .sigmgr 367x200+994+262
+wm geometry .sigmgr 367x200+1009+261
+wm geometry .sigmgr 367x200+1023+259
+wm geometry .sigmgr 367x200+1030+258
+wm geometry .sigmgr 367x200+1039+257
+wm geometry .sigmgr 367x200+1044+256
+wm geometry .sigmgr 367x200+1049+256
+wm geometry .sigmgr 367x200+1053+254
+wm geometry .sigmgr 367x200+1056+254
+wm geometry .sigmgr 367x200+1057+254
+wm geometry .sigmgr 367x200+1058+254
+wm geometry .sigmgr 367x200+1059+254
+wm geometry .sigmgr 367x200+1060+254
+wm geometry .sigmgr 367x200+1062+254
+wm geometry .sigmgr 367x200+1063+254
+wm geometry .sigmgr 367x200+1065+254
+wm geometry .sigmgr 367x200+1066+254
+wm geometry .sigmgr 367x200+1068+254
+wm geometry .sigmgr 367x200+1071+253
+wm geometry .sigmgr 367x200+1074+253
+wm geometry .sigmgr 367x200+1076+252
+wm geometry .sigmgr 367x200+1080+252
+wm geometry .sigmgr 367x200+1083+250
+wm geometry .sigmgr 367x200+1086+250
+wm geometry .sigmgr 367x200+1088+249
+wm geometry .sigmgr 367x200+1089+248
+wm geometry .sigmgr 367x200+1090+248
+wm geometry .sigmgr 367x200+1091+248
+wm geometry .sigmgr 367x200+1091+247
+wm geometry .sigmgr 367x200+1092+246
+wm geometry .sigmgr 367x200+1092+244
+wm geometry .sigmgr 367x200+1092+241
+wm geometry .sigmgr 367x200+1092+239
+wm geometry .sigmgr 367x200+1092+237
+wm geometry .sigmgr 367x200+1092+235
+wm geometry .sigmgr 367x200+1092+234
+wm geometry .sigmgr 367x200+1092+232
+wm geometry .sigmgr 367x200+1092+230
+wm geometry .sigmgr 367x200+1092+229
+wm geometry .sigmgr 367x200+1091+229
+wm geometry .sigmgr 367x200+1091+227
+wm geometry .sigmgr 367x200+1090+226
+Graph:DSel
+Graph:Select Graph0
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+ScopeSigMgr:Reload 0 {{(1) encoder38_tf.tr0}}
+Mdi:ArrangeIcons
+pf:read PF:4 v(in_a3)
+# WF:4:11
+Graph addsignal WF:4:11 -region new -yview real(y) -xview real(x) -tracehi 2
+# Signal31
+Graph:Select Graph0
+Graph:DSel
+Graph itemselect Signal31 add
+# Signal31
+Graph sigconfig {Signal31 Signal27 Signal28 Signal29 Signal30} -regswap {6 7 8 9 10}
+Graph itemselect Signal31 add
+# Signal31
+Graph sigconfig {Signal31 Signal25 Signal26 Signal27 Signal28 Signal29 Signal30} -regswap {4 5 6 8 9 10 11}
+Graph itemselect Signal31 add
+# Signal31
+Graph sigconfig {Signal31 Signal24 Signal25 Signal26 Signal27 Signal28 Signal29 Signal30} -regswap {3 4 6 7 8 9 10 11}
+Graph:DSel
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Graph:SetCMap 2
+Mdi:ArrangeIcons
+Graph:DSel
+Graph itemselect Signal30 add
+# Signal30
+GrMeas:Falltime Graph0 Signal30 {0.1 0.5 0.9} default default xyrangeAll
+# M:0
+Graph:DSel
+Graph itemselect Signal29 add
+# Signal29
+GrMeas:Falltime Graph0 Signal29 {0.1 0.5 0.9} default default xyrangeAll
+# M:1
+Graph:DSel
+Graph itemselect Signal28 add
+# Signal28
+GrMeas:Falltime Graph0 Signal28 {0.1 0.5 0.9} default default xyrangeAll
+# M:2
+GrMeas:Risetime Graph0 Signal28 {0.1 0.5 0.9} default default xyrangeAll
+# M:3
+Graph:DSel
+Graph itemselect Signal29 add
+# Signal29
+GrMeas:Risetime Graph0 Signal29 {0.1 0.5 0.9} default default xyrangeAll
+# M:4
+Graph:DSel
+Graph itemselect Signal30 add
+# Signal30
+GrMeas:Risetime Graph0 Signal30 {0.1 0.5 0.9} default default xyrangeAll
+# M:5
+Graph:DSel
+Graph itemselect AxisX(0) add
+# AxisX(0)
+Graph:DSel
+Graph itemselect Signal29 add
+# Signal29
+Graph:DSel
+Mdi:ArrangeIcons
+Graph:DSel
+GrMeas:Select Graph0 M:5 4
+GrMeas:MoveText Graph0 M:5 4 31.0 23.0
+Graph:DSel
+GrMeas:Select Graph0 M:0 4
+GrMeas:MoveText Graph0 M:0 4 19.0 25.0
+Graph:DSel
+GrMeas:Select Graph0 M:1 6
+GrMeas:MoveText Graph0 M:1 6 17.0 25.0
+Graph:DSel
+GrMeas:Select Graph0 M:4 6
+GrMeas:MoveText Graph0 M:4 6 31.0 24.0
+Graph:DSel
+Graph:DSel
+GrMeas:Select Graph0 M:2 6
+GrMeas:MoveText Graph0 M:2 6 15.0 25.0
+Graph:DSel
+GrMeas:Select Graph0 M:3 6
+GrMeas:MoveText Graph0 M:3 6 -49.0 22.0
+Graph:DSel
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Graph:SaveGraph Graph0 {C:/Users/Bangonkali/Desktop/EE 272/ENCODER_8_3/analysis} 0 1
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+.frame1.mdi.mdi1.work.graph0 save -file {C:/Users/Bangonkali/Desktop/EE 272/ENCODER_8_3/analysis.png} -format png  -x 0 -y 0 -w 888 -h 1112 -colormode color
+Mdi:ArrangeIcons
+Graph:DSel
+Graph:Select Graph0
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons

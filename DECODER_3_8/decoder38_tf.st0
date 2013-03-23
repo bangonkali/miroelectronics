@@ -1,0 +1,57 @@
+***** HSPICE -- G-2012.06-SP1 32-BIT (Aug 27 2012) win32 ******
+ Input File: decoder38_tf.sp
+ lic:
+ lic: FLEXlm: v10.9.8
+ lic: USER:   Bangonkali           HOSTNAME: Blue
+ lic: HOSTID: "b8975a02aecc 005056c00001 005056c00008 08002700905e" PID:      6660
+ lic: Using FLEXlm license file:
+ lic: 27000@Blue
+ lic: Checkout 1 hspice
+ lic: License/Maintenance for hspice will expire on 31-dec-2019/2019.12
+ lic: NODE LOCKED license on hostid "b8975a02aecc 005056c00001 005056c00008 08002700905e"
+ lic:
+ init: begin read circuit files,  cpu clock=  7.75E+00
+       option search = c:\synopsys\Hspice_G-2012.06-SP1\PARTS\behave\
+       option search = c:\synopsys\Hspice_G-2012.06-SP1\PARTS\behave\
+       option search = c:\synopsys\Hspice_G-2012.06-SP1\PARTS\AD\
+       option search = c:\synopsys\Hspice_G-2012.06-SP1\PARTS\XILINX\
+       option search = c:\synopsys\Hspice_G-2012.06-SP1\PARTS\TLINE\
+       option search = c:\synopsys\Hspice_G-2012.06-SP1\PARTS\TI\
+       option search = c:\synopsys\Hspice_G-2012.06-SP1\PARTS\SIGNET\
+       option search = c:\synopsys\Hspice_G-2012.06-SP1\PARTS\PCI\
+       option search = c:\synopsys\Hspice_G-2012.06-SP1\PARTS\LIN_TECH\
+       option search = c:\synopsys\Hspice_G-2012.06-SP1\PARTS\FET\
+       option search = c:\synopsys\Hspice_G-2012.06-SP1\PARTS\DIO\
+       option search = c:\synopsys\Hspice_G-2012.06-SP1\PARTS\COMLINE\
+       option search = c:\synopsys\Hspice_G-2012.06-SP1\PARTS\BURR_BRN\
+       option search = c:\synopsys\Hspice_G-2012.06-SP1\PARTS\BJT\
+       option search = c:\synopsys\Hspice_G-2012.06-SP1\PARTS\behave\
+       option search = c:\synopsys\Hspice_G-2012.06-SP1\PARTS\AD\
+       option post =     2.00
+       option runlvl
+       option post
+ init: end read circuit files,  cpu clock=  7.81E+00 peak memory=        54 mb
+ init: begin check errors,  cpu clock=  7.81E+00
+ **warning**  No DC path to ground from node        0:                ss
+ init: end check errors,  cpu clock=  7.87E+00 peak memory=        55 mb
+ init: begin setup matrix, pivot=     0 cpu clock=  7.87E+00
+       establish matrix -- done,  cpu clock=  7.88E+00 peak memory=        55 mb
+       re-order matrix -- done,  cpu clock=  7.89E+00 peak memory=        55 mb
+ init: end setup matrix,  cpu clock=  7.90E+00 peak memory=        55 mb
+ dcop: begin dcop,  cpu clock=  7.90E+00
+ dcop: end dcop,  cpu clock=  7.98E+00 peak memory=        57 mb                tot_iter=      26
+ output: decoder38_tf.tr0
+ sweep: tran tran0    begin, stop_t=  3.40E-08 #sweeps=**** cpu clock=  7.99E+00
+ tran: time= 3.4066E-09 tot_iter=     274 conv_iter=      99 cpu clock= 8.12E+00
+ tran: time= 6.8426E-09 tot_iter=     585 conv_iter=     211 cpu clock= 8.26E+00
+ tran: time= 1.0250E-08 tot_iter=     822 conv_iter=     295 cpu clock= 8.38E+00
+ tran: time= 1.3735E-08 tot_iter=    1146 conv_iter=     414 cpu clock= 8.52E+00
+ tran: time= 1.7043E-08 tot_iter=    1419 conv_iter=     507 cpu clock= 8.66E+00
+ tran: time= 2.0404E-08 tot_iter=    1666 conv_iter=     593 cpu clock= 8.79E+00
+ tran: time= 2.4000E-08 tot_iter=    1872 conv_iter=     669 cpu clock= 8.91E+00
+ tran: time= 2.7369E-08 tot_iter=    2218 conv_iter=     792 cpu clock= 9.17E+00
+ tran: time= 3.0612E-08 tot_iter=    2502 conv_iter=     893 cpu clock= 9.30E+00
+ tran: time= 3.4000E-08 tot_iter=    2701 conv_iter=     963 cpu clock= 9.40E+00
+ sweep: tran tran0    end,  cpu clock=  9.41E+00 peak memory=        57 mb
+>info:         ***** hspice job concluded
+ lic: Release hspice token(s)

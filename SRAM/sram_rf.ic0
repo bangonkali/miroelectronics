@@ -1,0 +1,19 @@
+* "simulator" "HSPICE" 
+* "version" "G-2012.06-SP1 64-BIT"
+* "format" "HSP"
+* "rundate" "18:02:43 02/23/2013 "
+* "netlist" "sram_rf.sp "
+* "runtitle" "sram single cell simulation"
+* time =    0.            
+* temperature =   25.0000        
+*** BEGIN: Saved Operating Point ***                     
+.option 
++ gmindc=   1.0000p       
+.nodeset
++ n_obb = 848.7440m       
++ n_obn = 848.7441m       
++ nbb =   1.8000        
++ ndd =   1.8000        
++ nww =   0.            
++ x_sram_cell.bn =  18.0829n       
+***   END: Saved Operating Point ***                     

@@ -1,0 +1,53 @@
+* "simulator" "HSPICE" 
+* "version" "G-2012.06-SP1 32-BIT"
+* "format" "HSP"
+* "rundate" "13:19:11 02/12/2013 "
+* "netlist" "decoder38_tf.sp "
+* "runtitle" "decoder 3-8"
+* time =    0.            
+* temperature =   25.0000        
+*** BEGIN: Saved Operating Point ***                     
+.option 
++ gmindc=   1.0000p       
+.nodeset
++ in_a0 =   1.8000        
++ in_a1 =   1.8000        
++ in_a2 =   1.8000        
++ ndd =   1.8000        
++ out_z0 =  10.4067n       
++ out_z1 =  10.4067n       
++ out_z2 =  10.4067n       
++ out_z3 =  10.4067n       
++ out_z4 =  10.4067n       
++ out_z5 =  10.4067n       
++ out_z6 =  10.4067n       
++ out_z7 =   1.8000        
++ ss =   0.            
++ xdecoder.not_a0 =  10.4067n       
++ xdecoder.not_a1 =  10.4067n       
++ xdecoder.not_a2 =  10.4067n       
++ xdecoder.not_z0 =   1.8000        
++ xdecoder.not_z1 =   1.8000        
++ xdecoder.not_z2 =   1.8000        
++ xdecoder.not_z3 =   1.8000        
++ xdecoder.not_z4 =   1.8000        
++ xdecoder.not_z5 =   1.8000        
++ xdecoder.not_z6 =   1.8000        
++ xdecoder.not_z7 =  93.6604n       
++ xdecoder.xnand3_0.ab =  89.1079m       
++ xdecoder.xnand3_0.bc =  18.0934m       
++ xdecoder.xnand3_1.ab =   1.4951        
++ xdecoder.xnand3_1.bc =  44.1486m       
++ xdecoder.xnand3_2.ab =  48.5862m       
++ xdecoder.xnand3_2.bc =  48.5862m       
++ xdecoder.xnand3_3.ab =   1.4670        
++ xdecoder.xnand3_3.bc =   1.4434        
++ xdecoder.xnand3_4.ab =  49.6206m       
++ xdecoder.xnand3_4.bc =   4.2772n       
++ xdecoder.xnand3_5.ab =   1.4719        
++ xdecoder.xnand3_5.bc =  14.3766n       
++ xdecoder.xnand3_6.ab =  33.1648n       
++ xdecoder.xnand3_6.bc =  16.5824n       
++ xdecoder.xnand3_7.ab =  62.4403n       
++ xdecoder.xnand3_7.bc =  31.2201n       
+***   END: Saved Operating Point ***                     

@@ -1,0 +1,42 @@
+
+{AimConfigMgr:WmCheckpoint {} eval { wm geom . 900x765+30+132; wm minsize . 117 133;}}
+{Mdi {} Mdi:RestoreConfig {Mdi:NewWindow -type graph -title Graph0 -color systemCaptionText -icon 2DGraphA.xpm -ResizeCallBack {} -CloseCallBack Graph:Close -IconifyCallBack Graph:Iconize -constraints {120 75 none} -geom {900 674 {0 0}} -mdiName {.frame1.mdi.mdi1 .frame1.mdi.icon1}
+set mdiWin(.frame1.mdi.mdi1,restoreH) 400
+set mdiWin(.frame1.mdi.mdi1,restoreW) 500
+set mdiWin(.frame1.mdi.mdi1,restoreX) 5
+set mdiWin(.frame1.mdi.mdi1,restoreY) 5
+set mdiWin(Icon,count) 0
+Mdi:WinSel .frame1.mdi.mdi1 0
+Mdi:WinSel .frame1.mdi.mdi1 0
+Mdi:Restore .frame1.mdi.mdi1
+set mdiWin(total) 1
+}}
+{AimCmd {} AimCmd:RestoreConfig {AimCmd:Init
+set AimCmd(title) {Command Line}
+set AimCmd(prompt1) {AIM >}
+set AimCmd(prompt2) >
+set AimCmd(side) right
+set AimCmd(otherSide) left
+set AimCmd(file) {}
+if {[winfo exists $AimCmd(root)]} {destroy $AimCmd(root)}
+}}
+{AimColor {} AimColor:RestoreConfig {AimColor:Init
+set AimColor(title) {Color Editor}
+set AimColor(highlight) #ff0000
+set AimColor(callback) {}
+set AimColor(custom_list) {{} {} {} {} {} {} {} {} {} {} {} {} {} {} {} {}}
+set AimColor(color_list) {64 #FF8080 #FFFF80 #80FF80 #00FF80 #80FFFF #0080FF #FF80C0 #FF80FF #FF0000 #FFFF00 #80FF00 #00FF40 #00FFFF #0080C0 #8080C0 #FF00FF #804040 #FF8040 #00FF00 #008080 #004080 #8080FF #800040 #FF0080 #800000 #FF8000 #008000 #008040 #0000FF #0000A0 #800080 #8000FF #400000 #804000 #004000 #004040 #000080 #000040 #400040 #400080 #808000 #808040 #808080 #408080 #C0C0C0 #400040 #000000 #FFFFFF #000000 #000000 #000000 #000000 #000000 #000000 #000000 #000000 #000000 #000000 #000000 #000000 #000000 #000000 #000000 #000000}
+AimColor:ResetColors
+AimColor:SetCustomSelect 49
+set AimColor(color_index) 1
+if {[winfo exists $AimColor(root)]} {destroy $AimColor(root)}
+}}
+{AimFile {} AimFile:RestoreConfig {set AimFile(openFile) 0
+set AimFile(title) {Save As}
+set AimFile(patterns) {{{Saber pl} {*.*.ai_pl}} {Text {*.txt}} {AWD {*.ai_awd}}}
+set AimFile(initialFile) {}
+set AimFile(initialDir) {C:/Users/Bangonkali/Desktop/EE 272/NAND-3}
+set AimFile(multipleSelect) 0
+}}
+{ScopeSigMgr {} ScopeSigMgr:RestoreConfig {{set ScopeSigMgr(Anchor) c} {set ScopeSigMgr(MultSingle) multiple} {set ScopeSigMgr(Stack) d} {set ScopeSigMgr(Offset) 30} {set ScopeSigMgr(OlistboxX) 150} {set ScopeSigMgr(OlistboxY) 200} {set ScopeSigMgr(Locate) 0} {set ScopeSigMgr(MMMatch) 1} {set ScopeSigMgr(MgrDisp) Both} {set ScopeSigMgr(filepath) {{C:/Users/Bangonkali/Desktop/EE 272/NAND-3} {}}} {set pfname  [ScopeSigMgr:loadpffile C:/Users/Bangonkali/Desktop/EE 272/NAND-3/nand3.tr0 0]} {wm geometry .sigmgr._$pfname 200x331+960+540} {wm deiconify .sigmgr._$pfname}}}
+{Scope {} Scope:RestoreConfig {{graph {C:\Users\Bangonkali\Desktop\EE 272\NAND-3/.scopecfg_data/Graph0} .frame1.mdi.mdi1.work Graph0 {}} {tool .sigmgr normal 367x200+871+187} {tool .aimDraw withdrawn {}} {tool .aimCmd {} {}} {tool .meas {} {}} {tool .aimCalc {} {}} {tool .aimMacroGui {} {}}}}

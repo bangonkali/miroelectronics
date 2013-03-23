@@ -1,0 +1,174 @@
+ ****** HSPICE -- G-2012.06-SP1 64-BIT (Aug 27 2012) win64 ******               
+  Copyright (C) 2012 Synopsys, Inc. All Rights Reserved.                        
+  Unpublished-rights reserved under US copyright laws.
+  This program is protected by law and is subject to the
+  terms and conditions of the license agreement from Synopsys.
+  Use of this program is your acceptance to be bound by the
+  license agreement. HSPICE is the trademark of Synopsys, Inc.
+  Input File: sram_rf.sp                                                        
+  Command line options: -i sram_rf.sp -o sram_rf.lis
+  lic:  
+  lic: FLEXlm: v10.9.8 
+  lic: USER:   Bangonkali           HOSTNAME: Mars 
+  lic: HOSTID: "162f68e80067 742f68e6ba72 742f68e80067 5404a6a87145 005056c00001
+  005056c00008 0800270
+  lic: Using FLEXlm license file: 
+  lic: 27000@Mars 
+  lic: Checkout 1 hspice 
+  lic: License/Maintenance for hspice will expire on 31-dec-2019/2019.12 
+  lic: NODE LOCKED license on hostid "162f68e80067 742f68e6ba72 742f68e80067 540
+ 4a6a87145 005056c0000
+  lic:   
+ Init: read install configuration file: C:\synopsys\Hspice_G-2012.06-SP1\meta.cfg
+1****** HSPICE -- G-2012.06-SP1 64-BIT (Aug 27 2012) win64 ******               
+ ******  
+ sram single cell simulation
+
+  ******  circuit name directory
+ circuit number to circuit name directory
+   number circuitname                     definition         multiplier
+        0 main circuit
+        1 x_sram_cell.                    sram_cell          1.00 
+        2 x_sram_cell.x_inverter.         inverter           1.00 
+  **info** (sram_rf.sp:15) DC voltage reset to initial transient source value              in source        0:vin_bb              new dc=  0.1800D+01
+ 
+
+  
+      
+ **info** set option symb=1 internally to help for convergence.
+ *****************************************************************
+ ******  option summary
+ ******
+ runlvl  = 3         bypass  = 2         
+  Opening plot unit= 79
+ file=sram_rf.pa0
+
+1****** HSPICE -- G-2012.06-SP1 64-BIT (Aug 27 2012) win64 ******               
+ ******  
+ sram single cell simulation
+
+  ******  operating point information tnom=  25.000 temp=  25.000 *****
+ ***** operating point status is all       simulation time is     0.     
+    node    =voltage      node    =voltage      node    =voltage
+
+ +0:n_obb   = 848.7440m 0:n_obn   = 848.7441m 0:nbb     =   1.8000 
+ +0:ndd     =   1.8000  0:nww     =   0.      1:bn      =  18.0829n
+
+
+ **** voltage sources
+
+ subckt                                   
+ element  0:vdd      0:vin_bb   0:vin_ww  
+  volts      1.8000     1.8000     0.     
+  current  -94.8722u   -2.7512p    0.     
+  power    170.7700u    4.9521p    0.     
+
+     total voltage source power dissipation=  170.7700u       watts
+
+
+
+
+ **** mosfets
+
+
+ subckt   x_sram_cel x_sram_cel x_sram_cel x_sram_cel x_sram_cel x_sram_cel
+ element  1:mp1      1:mp2      1:mn1      1:mn2      1:mn4      1:mn3     
+ model    0:pch.12   0:pch.12   0:nch.16   0:nch.16   0:nch.12   0:nch.12  
+ region     Saturati   Saturati   Saturati   Saturati     Cutoff     Cutoff
+  id       -47.4361u  -47.4361u   47.4361u   47.4361u  7.223e-26   -5.1527p
+  ibs      8.999e-21  8.999e-21 -1.567e-20 -1.567e-20   -2.8016a   -3.8607a
+  ibd        4.0109a    4.0109a -196.3469f -196.3470f   -2.8016a -1.974e-24
+  vgs     -951.2559m -951.2560m  848.7441m  848.7440m -848.7440m -848.7441m
+  vds     -951.2560m -951.2559m  848.7440m  848.7441m  951.2560m -848.7441m
+  vbs        0.         0.         0.         0.      -848.7440m -848.7441m
+  vth     -507.2738m -507.2738m  524.2889m  524.2889m  724.5850m  541.6457m
+  vdsat   -328.2554m -328.2555m  209.5979m  209.5979m   44.8630m   43.0832m
+  vod     -443.9822m -443.9822m  324.4552m  324.4552m   -1.5733    -1.3904 
+  beta     504.3128u  504.3128u    1.2126m    1.2126m    1.7161m    1.7630m
+  gam eff  649.3860m  649.3860m  987.9431m  987.9431m    1.0454   963.2205m
+  gm       171.5006u  171.5006u  184.6873u  184.6873u  2.197e-24  149.0279p
+  gds        8.2758u    8.2758u    8.5473u    8.5473u  5.641e-26    2.7649p
+  gmb       58.8917u   58.8917u   51.5430u   51.5430u  4.835e-25   47.5974p
+  cdtot      1.4072f    1.4072f  523.6252a  523.6252a  645.6208a  864.8114a
+  cgtot      1.8823f    1.8823f  632.2375a  632.2375a  626.1237a  626.1145a
+  cstot      2.9864f    2.9864f    1.0101f    1.0101f  716.7682a  716.7682a
+  cbtot      2.8308f    2.8308f    1.0408f    1.0408f    1.2056f    1.4248f
+  cgs        1.4736f    1.4736f  437.7267a  437.7267a  195.7381a  195.7110a
+  cgd      347.5810a  347.5810a  129.1912a  129.1912a  195.7110a  195.7337a
+
+
+
+ subckt   x_sram_cel x_sram_cel
+ element  2:mn1      2:mp2     
+ model    0:nch.16   0:pch.12  
+ region       Linear     Cutoff
+  id        14.1376p   -4.5361p
+  ibs     -4.687e-27  1.204e-27
+  ibd     -1.582e-24  142.0490a
+  vgs        1.8000     0.     
+  vds       18.0829n   -1.8000 
+  vbs        0.         0.     
+  vth      526.6017m -503.4316m
+  vdsat    478.4704m  -40.7720m
+  vod        1.2734   503.4316m
+  beta       1.0262m  537.9989u
+  gam eff  987.9204m  649.3861m
+  gm         4.8042p  126.1801p
+  gds      786.4717u    3.6227p
+  gmb        2.6299p   46.5941p
+  cdtot      1.2475f    1.2600f
+  cgtot    738.6766a    1.1323f
+  cstot      1.1371f    1.7558f
+  cbtot      1.1661f    2.7442f
+  cgs      341.5911a  350.9745a
+  cgd      362.2818a  350.9600a
+
+
+
+
+          ***** job concluded
+1****** HSPICE -- G-2012.06-SP1 64-BIT (Aug 27 2012) win64 ******               
+ ******  
+ sram single cell simulation
+
+  ******  job statistics summary tnom=  25.000 temp=  25.000 *****
+
+  ******  HSPICE Threads Information  ******
+
+  Command Line Threads Count :     1
+  Available CPU Count        :     4
+  Actual Threads Count       :     1
+
+
+  ******  Circuit Statistics  ******
+  # nodes       =      23 # elements   =      13
+  # resistors   =       0 # capacitors =       2 # inductors   =       0
+  # mutual_inds =       0 # vccs       =       0 # vcvs        =       0
+  # cccs        =       0 # ccvs       =       0 # volt_srcs   =       3
+  # curr_srcs   =       0 # diodes     =       0 # bjts        =       0
+  # jfets       =       0 # mosfets    =       8 # U elements  =       0
+  # T elements  =       0 # W elements =       0 # B elements  =       0
+  # S elements  =       0 # P elements =       0 # va device   =       0
+  # vector_srcs =       0 # N elements =       0
+
+
+  ******  Runtime Statistics (seconds)  ******
+
+  analysis           time    # points   tot. iter  conv.iter
+  op point           0.02           1           8
+  transient          0.14       16001         383         171 rev=        27
+  readin             0.31
+  errchk             0.05
+  setup              0.03
+  output             0.00
+
+
+           peak memory used         65.13 megabytes
+           total cpu time            0.64 seconds
+           total elapsed time       12.67 seconds
+           job started at     18:02:43 02/23/2013
+           job ended   at     18:02:55 02/23/2013
+
+
+  lic: Release hspice token(s) 
+ lic: total license checkout elapse time:       12.01(s)

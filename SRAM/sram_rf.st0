@@ -1,0 +1,56 @@
+***** HSPICE -- G-2012.06-SP1 64-BIT (Aug 27 2012) win64 ******
+ Input File: sram_rf.sp
+ lic:
+ lic: FLEXlm: v10.9.8
+ lic: USER:   Bangonkali           HOSTNAME: Mars
+ lic: HOSTID: "162f68e80067 742f68e6ba72 742f68e80067 5404a6a87145 005056c00001 005056c00008 0800270
+ lic: Using FLEXlm license file:
+ lic: 27000@Mars
+ lic: Checkout 1 hspice
+ lic: License/Maintenance for hspice will expire on 31-dec-2019/2019.12
+ lic: NODE LOCKED license on hostid "162f68e80067 742f68e6ba72 742f68e80067 5404a6a87145 005056c0000
+ lic:
+ init: begin read circuit files,  cpu clock=  1.22E+01
+       option search = C:\synopsys\Hspice_G-2012.06-SP1\PARTS\behave\
+       option search = C:\synopsys\Hspice_G-2012.06-SP1\PARTS\behave\
+       option search = C:\synopsys\Hspice_G-2012.06-SP1\PARTS\AD\
+       option search = C:\synopsys\Hspice_G-2012.06-SP1\PARTS\XILINX\
+       option search = C:\synopsys\Hspice_G-2012.06-SP1\PARTS\TLINE\
+       option search = C:\synopsys\Hspice_G-2012.06-SP1\PARTS\TI\
+       option search = C:\synopsys\Hspice_G-2012.06-SP1\PARTS\SIGNET\
+       option search = C:\synopsys\Hspice_G-2012.06-SP1\PARTS\PCI\
+       option search = C:\synopsys\Hspice_G-2012.06-SP1\PARTS\LIN_TECH\
+       option search = C:\synopsys\Hspice_G-2012.06-SP1\PARTS\FET\
+       option search = C:\synopsys\Hspice_G-2012.06-SP1\PARTS\DIO\
+       option search = C:\synopsys\Hspice_G-2012.06-SP1\PARTS\COMLINE\
+       option search = C:\synopsys\Hspice_G-2012.06-SP1\PARTS\BURR_BRN\
+       option search = C:\synopsys\Hspice_G-2012.06-SP1\PARTS\BJT\
+       option search = C:\synopsys\Hspice_G-2012.06-SP1\PARTS\behave\
+       option search = C:\synopsys\Hspice_G-2012.06-SP1\PARTS\AD\
+       option post =     2.00
+       option runlvl
+       option post
+ init: end read circuit files,  cpu clock=  1.23E+01 peak memory=        64 mb
+ init: begin check errors,  cpu clock=  1.23E+01
+ init: end check errors,  cpu clock=  1.24E+01 peak memory=        64 mb
+ init: begin setup matrix, pivot=     0 cpu clock=  1.24E+01
+       establish matrix -- done,  cpu clock=  1.24E+01 peak memory=        64 mb
+       re-order matrix -- done,  cpu clock=  1.24E+01 peak memory=        64 mb
+ init: end setup matrix,  cpu clock=  1.24E+01 peak memory=        64 mb
+ dcop: begin dcop,  cpu clock=  1.24E+01
+ dcop: end dcop,  cpu clock=  1.24E+01 peak memory=        64 mb                tot_iter=       8
+ output: sram_rf.tr0
+ sweep: tran tran0    begin, stop_t=  1.60E-08 #sweeps=**** cpu clock=  1.25E+01
+ tran: time= 2.0048E-09 tot_iter=      60 conv_iter=      24 cpu clock= 1.25E+01
+ tran: time= 3.6996E-09 tot_iter=      99 conv_iter=      43 cpu clock= 1.25E+01
+ tran: time= 4.8135E-09 tot_iter=     132 conv_iter=      59 cpu clock= 1.25E+01
+ tran: time= 6.5339E-09 tot_iter=     165 conv_iter=      75 cpu clock= 1.26E+01
+ tran: time= 8.0000E-09 tot_iter=     171 conv_iter=      78 cpu clock= 1.26E+01
+ tran: time= 1.0100E-08 tot_iter=     271 conv_iter=     116 cpu clock= 1.26E+01
+ tran: time= 1.1506E-08 tot_iter=     303 conv_iter=     132 cpu clock= 1.26E+01
+ tran: time= 1.3095E-08 tot_iter=     338 conv_iter=     149 cpu clock= 1.26E+01
+ tran: time= 1.4546E-08 tot_iter=     375 conv_iter=     167 cpu clock= 1.26E+01
+ tran: time= 1.6000E-08 tot_iter=     381 conv_iter=     170 cpu clock= 1.26E+01
+ sweep: tran tran0    end,  cpu clock=  1.27E+01 peak memory=        64 mb
+>info:         ***** hspice job concluded
+ lic: Release hspice token(s)

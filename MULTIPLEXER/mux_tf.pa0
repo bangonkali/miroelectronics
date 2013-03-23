@@ -1,0 +1,13 @@
+       1 xmux.
+       2 xmux.xnand3_a0.
+       3 xmux.xnand3_a1.
+       4 xmux.xnand3_a2.
+       5 xmux.xnand3_a3.
+       6 xmux.xnot_n0.
+       7 xmux.xnot_n1.
+       8 xmux.xnot_n2.
+       9 xmux.xnot_n3.
+      10 xmux.xnot_s0.
+      11 xmux.xnot_s1.
+      12 xmux.xnor4.
+      13 xmux.xnot_z0.

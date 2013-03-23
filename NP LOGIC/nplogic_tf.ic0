@@ -1,0 +1,29 @@
+* "simulator" "HSPICE" 
+* "version" "G-2012.06-SP1 64-BIT"
+* "format" "HSP"
+* "rundate" "17:43:41 02/16/2013 "
+* "netlist" "nplogic_tf.sp "
+* "runtitle" "np logic simulation"
+* time =    0.            
+* temperature =   25.0000        
+*** BEGIN: Saved Operating Point ***                     
+.option 
++ gmindc=   1.0000p       
+.nodeset
++ clk =   1.8000        
++ in_a =   1.8000        
++ in_b =   1.8000        
++ in_f =   1.8000        
++ in_h =   1.8000        
++ in_y =   1.8000        
++ ndd =   1.8000        
++ out =  17.3445n       
++ x_nplogic.ab =  20.8134n       
++ x_nplogic.clki =  10.4067n       
++ x_nplogic.dout =  10.4067n       
++ x_nplogic.dx =  10.4067n       
++ x_nplogic.fg =  13.8756n       
++ x_nplogic.g =   1.8000        
++ x_nplogic.x =  31.2201n       
++ x_nplogic.xy =   1.8000        
+***   END: Saved Operating Point ***                     

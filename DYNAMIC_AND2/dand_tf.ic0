@@ -1,0 +1,21 @@
+* "simulator" "HSPICE" 
+* "version" "G-2012.06-SP1 64-BIT"
+* "format" "HSP"
+* "rundate" "15:35:03 02/16/2013 "
+* "netlist" "dand_tf.sp "
+* "runtitle" "2 input dynamic and"
+* time =    0.            
+* temperature =   25.0000        
+*** BEGIN: Saved Operating Point ***                     
+.option 
++ gmindc=   1.0000p       
+.nodeset
++ clk =   1.8000        
++ in_a =   1.8000        
++ in_b =   1.8000        
++ ndd =   1.8000        
++ out =   1.8000        
++ x_domino_and.ab =  15.1424n       
++ x_domino_and.b_clk =   7.5712n       
++ x_domino_and.w =  22.7136n       
+***   END: Saved Operating Point ***                     

@@ -1,0 +1,44 @@
+* "simulator" "HSPICE" 
+* "version" "G-2012.06-SP1 32-BIT"
+* "format" "HSP"
+* "rundate" "14:30:07 02/12/2013 "
+* "netlist" "mux_tf.sp "
+* "runtitle" "encoder 8-3"
+* time =    0.            
+* temperature =   25.0000        
+*** BEGIN: Saved Operating Point ***                     
+.option 
++ gmindc=   1.0000p       
+.nodeset
++ in_a0 =   1.8000        
++ in_a1 =   1.8000        
++ in_a2 =   1.8000        
++ in_a3 =   1.8000        
++ in_s0 =   1.8000        
++ in_s1 =   1.8000        
++ ndd =   1.8000        
++ out_z =   1.8000        
++ ss =   0.            
++ xmux.n0 =   1.8000        
++ xmux.n1 =   1.8000        
++ xmux.n2 =   1.8000        
++ xmux.n3 =  93.6604n       
++ xmux.not_n0 =  10.4067n       
++ xmux.not_n1 =  10.4067n       
++ xmux.not_n2 =  10.4067n       
++ xmux.not_n3 =   1.8000        
++ xmux.not_s0 =  10.4067n       
++ xmux.not_s1 =  10.4067n       
++ xmux.not_z =  10.4067n       
++ xmux.xnand3_a0.ab =   1.4951        
++ xmux.xnand3_a0.bc =  44.1486m       
++ xmux.xnand3_a1.ab =   1.4719        
++ xmux.xnand3_a1.bc =  14.3766n       
++ xmux.xnand3_a2.ab =   1.4670        
++ xmux.xnand3_a2.bc =   1.4434        
++ xmux.xnand3_a3.ab =  62.4403n       
++ xmux.xnand3_a3.bc =  31.2201n       
++ xmux.xnor4.ab =   1.8000        
++ xmux.xnor4.bc =   1.8000        
++ xmux.xnor4.cd =   1.8000        
+***   END: Saved Operating Point ***                     

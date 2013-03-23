@@ -1,0 +1,18 @@
+* "simulator" "HSPICE" 
+* "version" "G-2012.06-SP1 32-BIT"
+* "format" "HSP"
+* "rundate" "12:16:01 02/12/2013 "
+* "netlist" "no3_tf.sp "
+* "runtitle" "nor 3 input test bench"
+* time =    0.            
+* temperature =   25.0000        
+*** BEGIN: Saved Operating Point ***                     
+.option 
++ gmindc=   1.0000p       
+.nodeset
++ a =   1.8000        
++ b =   1.8000        
++ c =   1.8000        
++ ndd =   1.8000        
++ out =   1.3778n       
+***   END: Saved Operating Point ***                     

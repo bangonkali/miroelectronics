@@ -1,0 +1,4 @@
+       1 x_sram_cell_0.
+       2 x_sram_cell_1.
+       3 x_sram_cell_0.x_inverter.
+       4 x_sram_cell_1.x_inverter.

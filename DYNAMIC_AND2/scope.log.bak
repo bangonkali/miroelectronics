@@ -1,0 +1,53 @@
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+ScopeSigMgr:loadpffile {{C:/Users/Bangonkali/Desktop/EE 272/DYNAMIC_AND2/dand_tf.tr0}} 1 openonly
+# PF:8
+Mdi:NormalSize
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+ScopeSigMgr:loadpffile {{C:/Users/Bangonkali/Desktop/EE 272/DYNAMIC_AND2/dand_tf.tr0}} 1 openonly
+# PF:8
+ScopeSigMgr:Unload 0 {{(2) dand_tf.tr0}}
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+ScopeSigMgr:Unload 1
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+ScopeSigMgr:loadpffile {{C:/Users/Bangonkali/Desktop/EE 272/DYNAMIC_AND2/dand_tf.tr0}} 1 openonly
+Mdi:ArrangeIcons
+GrXY:NewGraph
+# Graph2
+pf:read PF:9 v(in_b)
+# WF:9:1
+Graph addsignal WF:9:1 -region new -yview real(y) -xview real(x) -tracehi 2
+# Signal0
+pf:read PF:9 v(in_a)
+# WF:9:2
+Graph addsignal WF:9:2 -region new -yview real(y) -xview real(x) -tracehi 2
+# Signal1
+pf:read PF:9 v(clk)
+# WF:9:3
+Graph addsignal WF:9:3 -region new -yview real(y) -xview real(x) -tracehi 2
+# Signal2
+pf:read PF:9 v(out)
+# WF:9:4
+Graph addsignal WF:9:4 -region new -yview real(y) -xview real(x) -tracehi 2
+# Signal3
+Mdi:FullSize
+Mdi:Move 86 83
+Mdi:Move 47 42
+Mdi:NormalSize
+Mdi:FullSize
+Mdi:ArrangeIcons
+wm geometry . 1366x696+20+20
+Mdi:ArrangeIcons
+ScopeSigMgr:Unload 0 {{(1) dand_tf.tr0}}
+Graph2 delsignal Signal0
+Graph2 delsignal Signal1
+Graph2 delsignal Signal2
+Graph2 delsignal Signal3
+Mdi:Move -105 32
+Mdi:Move -77 -9

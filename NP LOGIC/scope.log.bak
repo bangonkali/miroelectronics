@@ -1,0 +1,82 @@
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+wm geometry . 1246x628+26+19
+Mdi:ArrangeIcons
+wm geometry . 1246x628+27+19
+Mdi:ArrangeIcons
+wm geometry . 1246x628+28+19
+Mdi:ArrangeIcons
+wm geometry . 1246x628+29+19
+Mdi:ArrangeIcons
+wm geometry . 1246x628+30+19
+Mdi:ArrangeIcons
+wm geometry . 1246x628+31+19
+Mdi:ArrangeIcons
+wm geometry . 1246x628+32+19
+Mdi:ArrangeIcons
+wm geometry . 1246x628+33+19
+Mdi:ArrangeIcons
+wm geometry . 1246x628+34+20
+Mdi:ArrangeIcons
+wm geometry . 1246x628+35+21
+Mdi:ArrangeIcons
+wm geometry . 1246x628+36+21
+Mdi:ArrangeIcons
+wm geometry . 1246x628+37+22
+Mdi:ArrangeIcons
+wm geometry . 1246x628+38+22
+Mdi:ArrangeIcons
+wm geometry . 1246x628+38+23
+Mdi:ArrangeIcons
+wm geometry . 1246x628+40+24
+Mdi:ArrangeIcons
+wm geometry . 1246x628+41+25
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+ScopeSigMgr:Unload 1
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+ScopeSigMgr:loadpffile {{C:/Users/Bangonkali/Desktop/EE 272/NP LOGIC/nplogic_tf.tr0}} 1 openonly
+# PF:8
+GrXY:NewGraph
+# Graph2
+pf:read PF:8 v(in_a)
+# WF:8:1
+Graph addsignal WF:8:1 -region new -yview real(y) -xview real(x) -tracehi 2
+# Signal0
+pf:read PF:8 v(in_b)
+# WF:8:2
+Graph addsignal WF:8:2 -region new -yview real(y) -xview real(x) -tracehi 2
+# Signal1
+pf:read PF:8 v(in_f)
+# WF:8:3
+Graph addsignal WF:8:3 -region new -yview real(y) -xview real(x) -tracehi 2
+# Signal2
+pf:read PF:8 v(in_h)
+# WF:8:4
+Graph addsignal WF:8:4 -region new -yview real(y) -xview real(x) -tracehi 2
+# Signal3
+pf:read PF:8 v(in_y)
+# WF:8:5
+Graph addsignal WF:8:5 -region new -yview real(y) -xview real(x) -tracehi 2
+# Signal4
+pf:read PF:8 v(out)
+# WF:8:6
+Graph addsignal WF:8:6 -region new -yview real(y) -xview real(x) -tracehi 2
+# Signal5
+Mdi:FullSize
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+ScopeSigMgr:Unload 0 {{(1) nplogic_tf.tr0}}
+Graph2 delsignal Signal0
+Graph2 delsignal Signal1
+Graph2 delsignal Signal2
+Graph2 delsignal Signal3
+Graph2 delsignal Signal4
+Graph2 delsignal Signal5
+Mdi:ArrangeIcons
+Graph:SaveGraph Graph2 {C:\Users\Bangonkali\Desktop\EE 272\NP LOGIC/.scopecfg_data/Graph2} 0

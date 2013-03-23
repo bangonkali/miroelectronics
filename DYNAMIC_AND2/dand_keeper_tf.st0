@@ -1,0 +1,56 @@
+***** HSPICE -- G-2012.06-SP1 64-BIT (Aug 27 2012) win64 ******
+ Input File: dand_keeper_tf.sp
+ lic:
+ lic: FLEXlm: v10.9.8
+ lic: USER:   Bangonkali           HOSTNAME: Mars
+ lic: HOSTID: "162f68e80067 742f68e6ba72 742f68e80067 5404a6a87145 005056c00001 005056c00008 0800270
+ lic: Using FLEXlm license file:
+ lic: 27000@Mars
+ lic: Checkout 1 hspice
+ lic: License/Maintenance for hspice will expire on 31-dec-2019/2019.12
+ lic: NODE LOCKED license on hostid "162f68e80067 742f68e6ba72 742f68e80067 5404a6a87145 005056c0000
+ lic:
+ init: begin read circuit files,  cpu clock=  9.86E+00
+       option search = C:\synopsys\Hspice_G-2012.06-SP1\PARTS\behave\
+       option search = C:\synopsys\Hspice_G-2012.06-SP1\PARTS\behave\
+       option search = C:\synopsys\Hspice_G-2012.06-SP1\PARTS\AD\
+       option search = C:\synopsys\Hspice_G-2012.06-SP1\PARTS\XILINX\
+       option search = C:\synopsys\Hspice_G-2012.06-SP1\PARTS\TLINE\
+       option search = C:\synopsys\Hspice_G-2012.06-SP1\PARTS\TI\
+       option search = C:\synopsys\Hspice_G-2012.06-SP1\PARTS\SIGNET\
+       option search = C:\synopsys\Hspice_G-2012.06-SP1\PARTS\PCI\
+       option search = C:\synopsys\Hspice_G-2012.06-SP1\PARTS\LIN_TECH\
+       option search = C:\synopsys\Hspice_G-2012.06-SP1\PARTS\FET\
+       option search = C:\synopsys\Hspice_G-2012.06-SP1\PARTS\DIO\
+       option search = C:\synopsys\Hspice_G-2012.06-SP1\PARTS\COMLINE\
+       option search = C:\synopsys\Hspice_G-2012.06-SP1\PARTS\BURR_BRN\
+       option search = C:\synopsys\Hspice_G-2012.06-SP1\PARTS\BJT\
+       option search = C:\synopsys\Hspice_G-2012.06-SP1\PARTS\behave\
+       option search = C:\synopsys\Hspice_G-2012.06-SP1\PARTS\AD\
+       option post =     2.00
+       option runlvl
+       option post
+ init: end read circuit files,  cpu clock=  9.93E+00 peak memory=        65 mb
+ init: begin check errors,  cpu clock=  9.93E+00
+ init: end check errors,  cpu clock=  9.95E+00 peak memory=        65 mb
+ init: begin setup matrix, pivot=     0 cpu clock=  9.95E+00
+       establish matrix -- done,  cpu clock=  9.96E+00 peak memory=        65 mb
+       re-order matrix -- done,  cpu clock=  9.96E+00 peak memory=        65 mb
+ init: end setup matrix,  cpu clock=  9.97E+00 peak memory=        65 mb
+ dcop: begin dcop,  cpu clock=  9.97E+00
+ dcop: end dcop,  cpu clock=  9.98E+00 peak memory=        65 mb                tot_iter=       4
+ output: dand_keeper_tf.tr0
+ sweep: tran tran0    begin, stop_t=  1.28E-07 #sweeps=**** cpu clock=  9.99E+00
+ tran: time= 1.2821E-08 tot_iter=     818 conv_iter=     311 cpu clock= 1.03E+01
+ tran: time= 2.5636E-08 tot_iter=    1581 conv_iter=     607 cpu clock= 1.06E+01
+ tran: time= 3.8450E-08 tot_iter=    2328 conv_iter=     909 cpu clock= 1.08E+01
+ tran: time= 5.1250E-08 tot_iter=    2995 conv_iter=    1189 cpu clock= 1.11E+01
+ tran: time= 6.4086E-08 tot_iter=    3661 conv_iter=    1462 cpu clock= 1.13E+01
+ tran: time= 7.6824E-08 tot_iter=    4426 conv_iter=    1756 cpu clock= 1.16E+01
+ tran: time= 8.9651E-08 tot_iter=    5193 conv_iter=    2055 cpu clock= 1.18E+01
+ tran: time= 1.0245E-07 tot_iter=    5934 conv_iter=    2356 cpu clock= 1.20E+01
+ tran: time= 1.1525E-07 tot_iter=    6601 conv_iter=    2636 cpu clock= 1.22E+01
+ tran: time= 1.2800E-07 tot_iter=    7265 conv_iter=    2908 cpu clock= 1.24E+01
+ sweep: tran tran0    end,  cpu clock=  1.24E+01 peak memory=        64 mb
+>info:         ***** hspice job concluded
+ lic: Release hspice token(s)

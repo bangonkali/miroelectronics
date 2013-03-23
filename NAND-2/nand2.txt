@@ -1,0 +1,39 @@
+NAND 2 Input
+
+*********** define parameters *********** 
+.PARAM LMIN=0.18u
+.PARAM PVDD=1.8
+
+****** Anlysis Options **********
+.option post
+.op
+.tran 1e-15 8n
+
+***************** define stimulii ********************* 
+Vdd ndd 0 PVDD
+Vin a   0 pulse (PVDD 0 0 0.5n 0.5n 1n 4n)
+Vin a   0 pulse (PVDD 0 0 0.5n 0.5n 2n 4n)
+
+***** define global nodes for use a subcircuits ***** 
+.global ndd
+
+********* define main circuit ****************** 
+Xnand  ndd  0  a  b  out  nand
+Cout   out  0  0.01f
+
+*** define subcircuits (modules) ***** 
+.subckt nand ndd nss a b out
+    MN1 ab  b   nss   nss l='1*LMIN' w='2*LMIN'
+    MN2 out a   ab    nss l='1*LMIN' w='2*LMIN'
+    
+    MP3 out a   ndd   ndd l='1*LMIN' w='6*LMIN'
+    MP4 out b   ndd   ndd l='1*LMIN' w='6*LMIN'
+.ends
+
+
+********* load 0.35u library *********
+.prot
+.lib "C:\synopsys\rf018.l" TT
+.unprot
+
+.end

@@ -1,0 +1,38 @@
+* "simulator" "HSPICE" 
+* "version" "G-2012.06-SP1 32-BIT"
+* "format" "HSP"
+* "rundate" "13:58:59 02/12/2013 "
+* "netlist" "encoder38_tf.sp "
+* "runtitle" "encoder 8-3"
+* time =    0.            
+* temperature =   25.0000        
+*** BEGIN: Saved Operating Point ***                     
+.option 
++ gmindc=   1.0000p       
+.nodeset
++ in_a0 =   0.            
++ in_a1 =   0.            
++ in_a2 =   0.            
++ in_a3 =   0.            
++ in_a4 =   0.            
++ in_a5 =   0.            
++ in_a6 =   0.            
++ in_a7 =   0.            
++ ndd =   1.8000        
++ out_z0 =  10.4068n       
++ out_z1 =  10.4068n       
++ out_z2 =  10.4068n       
++ ss =   0.            
++ xencoder.not_z0 =   1.8000        
++ xencoder.not_z1 =   1.8000        
++ xencoder.not_z2 =   1.8000        
++ xencoder.xnor4_0.ab =   1.8000        
++ xencoder.xnor4_0.bc =   1.8000        
++ xencoder.xnor4_0.cd =   1.8000        
++ xencoder.xnor4_1.ab =   1.8000        
++ xencoder.xnor4_1.bc =   1.8000        
++ xencoder.xnor4_1.cd =   1.8000        
++ xencoder.xnor4_2.ab =   1.8000        
++ xencoder.xnor4_2.bc =   1.8000        
++ xencoder.xnor4_2.cd =   1.8000        
+***   END: Saved Operating Point ***                     

@@ -1,0 +1,62 @@
+SRAM 2 CELL SIMULATION
+
+****** PARAMETER DEFINITION 
+.PARAM LMIN=0.18u
+.PARAM PVDD=1.8
+.PARAM RFTIME=0.1n
+
+****** ANALYSIS PARAMTERS
+.option post
+.op
+.tran 1e-12 '35n'
+
+****** STIMULI 
+Vdd ndd 0 PVDD
+
+** INPUTS FOR SRAM_CELL_0
+Vin_bb_0 nbb_0  0 pulse (PVDD 0 0 RFTIME RFTIME 08n 16n)
+
+** INPUTS FOR SRAM_CELL_1
+Vin_bb_1 nbb_1  0 pulse (PVDD 0 0 RFTIME RFTIME 16n 32n)
+
+Vin_ww nww  0 pulse (0    PVDD 0 RFTIME RFTIME 02n 04n)
+
+** CAPS FOR SRAM_CELL_0 OUTPUT
+Co_bb_0 n_obb_0 0 1f
+Co_bn_0 n_obn_0 0 1f
+
+** CAPS FOR SRAM_CELL_1 OUTPUT
+Co_bb_1 n_obb_1 0 1f
+Co_bn_1 n_obn_1 0 1f
+
+****** MAIN CIRCUIT : SINGLE SRAM CELL SIMULATION
+X_sram_cell_0 ndd 0 nww nbb_0 n_obb_0 n_obn_0 sram_cell
+X_sram_cell_1 ndd 0 nww nbb_1 n_obb_1 n_obn_1 sram_cell
+
+****** SRAM CELL
+.subckt sram_cell dd ss ww bb obb obn   
+
+x_inverter dd ss bb bn inverter
+
+MP1 obb      obn       dd        dd    pch l=LMIN w='6*LMIN'
+MP2 obn      obb       dd        dd    pch l=LMIN w='6*LMIN'
+
+MN1 obb      obn       ss        ss    nch l=LMIN w='2*LMIN'
+MN2 obn      obb       ss        ss    nch l=LMIN w='2*LMIN'
+
+MN4 bb       ww        obb       ss    nch l=LMIN w='3*LMIN'
+MN3 bn       ww        obn       ss    nch l=LMIN w='3*LMIN'
+.ends
+
+****** INVERTER CELL
+.subckt inverter ndd nss in out
+    MN1 out in nss nss nch l='1*LMIN' w='2*LMIN'
+    MP2 out in ndd ndd pch l='1*LMIN' w='6*LMIN'
+.ends
+
+****** LIBRARY
+.prot
+.lib "C:\synopsys\rf018.l" TT
+.unprot
+
+.end

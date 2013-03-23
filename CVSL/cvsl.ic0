@@ -1,0 +1,24 @@
+* "simulator" "HSPICE" 
+* "version" "G-2012.06-SP1 32-BIT"
+* "format" "HSP"
+* "rundate" "14:49:17 02/05/2013 "
+* "netlist" "cvsl.sp "
+* "runtitle" "cvsl"
+* time =    0.            
+* temperature =   25.0000        
+*** BEGIN: Saved Operating Point ***                     
+.option 
++ gmindc=   1.0000p       
+.nodeset
++ in_!a =   0.            
++ in_!b =   0.            
++ in_!c =   0.            
++ in_a =   1.8000        
++ in_b =   1.8000        
++ in_c =   1.8000        
++ vdd =   1.8000        
++ z =   1.8000        
++ z! =   9.7401n       
++ x_cvsl.j =   1.4200        
++ x_cvsl.k =   4.8700n       
+***   END: Saved Operating Point ***                     

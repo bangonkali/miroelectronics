@@ -1,0 +1,17 @@
+* "simulator" "HSPICE" 
+* "version" "G-2012.06-SP1 32-BIT"
+* "format" "HSP"
+* "rundate" "12:02:15 02/12/2013 "
+* "netlist" "nor2_tf.sp "
+* "runtitle" "nor 2 input"
+* time =    0.            
+* temperature =   25.0000        
+*** BEGIN: Saved Operating Point ***                     
+.option 
++ gmindc=   1.0000p       
+.nodeset
++ a =   0.            
++ b =   0.            
++ ndd =   1.8000        
++ out =   1.8000        
+***   END: Saved Operating Point ***                     

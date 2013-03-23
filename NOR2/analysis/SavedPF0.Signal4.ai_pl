@@ -1,0 +1,18 @@
+program       aim
+command       calculator
+data_file     SavedPF0.Signal4.p2
+created       2/12/2013 (12:09:07 PM)
+machine_id    1001
+byte_order    little_endian
+fp_format     ieee
+xname         t
+xunits        s
+xrange        I 0 15.99999954749n
+ynames
+   v(b)
+yunits
+   V
+ytype         real
+ncolumns      2
+npoints       194
+format        binary

@@ -1,0 +1,451 @@
+Mdi:ArrangeIcons
+ScopeSigMgr:loadpffile {{C:/Users/Bangonkali/Desktop/EE 272/DYNAMIC_AND2/dand_tf.tr0}}
+# PF:8
+GrXY:NewGraph
+# Graph2
+pf:read PF:8 v(in_a)
+# WF:8:1
+Graph addsignal WF:8:1 -region new -yview real(y) -xview real(x) -tracehi 2
+# Signal0
+pf:read PF:8 v(in_b)
+# WF:8:2
+Graph addsignal WF:8:2 -region new -yview real(y) -xview real(x) -tracehi 2
+# Signal1
+pf:read PF:8 v(clk)
+# WF:8:3
+Graph addsignal WF:8:3 -region new -yview real(y) -xview real(x) -tracehi 2
+# Signal2
+pf:read PF:8 v(out)
+# WF:8:4
+Graph addsignal WF:8:4 -region new -yview real(y) -xview real(x) -tracehi 2
+# Signal3
+Mdi:FullSize
+wm geometry .sigmgr._PF:8 200x331+719+414
+wm geometry .sigmgr._PF:8 200x331+721+413
+wm geometry .sigmgr._PF:8 200x331+740+412
+wm geometry .sigmgr._PF:8 200x331+757+411
+wm geometry .sigmgr._PF:8 200x331+798+405
+wm geometry .sigmgr._PF:8 200x331+830+400
+wm geometry .sigmgr._PF:8 200x331+861+398
+wm geometry .sigmgr._PF:8 200x331+889+398
+wm geometry .sigmgr._PF:8 200x331+914+398
+wm geometry .sigmgr._PF:8 200x331+939+398
+wm geometry .sigmgr._PF:8 200x331+950+398
+wm geometry .sigmgr._PF:8 200x331+965+398
+wm geometry .sigmgr._PF:8 200x331+967+398
+wm geometry .sigmgr._PF:8 200x331+972+398
+wm geometry .sigmgr._PF:8 200x331+974+398
+wm geometry .sigmgr._PF:8 200x331+977+398
+wm geometry .sigmgr._PF:8 200x331+978+400
+wm geometry .sigmgr._PF:8 200x331+979+400
+wm geometry .sigmgr._PF:8 200x331+980+400
+wm geometry .sigmgr._PF:8 200x331+982+398
+wm geometry .sigmgr._PF:8 200x331+988+396
+wm geometry .sigmgr._PF:8 200x331+992+393
+wm geometry .sigmgr._PF:8 200x331+1007+387
+wm geometry .sigmgr._PF:8 200x331+1021+382
+wm geometry .sigmgr._PF:8 200x331+1041+376
+wm geometry .sigmgr._PF:8 200x331+1061+369
+wm geometry .sigmgr._PF:8 200x331+1086+363
+wm geometry .sigmgr._PF:8 200x331+1108+357
+wm geometry .sigmgr._PF:8 200x331+1117+354
+wm geometry .sigmgr._PF:8 200x331+1129+349
+wm geometry .sigmgr._PF:8 200x331+1135+347
+wm geometry .sigmgr._PF:8 200x331+1143+345
+wm geometry .sigmgr._PF:8 200x331+1145+344
+wm geometry .sigmgr._PF:8 200x331+1149+342
+wm geometry .sigmgr._PF:8 200x331+1151+341
+wm geometry .sigmgr._PF:8 200x331+1152+340
+wm geometry .sigmgr._PF:8 200x331+1153+340
+wm geometry .sigmgr._PF:8 200x331+1154+340
+wm geometry .sigmgr._PF:8 200x331+1154+341
+wm geometry .sigmgr._PF:8 200x331+1154+342
+wm geometry .sigmgr._PF:8 200x331+1154+343
+wm geometry .sigmgr._PF:8 200x331+1154+344
+wm geometry .sigmgr._PF:8 200x331+1154+345
+wm geometry .sigmgr._PF:8 200x331+1153+345
+wm geometry .sigmgr._PF:8 200x331+1152+345
+wm geometry .sigmgr._PF:8 200x331+1151+345
+wm geometry .sigmgr._PF:8 200x331+1150+346
+wm geometry .sigmgr._PF:8 200x331+1149+346
+wm geometry .sigmgr._PF:8 200x331+1148+346
+wm geometry .sigmgr._PF:8 200x331+1147+346
+wm geometry .sigmgr._PF:8 200x331+1146+346
+wm geometry .sigmgr._PF:8 200x331+1145+346
+wm geometry .sigmgr._PF:8 200x331+1144+346
+wm geometry .sigmgr._PF:8 200x331+1143+346
+wm geometry .sigmgr._PF:8 200x331+1143+347
+wm geometry .sigmgr._PF:8 200x331+1142+347
+wm geometry .sigmgr._PF:8 200x331+1141+347
+wm geometry .sigmgr._PF:8 200x331+1142+347
+wm geometry .sigmgr._PF:8 200x331+1143+347
+Mdi:ArrangeIcons
+wm geometry . 1243x628+20+20
+Mdi:ArrangeIcons
+wm geometry . 1003x628+20+20
+Mdi:ArrangeIcons
+wm geometry . 1004x628+20+20
+Mdi:ArrangeIcons
+wm geometry . 1015x628+20+20
+Mdi:ArrangeIcons
+wm geometry . 1021x628+20+20
+Mdi:ArrangeIcons
+wm geometry . 1022x628+20+20
+Mdi:ArrangeIcons
+wm geometry . 1021x628+20+20
+Mdi:ArrangeIcons
+wm geometry . 954x628+20+20
+Mdi:ArrangeIcons
+wm geometry . 958x628+20+20
+Mdi:ArrangeIcons
+wm geometry . 967x628+20+20
+Graph:DSel
+Graph:Select Graph2
+Graph axisconfig {AxisX(0) AxisY(0,0) AxisY(1,0) AxisY(2,0) AxisY(3,0)} -range {all all all all all} -zoomed {0 0 0 0 0}
+Graph:DSel
+Graph:DSel
+Graph:DSel
+Graph:SetCMap 2
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+.frame1.mdi.mdi3.work.graph2 save -file {C:/Users/Bangonkali/Desktop/EE 272/DYNAMIC_AND2/1.png} -format png  -x 0 -y 0 -w 955 -h 505 -colormode color
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+wm geometry . 966x628+20+20
+Mdi:ArrangeIcons
+wm geometry . 872x628+20+20
+Mdi:ArrangeIcons
+wm geometry . 861x628+20+20
+Mdi:ArrangeIcons
+wm geometry . 854x628+20+20
+Mdi:ArrangeIcons
+wm geometry . 853x628+20+20
+Mdi:ArrangeIcons
+wm geometry . 831x628+20+20
+Mdi:ArrangeIcons
+wm geometry . 832x628+20+20
+Mdi:ArrangeIcons
+wm geometry . 833x628+20+20
+Mdi:ArrangeIcons
+wm geometry . 834x628+20+20
+Graph:DSel
+Graph axisconfig {AxisY(3,0) AxisX(0)} -range {{-0.38141698377222 2.4704511666821} {68.6289n 41.4968n}}
+Graph:DSel
+Graph axisconfig {AxisY(3,0) AxisX(0)} -range {{-0.91493360223535 2.1270590915826} {64.63472974n 48.48966584n}}
+Graph:DSel
+Graph axisconfig {AxisY(3,0) AxisX(0)} -range {{2.6594078130008 -0.61073433285355} {48.48966584n 64.90306876n}}
+Graph:DSel
+Graph axisconfig {AxisY(0,0) AxisX(0) AxisY(1,0) AxisY(2,0) AxisY(3,0)} -range {{0.593 1.286 } {49.9n 59.8n } {0.593 1.286 } {0.593 1.286 } {-0.02 1.96 }}
+Graph axisconfig {AxisY(0,0) AxisX(0) AxisY(1,0) AxisY(2,0) AxisY(3,0)} -range {{0.83 1.16 } {51.96n 55.92n } {0.83 1.16 } {0.83 1.16 } {-0.01 0.98 }}
+Graph axisconfig {AxisX(0) AxisY(0,0) AxisY(1,0) AxisY(2,0) AxisY(3,0)} -range {all all all all all} -zoomed {0 0 0 0 0}
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+.frame1.mdi.mdi3.work.graph2 save -file {C:/Users/Bangonkali/Desktop/EE 272/DYNAMIC_AND2/1.png} -format png  -x 0 -y 0 -w 822 -h 505 -colormode color
+Graph:DSel
+Mdi:ArrangeIcons
+Graph:DSel
+Graph:DSel
+Graph axisconfig {AxisX(0) AxisY(0,0) AxisY(1,0) AxisY(2,0) AxisY(3,0)} -range {all all all all all} -zoomed {0 0 0 0 0}
+Graph:DSel
+Graph axisconfig {AxisY(3,0) AxisX(0)} -range {{-0.30536716642677 1.938102445264} {66.7505n 62.3676n}}
+Graph:DSel
+Graph itemselect AxisX(0) add
+# AxisX(0)
+Graph:DSel
+Graph axisconfig AxisX(0) -slider yes
+Mdi:ArrangeIcons
+Graph:Select Graph2
+Graph axisconfig AxisX(0) -range {61.045905761245n 66.045905761245n exact}
+Graph axisconfig AxisX(0) -range {59.328536131485n 64.328536131485n exact}
+Graph axisconfig AxisX(0) -range {58.37444189273n 63.37444189273n exact}
+Graph axisconfig AxisX(0) -range {57.420347653975n 62.420347653975n exact}
+Graph axisconfig AxisX(0) -range {58.37444189273n 63.37444189273n exact}
+Graph axisconfig AxisX(0) -range {59.328536131485n 64.328536131485n exact}
+Graph axisconfig AxisX(0) -range {60.282630370241n 65.282630370241n exact}
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Graph:DSel
+Graph itemselect Signal3 add
+# Signal3
+GrMeas:Falltime Graph2 Signal3 {0.1 0.5 0.9} default default xyrangeAll
+# M:0
+GrMeas:Risetime Graph2 Signal3 {0.1 0.5 0.9} default default xyrangeAll
+# M:1
+Mdi:ArrangeIcons
+Graph:DSel
+Graph axisconfig {AxisY(3,0) AxisX(0)} -range {{-0.50151094354159 2.1305251469373} {64.298972323n 63.285247166n}}
+GrMeas:Risetime Graph2 Signal3 {0.1 0.5 0.9} default default xyrangeAll
+# M:2
+GrMeas:Falltime Graph2 Signal3 {0.1 0.5 0.9} default default xyrangeAll
+# M:3
+Graph axisconfig {AxisX(0) AxisY(0,0) AxisY(1,0) AxisY(2,0) AxisY(3,0)} -range {all all all all all} -zoomed {0 0 0 0 0}
+Graph:DSel
+Graph axisconfig {AxisY(3,0) AxisX(0)} -range {{-0.54021735663687 1.8982866683656} {57.776n 70.5072n}}
+Graph:DSel
+GrMeas:Select Graph2 M:1 12
+GrMeas:MoveText Graph2 M:1 12 31.0 29.0
+Graph:DSel
+Graph axisconfig {AxisY(3,0) AxisX(0)} -range {{-0.42409811735103 1.9369930814609} {60.86848535n 64.65504696n}}
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+.frame1.mdi.mdi3.work.graph2 save -file {C:/Users/Bangonkali/Desktop/EE 272/DYNAMIC_AND2/2.png} -format png  -x 0 -y 0 -w 822 -h 505 -colormode color
+Mdi:ArrangeIcons
+Graph axisconfig AxisX(0) -range {59.045905761245n 64.045905761245n exact}
+Graph axisconfig AxisX(0) -range {52.55806493771n 57.55806493771n exact}
+Graph axisconfig AxisX(0) -range {51.413151851203n 56.413151851203n exact}
+Graph axisconfig AxisX(0) -range {41.108934072647n 46.108934072647n exact}
+Graph axisconfig AxisX(0) -range {40.154839833892n 45.154839833892n exact}
+Graph axisconfig AxisX(0) -range {32.140448228348n 37.140448228348n exact}
+Graph axisconfig AxisX(0) -range {33.094542467103n 38.094542467103n exact}
+Graph axisconfig AxisX(0) -range {34.048636705858n 39.048636705858n exact}
+Graph axisconfig AxisX(0) -range {32.903723619352n 37.903723619352n exact}
+Graph axisconfig AxisX(0) -range {31.567991685095n 36.567991685095n exact}
+Graph axisconfig AxisX(0) -range {32.52208592385n 37.52208592385n exact}
+Graph axisconfig AxisX(0) -range {33.666999010356n 38.666999010356n exact}
+Graph axisconfig AxisX(0) -range {34.621093249112n 39.621093249111n exact}
+Graph axisconfig AxisX(0) -range {35.575187487867n 40.575187487867n exact}
+Graph axisconfig AxisX(0) -range {36.529281726622n 41.529281726622n exact}
+Graph axisconfig AxisX(0) -range {37.483375965377n 42.483375965377n exact}
+Graph axisconfig AxisX(0) -range {38.437470204132n 43.437470204132n exact}
+Graph axisconfig AxisX(0) -range {39.391564442888n 44.391564442888n exact}
+Graph axisconfig AxisX(0) -range {40.536477529394n 45.536477529394n exact}
+Graph axisconfig AxisX(0) -range {41.490571768149n 46.490571768149n exact}
+Graph axisconfig AxisX(0) -range {42.444666006904n 47.444666006904n exact}
+Graph axisconfig AxisX(0) -range {43.39876024566n 48.39876024566n exact}
+Graph axisconfig AxisX(0) -range {44.352854484415n 49.352854484415n exact}
+Graph axisconfig AxisX(0) -range {45.30694872317n 50.30694872317n exact}
+Graph axisconfig AxisX(0) -range {46.261042961925n 51.261042961925n exact}
+Graph:DSel
+Graph itemselect Signal2 add
+# Signal2
+Graph sigconfig Signal2 -region 3 -rgnindex 1
+Graph:DSel
+Mdi:ArrangeIcons
+Graph:DSel
+Mdi:ArrangeIcons
+Graph:DSel
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+ScopeSigMgr:Reload 0 {{(2) dand_tf.tr0}}
+Mdi:ArrangeIcons
+ScopeSigMgr:Reload 0 {{(2) dand_tf.tr0}}
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+ScopeSigMgr:loadpffile {{C:/Users/Bangonkali/Desktop/EE 272/DYNAMIC_AND2/dand_tf.tr0}} 1 replace
+# PF:18
+ScopeSigMgr:Reload 0 {{(2) dand_tf.tr0}}
+ScopeSigMgr:Reload 0 {{(2) dand_tf.tr0}}
+Mdi:ArrangeIcons
+Graph axisconfig {AxisX(0) AxisY(0,0) AxisY(1,0) AxisY(2,0)} -range {all all all all} -zoomed {0 0 0 0}
+GrMeas:DelMfromMenu Graph2 M:11
+Mdi:ArrangeIcons
+Graph:DSel
+GrMeas:Select Graph2 M:10 13
+GrMeas:MoveText Graph2 M:10 13 31.0 29.0
+GrMeas:DeleteAll Graph2 Signal11
+Graph:DSel
+Graph itemselect Signal11 add
+# Signal11
+Graph sigconfig Signal11 -regswap 4
+Graph:DSel
+Graph:DSel
+Graph:DSel
+Graph:DSel
+Graph itemselect Signal10 add
+# Signal10
+Mdi:ArrangeIcons
+WfA2D:A2D Graph2 Signal10 { 0.9}
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Graph:DSel
+Graph itemselect Signal9 add
+# Signal9
+WfA2D:A2D Graph2 Signal9 { 0.9}
+Mdi:ArrangeIcons
+Graph:DSel
+Graph itemselect Signal8 add
+# Signal8
+WfA2D:A2D Graph2 Signal8 { 0.9}
+Mdi:ArrangeIcons
+Graph:DSel
+Graph itemselect Signal11 add
+# Signal11
+WfA2D:A2D Graph2 Signal11 { 0.9}
+Mdi:ArrangeIcons
+Graph:DSel
+Graph:DSel
+Graph:DSel
+Graph:DSel
+Graph:DSel
+Graph:DSel
+Graph:DSel
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+.frame1.mdi.mdi3.work.graph2 save -file {C:/Users/Bangonkali/Desktop/EE 272/DYNAMIC_AND2/3.png} -format png  -x 0 -y 0 -w 822 -h 625 -colormode color
+Mdi:ArrangeIcons
+Graph:DSel
+Graph itemselect Signal11 add
+# Signal11
+Graph delsignal selected
+Graph:DSel
+Graph itemselect Signal10 add
+# Signal10
+Graph delsignal selected
+Graph:DSel
+Graph itemselect Signal9 add
+# Signal9
+Graph delsignal selected
+Graph:DSel
+Graph itemselect Signal8 add
+# Signal8
+Graph delsignal selected
+Graph axisconfig AxisX(0) -range {46.2n 92.4n }
+Graph axisconfig AxisX(0) -range {59.8n 79.6n }
+Graph axisconfig AxisX(0) -range {48.721936900356n 78.721936900357n exact}
+Graph axisconfig AxisX(0) -range {40.840547785887n 70.840547785889n exact}
+Graph axisconfig AxisX(0) -range {29.764000922309n 59.764000922311n exact}
+Graph axisconfig AxisX(0) -range {26.994864206415n 56.994864206416n exact}
+Graph axisconfig AxisX(0) -range {25.503790590164n 55.503790590166n exact}
+Graph axisconfig AxisX(0) -range {23.799706457306n 53.799706457307n exact}
+Graph axisconfig AxisX(0) -range {24.864759040342n 54.864759040344n exact}
+Graph axisconfig AxisX(0) -range {25.929811623378n 55.92981162338n exact}
+Graph axisconfig AxisX(0) -range {26.994864206415n 56.994864206416n exact}
+Graph axisconfig AxisX(0) -range {28.485937822666n 58.485937822667n exact}
+Graph axisconfig AxisX(0) -range {29.550990405702n 59.550990405704n exact}
+Graph axisconfig AxisX(0) -range {30.616042988738n 60.61604298874n exact}
+Graph axisconfig AxisX(0) -range {32.746148154811n 62.746148154813n exact}
+Graph axisconfig AxisX(0) -range {34.024211254454n 64.024211254456n exact}
+Graph axisconfig AxisX(0) -range {35.089263837491n 65.089263837492n exact}
+Graph axisconfig AxisX(0) -range {34.024211254454n 64.024211254456n exact}
+Graph axisconfig AxisX(0) -range {29.124969372487n 59.124969372489n exact}
+Graph axisconfig AxisX(0) -range {25.077769556949n 55.077769556951n exact}
+Graph axisconfig AxisX(0) -range {24.012716973913n 54.012716973915n exact}
+Graph axisconfig AxisX(0) -range {25.077769556949n 55.077769556951n exact}
+Graph axisconfig AxisX(0) -range {26.142822139986n 56.142822139987n exact}
+Graph axisconfig AxisX(0) -range {27.207874723022n 57.207874723024n exact}
+Graph axisconfig AxisX(0) -range {37.107874723023n 47.007874723023n }
+Graph axisconfig AxisX(0) -range {27.5n 57.5n }
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+.frame1.mdi.mdi3.work.graph2 save -file {C:/Users/Bangonkali/Desktop/EE 272/DYNAMIC_AND2/4.png} -format png  -x 0 -y 0 -w 822 -h 505 -colormode color
+Mdi:ArrangeIcons
+pf:read PF:18 v(in_a)
+# WF:18:2
+Graph addsignal WF:18:2 -region new -yview real(y) -xview real(x) -tracehi 2
+# Signal16
+pf:read PF:18 v(in_b)
+# WF:18:3
+Graph addsignal WF:18:3 -region new -yview real(y) -xview real(x) -tracehi 2
+# Signal17
+pf:read PF:18 v(clk)
+# WF:18:1
+Graph addsignal WF:18:1 -region new -yview real(y) -xview real(x) -tracehi 2
+# Signal18
+pf:read PF:18 v(out)
+# WF:18:4
+Graph addsignal WF:18:4 -region new -yview real(y) -xview real(x) -tracehi 2
+# Signal19
+Graph axisconfig {AxisX(0) AxisY(0,0) AxisY(1,0) AxisY(2,0) AxisY(3,0)} -range {all all all all all} -zoomed {0 0 0 0 0}
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+ScopeSigMgr:Reload 0 {{(2) dand_tf.tr0}}
+Graph:DSel
+Graph:Select Graph2
+Graph axisconfig {AxisY(2,0) AxisX(0)} -range {{1.3094484105273 4.2682698062932} {69.6478n 59.6297n}}
+Graph axisconfig {AxisX(0) AxisY(0,0) AxisY(1,0) AxisY(2,0) AxisY(3,0)} -range {all all all all all} -zoomed {0 0 0 0 0}
+Graph:DSel
+Graph itemselect Signal22 add
+# Signal22
+Graph sigconfig Signal22 -region 3 -rgnindex 1
+Graph:DSel
+Graph:DSel
+Graph:DSel
+Graph itemselect Signal22 add
+# Signal22
+Graph sigconfig Signal22 -region 2 -rgnindex 2
+Graph itemselect Signal22 add
+# Signal22
+Graph sigconfig {Signal22 Signal23} -regswap {2 3}
+Graph:DSel
+Mdi:ArrangeIcons
+Graph:DSel
+Graph itemselect Signal23 add
+# Signal23
+GrMeas:Falltime Graph2 Signal23 {0.1 0.5 0.9} default default xyrangeAll
+# M:12
+Graph:DSel
+GrMeas:Select Graph2 M:12 6
+Graph delsignal selected
+Graph:DSel
+Graph axisconfig {AxisY(3,0) AxisX(0)} -range {{-0.49076248168037 1.9308919700389} {67.318n 58.6978n}}
+GrMeas:Falltime Graph2 Signal23 {0.1 0.5 0.9} default default xyrangeVisible
+# M:13
+Mdi:ArrangeIcons
+Graph axisconfig {AxisX(0) AxisY(0,0) AxisY(1,0) AxisY(2,0) AxisY(3,0)} -range {all all all all all} -zoomed {0 0 0 0 0}
+Graph:DSel
+Graph axisconfig {AxisY(3,0) AxisX(0)} -range {{-0.27061207697861 2.195072455681} {54.9701n 47.0487n}}
+GrMeas:Risetime Graph2 Signal23 {0.1 0.5 0.9} default default xyrangeVisible
+# M:14
+Mdi:ArrangeIcons
+Graph axisconfig {AxisX(0) AxisY(0,0) AxisY(1,0) AxisY(2,0) AxisY(3,0)} -range {all all all all all} -zoomed {0 0 0 0 0}
+Graph:DSel
+GrMeas:Select Graph2 M:14 4
+GrMeas:MoveText Graph2 M:14 4 -28.0 24.0
+Graph:DSel
+Graph:DSel
+GrMeas:Select Graph2 M:13 4
+GrMeas:MoveText Graph2 M:13 4 26.0 24.0
+GrMeas:MoveText Graph2 M:13 4 25.0 25.0
+GrMeas:MoveText Graph2 M:13 4 27.0 24.0
+Graph:DSel
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+.frame1.mdi.mdi3.work.graph2 save -file {C:/Users/Bangonkali/Desktop/EE 272/DYNAMIC_AND2/FINAL.png} -format png  -x 0 -y 0 -w 822 -h 625 -colormode color
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Graph:DSel
+Graph itemselect Signal24 add
+# Signal24
+Graph delsignal selected
+Graph delsignal selected
+Graph:DSel
+Graph itemselect Signal25 add
+# Signal25
+Graph delsignal selected
+Graph delsignal selected
+Graph:DSel
+Graph itemselect Signal26 add
+# Signal26
+Graph delsignal selected
+Graph:DSel
+Graph itemselect Signal27 add
+# Signal27
+Graph delsignal selected
+Mdi:ArrangeIcons
+Graph:DSel
+Graph itemselect Signal20 add
+# Signal20
+Mdi:ArrangeIcons
+wm geometry . 834x629+20+20
+Mdi:ArrangeIcons
+wm geometry . 834x662+20+20
+Mdi:ArrangeIcons
+wm geometry . 834x680+20+0
+Graph:DSel
+Graph axisconfig {AxisY(3,0) AxisX(0)} -range {{-0.50681838049796 1.6808689264165} {114.127n 128.737n}}
+Graph:DSel
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+.frame1.mdi.mdi3.work.graph2 save -file {C:/Users/Bangonkali/Desktop/EE 272/DYNAMIC_AND2/CLOSE.png} -format png  -x 0 -y 0 -w 822 -h 557 -colormode color
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Graph:DSel
+Graph axisconfig {AxisX(0) AxisY(0,0) AxisY(1,0) AxisY(2,0) AxisY(3,0)} -range {all all all all all} -zoomed {0 0 0 0 0}
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Graph:SaveGraph Graph2 {C:\Users\Bangonkali\Desktop\EE 272\DYNAMIC_AND2/.scopecfg_data/Graph2} 0

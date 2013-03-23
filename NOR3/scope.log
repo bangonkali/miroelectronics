@@ -1,0 +1,562 @@
+Mdi:ArrangeIcons
+wm geometry . 900x765+0+85
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+wm geometry . 900x765+6+85
+Mdi:ArrangeIcons
+wm geometry . 900x765+9+85
+Mdi:ArrangeIcons
+wm geometry . 900x765+12+85
+Mdi:ArrangeIcons
+wm geometry . 900x765+14+85
+Mdi:ArrangeIcons
+wm geometry . 900x765+16+85
+Mdi:ArrangeIcons
+wm geometry . 900x765+19+85
+Mdi:ArrangeIcons
+wm geometry . 900x765+22+85
+Mdi:ArrangeIcons
+wm geometry . 900x765+30+85
+Mdi:ArrangeIcons
+wm geometry . 900x765+41+86
+Mdi:ArrangeIcons
+wm geometry . 900x765+54+88
+Mdi:ArrangeIcons
+wm geometry . 900x765+76+90
+Mdi:ArrangeIcons
+wm geometry . 900x765+101+90
+Mdi:ArrangeIcons
+wm geometry . 900x765+140+90
+Mdi:ArrangeIcons
+wm geometry . 900x765+176+90
+Mdi:ArrangeIcons
+wm geometry . 900x765+215+90
+Mdi:ArrangeIcons
+wm geometry . 900x765+243+90
+Mdi:ArrangeIcons
+wm geometry . 900x765+276+92
+Mdi:ArrangeIcons
+wm geometry . 900x765+307+92
+Mdi:ArrangeIcons
+wm geometry . 900x765+338+92
+Mdi:ArrangeIcons
+wm geometry . 900x765+368+92
+Mdi:ArrangeIcons
+wm geometry . 900x765+395+95
+Mdi:ArrangeIcons
+wm geometry . 900x765+424+98
+Mdi:ArrangeIcons
+wm geometry . 900x765+445+101
+Mdi:ArrangeIcons
+wm geometry . 900x765+479+103
+Mdi:ArrangeIcons
+wm geometry . 900x765+502+106
+Mdi:ArrangeIcons
+wm geometry . 900x765+525+106
+Mdi:ArrangeIcons
+wm geometry . 900x765+544+106
+Mdi:ArrangeIcons
+wm geometry . 900x765+562+107
+Mdi:ArrangeIcons
+wm geometry . 900x765+574+107
+Mdi:ArrangeIcons
+wm geometry . 900x765+585+107
+Mdi:ArrangeIcons
+wm geometry . 900x765+593+107
+Mdi:ArrangeIcons
+wm geometry . 900x765+600+107
+Mdi:ArrangeIcons
+wm geometry . 900x765+609+107
+Mdi:ArrangeIcons
+wm geometry . 900x765+616+106
+Mdi:ArrangeIcons
+wm geometry . 900x765+623+106
+Mdi:ArrangeIcons
+wm geometry . 900x765+628+105
+Mdi:ArrangeIcons
+wm geometry . 900x765+632+104
+Mdi:ArrangeIcons
+wm geometry . 900x765+635+103
+Mdi:ArrangeIcons
+wm geometry . 900x765+636+103
+Mdi:ArrangeIcons
+wm geometry . 900x765+637+102
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Graph:DSel 0
+ScopeSigMgr:loadpffile {{C:/Users/Bangonkali/Desktop/EE 272/NOR3/no3_tf.tr0}} 1 openonly
+# PF:1
+pf:read PF:1 v(a)
+# WF:1:1
+Graph addsignal WF:1:1 -region new -yview real(y) -xview real(x) -tracehi 2
+# Signal0
+pf:read PF:1 v(b)
+# WF:1:2
+Graph addsignal WF:1:2 -region new -yview real(y) -xview real(x) -tracehi 2
+# Signal1
+pf:read PF:1 v(c)
+# WF:1:3
+Graph addsignal WF:1:3 -region new -yview real(y) -xview real(x) -tracehi 2
+# Signal2
+pf:read PF:1 v(out)
+# WF:1:4
+Graph addsignal WF:1:4 -region new -yview real(y) -xview real(x) -tracehi 2
+# Signal3
+wm geometry .sigmgr._PF:1 200x331+965+540
+wm geometry .sigmgr._PF:1 200x331+967+540
+wm geometry .sigmgr._PF:1 200x331+970+540
+wm geometry .sigmgr._PF:1 200x331+973+540
+wm geometry .sigmgr._PF:1 200x331+977+540
+wm geometry .sigmgr._PF:1 200x331+985+540
+wm geometry .sigmgr._PF:1 200x331+995+540
+wm geometry .sigmgr._PF:1 200x331+1005+540
+wm geometry .sigmgr._PF:1 200x331+1015+540
+wm geometry .sigmgr._PF:1 200x331+1026+540
+wm geometry .sigmgr._PF:1 200x331+1037+540
+wm geometry .sigmgr._PF:1 200x331+1045+540
+wm geometry .sigmgr._PF:1 200x331+1052+540
+wm geometry .sigmgr._PF:1 200x331+1058+540
+wm geometry .sigmgr._PF:1 200x331+1065+540
+wm geometry .sigmgr._PF:1 200x331+1069+540
+wm geometry .sigmgr._PF:1 200x331+1071+540
+wm geometry .sigmgr._PF:1 200x331+1074+540
+wm geometry .sigmgr._PF:1 200x331+1078+540
+wm geometry .sigmgr._PF:1 200x331+1083+540
+wm geometry .sigmgr._PF:1 200x331+1087+540
+wm geometry .sigmgr._PF:1 200x331+1092+540
+wm geometry .sigmgr._PF:1 200x331+1102+540
+wm geometry .sigmgr._PF:1 200x331+1107+540
+wm geometry .sigmgr._PF:1 200x331+1114+540
+wm geometry .sigmgr._PF:1 200x331+1121+541
+wm geometry .sigmgr._PF:1 200x331+1127+542
+wm geometry .sigmgr._PF:1 200x331+1134+543
+wm geometry .sigmgr._PF:1 200x331+1141+543
+wm geometry .sigmgr._PF:1 200x331+1149+543
+wm geometry .sigmgr._PF:1 200x331+1156+544
+wm geometry .sigmgr._PF:1 200x331+1165+547
+wm geometry .sigmgr._PF:1 200x331+1173+548
+wm geometry .sigmgr._PF:1 200x331+1183+549
+wm geometry .sigmgr._PF:1 200x331+1193+550
+wm geometry .sigmgr._PF:1 200x331+1204+552
+wm geometry .sigmgr._PF:1 200x331+1215+554
+wm geometry .sigmgr._PF:1 200x331+1232+555
+wm geometry .sigmgr._PF:1 200x331+1246+558
+wm geometry .sigmgr._PF:1 200x331+1259+560
+wm geometry .sigmgr._PF:1 200x331+1277+562
+wm geometry .sigmgr._PF:1 200x331+1290+565
+wm geometry .sigmgr._PF:1 200x331+1304+566
+wm geometry .sigmgr._PF:1 200x331+1318+569
+wm geometry .sigmgr._PF:1 200x331+1327+570
+wm geometry .sigmgr._PF:1 200x331+1338+572
+wm geometry .sigmgr._PF:1 200x331+1348+573
+wm geometry .sigmgr._PF:1 200x331+1354+573
+wm geometry .sigmgr._PF:1 200x331+1361+575
+wm geometry .sigmgr._PF:1 200x331+1365+576
+wm geometry .sigmgr._PF:1 200x331+1370+576
+wm geometry .sigmgr._PF:1 200x331+1372+576
+wm geometry .sigmgr._PF:1 200x331+1375+576
+wm geometry .sigmgr._PF:1 200x331+1378+577
+wm geometry .sigmgr._PF:1 200x331+1381+577
+wm geometry .sigmgr._PF:1 200x331+1382+577
+wm geometry .sigmgr._PF:1 200x331+1385+577
+wm geometry .sigmgr._PF:1 200x331+1386+577
+wm geometry .sigmgr._PF:1 200x331+1388+577
+wm geometry .sigmgr._PF:1 200x331+1389+577
+wm geometry .sigmgr._PF:1 200x331+1391+577
+wm geometry .sigmgr._PF:1 200x331+1392+577
+wm geometry .sigmgr._PF:1 200x331+1394+577
+wm geometry .sigmgr._PF:1 200x331+1395+577
+wm geometry .sigmgr._PF:1 200x331+1397+577
+wm geometry .sigmgr._PF:1 200x331+1400+577
+wm geometry .sigmgr._PF:1 200x331+1402+576
+wm geometry .sigmgr._PF:1 200x331+1405+574
+wm geometry .sigmgr._PF:1 200x331+1409+571
+wm geometry .sigmgr._PF:1 200x331+1411+570
+wm geometry .sigmgr._PF:1 200x331+1415+568
+wm geometry .sigmgr._PF:1 200x331+1419+566
+wm geometry .sigmgr._PF:1 200x331+1422+563
+wm geometry .sigmgr._PF:1 200x331+1425+561
+wm geometry .sigmgr._PF:1 200x331+1427+561
+wm geometry .sigmgr._PF:1 200x331+1430+558
+wm geometry .sigmgr._PF:1 200x331+1433+557
+wm geometry .sigmgr._PF:1 200x331+1437+556
+wm geometry .sigmgr._PF:1 200x331+1440+554
+wm geometry .sigmgr._PF:1 200x331+1446+552
+wm geometry .sigmgr._PF:1 200x331+1451+549
+wm geometry .sigmgr._PF:1 200x331+1458+547
+wm geometry .sigmgr._PF:1 200x331+1463+544
+wm geometry .sigmgr._PF:1 200x331+1468+542
+wm geometry .sigmgr._PF:1 200x331+1472+540
+wm geometry .sigmgr._PF:1 200x331+1474+540
+wm geometry .sigmgr._PF:1 200x331+1478+538
+wm geometry .sigmgr._PF:1 200x331+1481+537
+wm geometry .sigmgr._PF:1 200x331+1481+536
+wm geometry .sigmgr._PF:1 200x331+1482+536
+wm geometry .sigmgr._PF:1 200x331+1483+536
+wm geometry .sigmgr._PF:1 200x331+1484+536
+wm geometry .sigmgr._PF:1 200x331+1485+536
+wm geometry .sigmgr._PF:1 200x331+1486+536
+wm geometry .sigmgr._PF:1 200x331+1488+536
+wm geometry .sigmgr._PF:1 200x331+1489+536
+wm geometry .sigmgr._PF:1 200x331+1490+536
+wm geometry .sigmgr._PF:1 200x331+1491+536
+wm geometry .sigmgr._PF:1 200x331+1493+536
+wm geometry .sigmgr._PF:1 200x331+1496+536
+wm geometry .sigmgr._PF:1 200x331+1497+536
+wm geometry .sigmgr._PF:1 200x331+1498+537
+wm geometry .sigmgr._PF:1 200x331+1499+538
+wm geometry .sigmgr._PF:1 200x331+1502+539
+wm geometry .sigmgr._PF:1 200x331+1503+541
+wm geometry .sigmgr._PF:1 200x331+1505+541
+wm geometry .sigmgr._PF:1 200x331+1506+543
+wm geometry .sigmgr._PF:1 200x331+1507+543
+wm geometry .sigmgr._PF:1 200x331+1508+544
+wm geometry .sigmgr._PF:1 200x331+1509+545
+wm geometry .sigmgr._PF:1 200x331+1511+546
+wm geometry .sigmgr._PF:1 200x331+1511+547
+wm geometry .sigmgr._PF:1 200x331+1512+547
+wm geometry .sigmgr._PF:1 200x331+1513+548
+wm geometry .sigmgr._PF:1 200x331+1513+549
+wm geometry .sigmgr._PF:1 200x331+1514+549
+wm geometry .sigmgr._PF:1 200x331+1514+550
+wm geometry .sigmgr._PF:1 200x331+1515+550
+wm geometry .sigmgr._PF:1 200x331+1515+552
+wm geometry .sigmgr._PF:1 200x331+1515+553
+wm geometry .sigmgr._PF:1 200x331+1516+554
+Mdi:FullSize
+wm geometry .sigmgr 367x200+1227+202
+wm geometry .sigmgr 367x200+1232+202
+wm geometry .sigmgr 367x200+1238+202
+wm geometry .sigmgr 367x200+1246+202
+wm geometry .sigmgr 367x200+1252+202
+wm geometry .sigmgr 367x200+1260+202
+wm geometry .sigmgr 367x200+1267+204
+wm geometry .sigmgr 367x200+1277+205
+wm geometry .sigmgr 367x200+1287+206
+wm geometry .sigmgr 367x200+1298+208
+wm geometry .sigmgr 367x200+1310+208
+wm geometry .sigmgr 367x200+1322+208
+wm geometry .sigmgr 367x200+1333+208
+wm geometry .sigmgr 367x200+1343+208
+wm geometry .sigmgr 367x200+1355+208
+wm geometry .sigmgr 367x200+1364+208
+wm geometry .sigmgr 367x200+1374+208
+wm geometry .sigmgr 367x200+1382+208
+wm geometry .sigmgr 367x200+1392+208
+wm geometry .sigmgr 367x200+1397+208
+wm geometry .sigmgr 367x200+1404+208
+wm geometry .sigmgr 367x200+1410+209
+wm geometry .sigmgr 367x200+1411+210
+wm geometry .sigmgr 367x200+1415+211
+wm geometry .sigmgr 367x200+1416+212
+wm geometry .sigmgr 367x200+1417+212
+wm geometry .sigmgr 367x200+1419+213
+wm geometry .sigmgr 367x200+1419+214
+wm geometry .sigmgr 367x200+1421+214
+wm geometry .sigmgr 367x200+1421+215
+wm geometry .sigmgr 367x200+1422+216
+wm geometry .sigmgr 367x200+1425+218
+wm geometry .sigmgr 367x200+1428+219
+wm geometry .sigmgr 367x200+1430+221
+wm geometry .sigmgr 367x200+1431+221
+wm geometry .sigmgr 367x200+1432+222
+wm geometry .sigmgr 367x200+1434+224
+wm geometry .sigmgr 367x200+1437+226
+wm geometry .sigmgr 367x200+1440+227
+wm geometry .sigmgr 367x200+1443+229
+wm geometry .sigmgr 367x200+1449+231
+wm geometry .sigmgr 367x200+1454+234
+wm geometry .sigmgr 367x200+1460+236
+wm geometry .sigmgr 367x200+1463+237
+wm geometry .sigmgr 367x200+1467+238
+wm geometry .sigmgr 367x200+1471+241
+wm geometry .sigmgr 367x200+1472+241
+wm geometry .sigmgr 367x200+1472+242
+wm geometry .sigmgr 367x200+1472+243
+wm geometry .sigmgr 367x200+1472+245
+wm geometry .sigmgr 367x200+1472+247
+wm geometry .sigmgr 367x200+1472+248
+wm geometry .sigmgr 367x200+1472+249
+wm geometry .sigmgr 367x200+1472+250
+wm geometry .sigmgr 367x200+1472+251
+wm geometry .sigmgr 367x200+1472+253
+wm geometry .sigmgr 367x200+1471+253
+wm geometry .sigmgr 367x200+1470+254
+wm geometry .sigmgr 367x200+1468+256
+wm geometry .sigmgr 367x200+1468+257
+wm geometry .sigmgr 367x200+1468+258
+wm geometry .sigmgr 367x200+1469+258
+wm geometry .sigmgr 367x200+1470+258
+wm geometry .sigmgr 367x200+1471+258
+wm geometry .sigmgr 367x200+1472+259
+wm geometry .sigmgr 367x200+1473+259
+wm geometry .sigmgr 367x200+1474+260
+wm geometry .sigmgr 367x200+1475+260
+wm geometry .sigmgr 367x200+1476+260
+wm geometry .sigmgr 367x200+1477+260
+wm geometry .sigmgr 367x200+1477+261
+wm geometry .sigmgr 367x200+1477+262
+wm geometry .sigmgr 367x200+1477+263
+wm geometry .sigmgr 367x200+1477+264
+wm geometry .sigmgr 367x200+1477+265
+wm geometry .sigmgr 367x200+1477+266
+wm geometry .sigmgr 367x200+1477+264
+wm geometry .sigmgr 367x200+1477+262
+wm geometry .sigmgr 367x200+1477+263
+wm geometry .sigmgr 367x200+1477+264
+wm geometry .sigmgr 367x200+1477+265
+wm geometry .sigmgr 367x200+1477+266
+wm geometry .sigmgr 367x200+1477+267
+wm geometry .sigmgr 367x200+1477+268
+wm geometry .sigmgr 367x200+1477+269
+wm geometry .sigmgr 367x200+1477+270
+wm geometry .sigmgr 367x200+1478+270
+wm geometry .sigmgr 367x200+1478+271
+wm geometry .sigmgr 367x200+1479+272
+wm geometry .sigmgr 367x200+1480+272
+Mdi:ArrangeIcons
+wm geometry . 900x765+631+102
+Mdi:ArrangeIcons
+wm geometry . 900x765+628+102
+Mdi:ArrangeIcons
+wm geometry . 900x765+622+102
+Mdi:ArrangeIcons
+wm geometry . 900x765+616+102
+Mdi:ArrangeIcons
+wm geometry . 900x765+607+102
+Mdi:ArrangeIcons
+wm geometry . 900x765+597+102
+Mdi:ArrangeIcons
+wm geometry . 900x765+589+102
+Mdi:ArrangeIcons
+wm geometry . 900x765+579+102
+Mdi:ArrangeIcons
+wm geometry . 900x765+570+102
+Mdi:ArrangeIcons
+wm geometry . 900x765+562+102
+Mdi:ArrangeIcons
+wm geometry . 900x765+553+102
+Mdi:ArrangeIcons
+wm geometry . 900x765+545+102
+Mdi:ArrangeIcons
+wm geometry . 900x765+537+101
+Mdi:ArrangeIcons
+wm geometry . 900x765+530+100
+Mdi:ArrangeIcons
+wm geometry . 900x765+525+100
+Mdi:ArrangeIcons
+wm geometry . 900x765+521+99
+Mdi:ArrangeIcons
+wm geometry . 900x765+520+99
+Mdi:ArrangeIcons
+wm geometry . 900x765+517+99
+Mdi:ArrangeIcons
+wm geometry . 900x765+514+99
+Mdi:ArrangeIcons
+wm geometry . 900x765+510+97
+Mdi:ArrangeIcons
+wm geometry . 900x765+509+96
+Mdi:ArrangeIcons
+wm geometry . 900x765+507+96
+Mdi:ArrangeIcons
+wm geometry . 900x765+506+96
+Mdi:ArrangeIcons
+wm geometry . 900x765+505+96
+Mdi:ArrangeIcons
+ScopeSigMgr:Reload 0 {{(1) no3_tf.tr0}}
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Graph:Select Graph0
+Graph:DSel
+Graph itemselect Signal5 add
+# Signal5
+Graph sigconfig Signal5 -region 2 -rgnindex 1
+Graph:DSel
+Graph itemselect Signal4 add
+# Signal4
+Graph sigconfig Signal4 -region 1 -rgnindex 2
+Graph:DSel
+Graph itemselect Signal7 add
+# Signal7
+Graph sigconfig Signal7 -region 0 -rgnindex 3
+Graph itemselect Signal7 add
+# Signal7
+Graph itemselect Signal7 add
+# Signal7
+Graph sigconfig Signal7 -region 0 -rgnindex 4
+Graph itemselect Signal7 add
+# Signal7
+Graph sigconfig Signal7 -regswap 2
+Graph:DSel
+Graph itemselect Signal4 add
+# Signal4
+Graph sigconfig {Signal4 Signal7} -regswap {1 2}
+Graph:DSel
+Graph itemselect Signal5 add
+# Signal5
+Graph sigconfig {Signal5 Signal4 Signal7} -regswap {1 2 3}
+Graph:DSel
+Mdi:ArrangeIcons
+Graph:DSel
+Graph itemselect Signal6 add
+# Signal6
+GrXY:CreateBus
+Mdi:ArrangeIcons
+Graph:DSel
+Graph itemselect Signal5 add
+# Signal5
+GrXY:CreateBus
+Mdi:ArrangeIcons
+Graph:DSel
+Graph itemselect Signal4 add
+# Signal4
+GrXY:CreateBus
+Mdi:ArrangeIcons
+Graph:DSel
+Graph itemselect Signal7 add
+# Signal7
+GrXY:CreateBus
+Mdi:ArrangeIcons
+Graph:DSel
+Graph:DSel
+Graph itemselect AxisY(2,0) add
+# AxisY(2,0)
+Graph:DSel
+Graph axisconfig AxisY(2,0) -linticks .45 -subticks 0
+Mdi:ArrangeIcons
+Graph:Select Graph0
+Graph:DSel
+Graph itemselect AxisY(1,0) add
+# AxisY(1,0)
+Graph:DSel
+Graph axisconfig AxisY(1,0) -linticks 0.45 -subticks 0 -rang {-0.1 2.0} -gridvis y -label (V) -scale lin -unitscale auto
+Graph:Select Graph0
+Graph:DSel
+Graph itemselect AxisY(0,0) add
+# AxisY(0,0)
+Graph:DSel
+Graph axisconfig AxisY(0,0) -linticks 0.45 -subticks 0 -rang {-0.1 2.0} -gridvis y -label (V) -scale lin -unitscale auto
+Graph:Select Graph0
+Graph:DSel
+Graph itemselect AxisY(1,0) add
+# AxisY(1,0)
+Graph:DSel
+Graph:Select Graph0
+Graph:DSel
+Graph itemselect AxisY(2,0) add
+# AxisY(2,0)
+Graph:DSel
+Graph axisconfig AxisY(2,0) -rang {-90.0m 2 exact} -gridvis y -label (V) -scale lin -unitscale auto
+Graph:Select Graph0
+Graph:DSel
+Graph itemselect AxisY(1,0) add
+# AxisY(1,0)
+Graph:DSel
+Graph axisconfig AxisY(1,0) -range all -zoomed 0
+Graph:Select Graph0
+Graph:DSel
+Graph itemselect AxisY(2,0) add
+# AxisY(2,0)
+Graph:DSel
+Graph axisconfig AxisY(2,0) -range all -zoomed 0
+Graph:Select Graph0
+Graph:DSel
+Graph itemselect AxisY(3,0) add
+# AxisY(3,0)
+Graph:DSel
+Graph axisconfig AxisY(3,0) -range all -zoomed 0
+Graph axisconfig AxisY(3,0) -linticks .45 -subticks 0
+Graph axisconfig AxisY(3,0) -range all -zoomed 0
+Graph axisconfig AxisY(3,0) -range all -zoomed 0
+Graph axisconfig AxisY(3,0) -rang {0.441 1.332} -gridvis y -label (V) -scale lin -unitscale auto
+Graph axisconfig AxisY(3,0) -range all -zoomed 0
+Graph:Select Graph0
+Graph:DSel
+Graph itemselect AxisY(3,0) add
+# AxisY(3,0)
+Graph axisconfig AxisY(3,0) -range all -zoomed 0
+Graph:DSel
+Graph itemselect AxisY(0,0) add
+# AxisY(0,0)
+Graph axisconfig AxisY(3,0) -range all -zoomed 0
+Graph:DSel
+Graph axisconfig AxisY(3,0) -rang {-0.45 1.8 exact} -gridvis y -label (V) -scale lin -unitscale auto
+Graph axisconfig AxisY(3,0) -range all -zoomed 0
+Graph:Select Graph0
+Graph:DSel
+Graph itemselect AxisY(0,0) add
+# AxisY(0,0)
+Graph:DSel
+Graph axisconfig AxisY(0,0) -range all -zoomed 0
+Graph:Select Graph0
+Graph:SetCMap 2
+Graph:DSel
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Graph:SaveGraph Graph0 {C:/Users/Bangonkali/Desktop/EE 272/NOR3/analysis} 0
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+.frame1.mdi.mdi1.work.graph0 save -file {C:/Users/Bangonkali/Desktop/EE 272/NOR3/analysis.png} -format png  -x 0 -y 0 -w 888 -h 642 -colormode color
+Graph:DSel
+Graph axisconfig {AxisY(3,0) AxisX(0)} -range {{1.969115725049 -0.19247186211367} {15.2593n 18.8952n}}
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Graph:DSel
+Graph itemselect Signal7 add
+# Signal7
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Graph itemselect Signal7 add
+# Signal7
+GrMeas:Risetime Graph0 Signal7 {0.0 0.5 1.0} default default xyrangeVisible
+# M:0
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Graph:DSel
+GrMeas:Select Graph0 M:0 2
+GrMeas:DelMfromMenu Graph0 M:0
+GrMeas:Risetime Graph0 Signal7 {0.1 0.5 0.9} default default xyrangeVisible
+# M:1
+GrMeas:Falltime Graph0 Signal7 {0.1 0.5 0.9} default default xyrangeVisible
+# M:2
+Graph:DSel
+GrMeas:Select Graph0 M:2 4
+GrMeas:MoveText Graph0 M:2 4 -46.0 2.0
+Graph:DSel
+GrMeas:Select Graph0 M:1 4
+GrMeas:MoveText Graph0 M:1 4 18.0 45.0
+Graph:DSel
+Graph:DSel
+GrMeas:Select Graph0 M:1 4
+GrMeas:MoveText Graph0 M:1 4 4.0 37.0
+Graph:DSel
+Graph:DSel
+GrMeas:Select Graph0 M:1 4
+GrMeas:MoveText Graph0 M:1 4 1.0 40.0
+Graph:DSel
+Graph:DSel
+GrMeas:Select Graph0 M:2 4
+GrMeas:MoveText Graph0 M:2 4 -14.0 41.0
+Graph:DSel
+Graph:DSel
+Graph itemselect AxisX(0) add
+# AxisX(0)
+Graph axisconfig AxisX(0) -slider yes
+Graph:Select Graph0
+Graph axisconfig AxisX(0) -range {15.23744743307n 19.237447433069n exact}
+Graph axisconfig AxisX(0) -range {15.474894866139n 19.474894866138n exact}
+Graph axisconfig AxisX(0) -range {15.712342299208n 19.712342299207n exact}
+Graph axisconfig AxisX(0) -range {15.474894866139n 19.474894866137n exact}
+Graph axisconfig AxisX(0) -range {15.23744743307n 19.237447433068n exact}
+Graph axisconfig AxisX(0) -range {15.000000000001n 18.999999999999n exact}
+Graph axisconfig AxisX(0) -range {15.237447433071n 19.237447433068n exact}
+Graph:DSel
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+.frame1.mdi.mdi1.work.graph0 save -file {C:/Users/Bangonkali/Desktop/EE 272/NOR3/analysis_fr.png} -format png  -x 0 -y 0 -w 888 -h 642 -colormode color
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
