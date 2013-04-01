@@ -1,0 +1,16 @@
+* "simulator" "HSPICE" 
+* "version" "G-2012.06-SP1 32-BIT"
+* "format" "HSP"
+* "rundate" "07:57:12 04/01/2013 "
+* "netlist" "pmos.sp "
+* "runtitle" "pmos simulation"
+* time =    0.            
+* temperature =   25.0000        
+*** BEGIN: Saved Operating Point ***                     
+.option 
++ gmindc=   1.0000p       
+.nodeset
++ dd =   3.3000        
++ gg =   0.            
++ ss = -22.6853        
+***   END: Saved Operating Point ***                     

@@ -1,0 +1,199 @@
+ ****** HSPICE -- G-2012.06-SP1 32-BIT (Aug 27 2012) win32 ******               
+  Copyright (C) 2012 Synopsys, Inc. All Rights Reserved.                        
+  Unpublished-rights reserved under US copyright laws.
+  This program is protected by law and is subject to the
+  terms and conditions of the license agreement from Synopsys.
+  Use of this program is your acceptance to be bound by the
+  license agreement. HSPICE is the trademark of Synopsys, Inc.
+  Input File: nmos.sp                                                           
+  Command line options: -i nmos.sp -o nmos.lis
+  lic:  
+  lic: FLEXlm: v10.9.8 
+  lic: USER:   Bangonkali           HOSTNAME: Blue 
+  lic: HOSTID: "b8975a02aecc 005056c00001 005056c00008 080027001c05" PID:      7
+ 696 
+  lic: Using FLEXlm license file: 
+  lic: 27000@Blue 
+  lic: Checkout 1 hspice 
+  lic: License/Maintenance for hspice will expire on 31-dec-2019/2019.12 
+  lic: NODE LOCKED license on hostid "b8975a02aecc 005056c00001 005056c00008 080
+ 027001c05" 
+  lic:   
+ Init: read install configuration file: c:\synopsys\Hspice_G-2012.06-SP1\meta.cfg
+1****** HSPICE -- G-2012.06-SP1 32-BIT (Aug 27 2012) win32 ******               
+ ******  
+ nmos simulation
+
+  ******  mos   model parameters tnom=  25.000 temp=  25.000 *****
+ ***************************************************************************
+ *** common model parameters  model name:   0:n1       model type:nmos   ***
+ ***************************************************************************
+     names  values   units     names  values   units     names  values   units
+     -----  ------   -----     -----  ------   -----     -----  ------   -----
+
+   1*** geometry parameters ***
+       ld=  30.00n meters      lmlt=   1.00                wd=   0.    meters 
+     wmlt=   1.00                xl=   0.    meters        xw=   0.    meters 
+     lref=   0.    meters      wref=   0.    meters      lref=   0.    meters 
+     wref=   0.    meters     xlref=   0.    meters     xwref=   0.    meters 
+     lmin=   0.    meters      wmin=   0.    meters      lmax=   0.    meters 
+     wmax=   0.    meters 
+
+   2*** threshold voltage parameters ***
+      vto= 700.00m volts        nss=   0.    1/cm**2      tpg=   1.00         
+      phi= 830.00m volts      gamma= 624.00m v**0.5      bulk=  gnd           
+    ngate=   0.    cm**3       nsub= 1.4e+17 1/cm**3   delvto=   0.    volts  
+
+   3*** gate overlap capacitance parameters ***
+     cgbo= 118.00p f/meter     cgdo= 200.00p f/meter     cgso= 200.00p f/meter
+     meto=   0.    meters 
+
+   4*** gate capacitance parameters ***
+    capop=   2.00               cf1=   0.    volts        cf2= 100.00m volts  
+      cf3=   1.00  volts        cf4=  50.00               cf5= 666.67m        
+      cf6= 500.00               xqc= 500.00m              tox=  10.00n meters 
+      cox=   3.45m f/m**2 
+
+   5*** diffusion parasitic parameters ***
+      acm=   0.                  is=  10.00f amps          js=  32.20n a/m**2 
+      jsw=   0.    amp/m        nds=   1.00               cbd=   0.    farad  
+      cbs=   0.    farad         cj=   1.10m f/m**2      cjsw= 300.00p f/m    
+   cjgate= 300.00p f/m           mj= 500.00m             mjsw= 250.00m        
+       pb= 976.00m volts        php= 976.00m volts         tt=   0.    secs   
+     hdif=   0.    meters      ldif=   0.    meters        rd=   0.    ohms   
+       rs=   0.    ohms         rsh=   2.00  ohms/sq       fc=   0.           
+    alpha=   0.                 vcr=   0.    volts      iirat=   0.           
+      rdc=   0.    ohms         rsc=   0.    ohms           n=   1.00         
+     vnds=  -1.00  volts  
+
+   6*** temperature effect parameters ***
+     tlev=   0.               tlevc=   0.                  eg=   1.11  ev     
+     gap1= 702.00u ev/deg      gap2=   1.11k deg          xti=   0.           
+      bex=  -1.50               tcv=   0.    v/deg k      trd=   0.    /deg   
+      trs=   0.    /deg         cta=   0.    /deg         ctp=   0.    /deg   
+
+   7*** noise parameters ***
+       kf=   0.                  af=   1.00              nlev=   2.00         
+   gdsnoi=   1.00         
+
+   ***  level  1  model parameters  ***
+
+   lambda=  30.00m /v            kp= 155.00u a/v**2 
+  
+      
+ *****************************************************************
+ ******  option summary
+ ******
+ runlvl  = 3         bypass  = 2         
+1****** HSPICE -- G-2012.06-SP1 32-BIT (Aug 27 2012) win32 ******               
+ ******  
+ nmos simulation
+
+  ******  operating point information tnom=  25.000 temp=  25.000 *****
+ ***** operating point status is all       simulation time is     0.     
+    node    =voltage      node    =voltage      node    =voltage
+
+ +0:d       =   3.3000  0:g       =   5.0000  0:s       =   3.6833k
+
+
+ **** voltage sources
+
+ subckt                        
+ element  0:vdd      0:vin     
+  volts      3.3000     5.0000 
+  current    2.0000m    0.     
+  power     -6.6000m    0.     
+
+     total voltage source power dissipation=   -6.6000m       watts
+
+
+
+ **** current sources
+
+ subckt             
+ element  0:il      
+  volts     -3.6833k
+  current    2.0000m
+  power      7.3666 
+
+
+     total current source power dissipation=   7.3666        watts
+
+
+ **** mosfets
+
+
+ subckt             
+ element  0:m1      
+ model    0:n1      
+ region     Saturati
+  id        -2.0000m
+  ibs      -36.8328p
+  ibd      -33.0000f
+  vgs       -3.6783k
+  vds       -3.6800k
+  vbs       -3.6833k
+  vth        1.3996 
+  vdsat    300.3732m
+  vod       -3.6797k
+  beta      44.3339m
+  gam eff  624.0000m
+  gm        13.3167m
+  gds      538.6011n
+  gmb        2.0445m
+  cdtot      3.6168f
+  cgtot      7.3612f
+  cstot      3.6168f
+  cbtot    127.6591a
+  cgs        3.6168f
+  cgd        3.6168f
+
+
+
+
+          ***** job concluded
+1****** HSPICE -- G-2012.06-SP1 32-BIT (Aug 27 2012) win32 ******               
+ ******  
+ nmos simulation
+
+  ******  job statistics summary tnom=  25.000 temp=  25.000 *****
+
+  ******  HSPICE Threads Information  ******
+
+  Command Line Threads Count :     1
+  Available CPU Count        :     2
+  Actual Threads Count       :     1
+
+
+  ******  Circuit Statistics  ******
+  # nodes       =       4 # elements   =       5
+  # resistors   =       0 # capacitors =       1 # inductors   =       0
+  # mutual_inds =       0 # vccs       =       0 # vcvs        =       0
+  # cccs        =       0 # ccvs       =       0 # volt_srcs   =       2
+  # curr_srcs   =       1 # diodes     =       0 # bjts        =       0
+  # jfets       =       0 # mosfets    =       1 # U elements  =       0
+  # T elements  =       0 # W elements =       0 # B elements  =       0
+  # S elements  =       0 # P elements =       0 # va device   =       0
+  # vector_srcs =       0 # N elements =       0
+
+
+  ******  Runtime Statistics (seconds)  ******
+
+  analysis           time    # points   tot. iter  conv.iter
+  op point           0.03           1           8
+  dc sweep           0.04         331         704
+  readin             0.13
+  errchk             0.14
+  setup              0.04
+  output             0.00
+
+
+           peak memory used         52.62 megabytes
+           total cpu time            0.42 seconds
+           total elapsed time        8.16 seconds
+           job started at     07:36:54 04/01/2013
+           job ended   at     07:37:02 04/01/2013
+
+
+  lic: Release hspice token(s) 
+ lic: total license checkout elapse time:        7.73(s)

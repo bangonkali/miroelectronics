@@ -1,0 +1,47 @@
+***** HSPICE -- G-2012.06-SP1 32-BIT (Aug 27 2012) win32 ******
+ Input File: nmos.sp
+ lic:
+ lic: FLEXlm: v10.9.8
+ lic: USER:   Bangonkali           HOSTNAME: Blue
+ lic: HOSTID: "b8975a02aecc 005056c00001 005056c00008 080027001c05" PID:      7696
+ lic: Using FLEXlm license file:
+ lic: 27000@Blue
+ lic: Checkout 1 hspice
+ lic: License/Maintenance for hspice will expire on 31-dec-2019/2019.12
+ lic: NODE LOCKED license on hostid "b8975a02aecc 005056c00001 005056c00008 080027001c05"
+ lic:
+ init: begin read circuit files,  cpu clock=  7.75E+00
+       option search = c:\synopsys\Hspice_G-2012.06-SP1\PARTS\behave\
+       option search = c:\synopsys\Hspice_G-2012.06-SP1\PARTS\behave\
+       option search = c:\synopsys\Hspice_G-2012.06-SP1\PARTS\AD\
+       option search = c:\synopsys\Hspice_G-2012.06-SP1\PARTS\XILINX\
+       option search = c:\synopsys\Hspice_G-2012.06-SP1\PARTS\TLINE\
+       option search = c:\synopsys\Hspice_G-2012.06-SP1\PARTS\TI\
+       option search = c:\synopsys\Hspice_G-2012.06-SP1\PARTS\SIGNET\
+       option search = c:\synopsys\Hspice_G-2012.06-SP1\PARTS\PCI\
+       option search = c:\synopsys\Hspice_G-2012.06-SP1\PARTS\LIN_TECH\
+       option search = c:\synopsys\Hspice_G-2012.06-SP1\PARTS\FET\
+       option search = c:\synopsys\Hspice_G-2012.06-SP1\PARTS\DIO\
+       option search = c:\synopsys\Hspice_G-2012.06-SP1\PARTS\COMLINE\
+       option search = c:\synopsys\Hspice_G-2012.06-SP1\PARTS\BURR_BRN\
+       option search = c:\synopsys\Hspice_G-2012.06-SP1\PARTS\BJT\
+       option search = c:\synopsys\Hspice_G-2012.06-SP1\PARTS\behave\
+       option search = c:\synopsys\Hspice_G-2012.06-SP1\PARTS\AD\
+       option post =     2.00
+       option runlvl
+       option post
+       option probe
+ init: end read circuit files,  cpu clock=  7.87E+00 peak memory=        51 mb
+ init: begin check errors,  cpu clock=  7.87E+00
+ init: end check errors,  cpu clock=  8.01E+00 peak memory=        51 mb
+ init: begin setup matrix, pivot=     0 cpu clock=  8.01E+00
+       establish matrix -- done,  cpu clock=  8.03E+00 peak memory=        51 mb
+       re-order matrix -- done,  cpu clock=  8.05E+00 peak memory=        51 mb
+ init: end setup matrix,  cpu clock=  8.05E+00 peak memory=        51 mb
+ output: nmos.sw0
+ sweep: dc dc0    begin, #sweeps= 331 cpu clock=  8.07E+00
+ sweep: dc dc0    end,  cpu clock=  8.12E+00 peak memory=        51 mb
+ dcop: begin dcop,  cpu clock=  8.13E+00
+ dcop: end dcop,  cpu clock=  8.15E+00 peak memory=        51 mb                tot_iter=       8
+>info:         ***** hspice job concluded
+ lic: Release hspice token(s)
